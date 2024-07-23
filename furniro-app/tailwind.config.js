@@ -3,7 +3,6 @@ export default {
   content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
   theme: {
     extend: {
-      
       colors: {
         white: '#FFFFFF',
         black: '#000000',
@@ -26,18 +25,17 @@ export default {
       },
 
       screens: {
-        sm: '640px',
+        tablet: '640px',
 
-        md: '768px',
+        'tablet-lg': '768px',
 
-        lg: '1024px',
+        laptop: '1024px',
 
-        xl: '1280px',
+        'laptop-lg': '1280px',
 
-        '2xl': '1440px'
+        desktop: '1440px',
       },
     },
   },
   plugins: [],
 };
-

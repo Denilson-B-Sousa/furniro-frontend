@@ -17,6 +17,7 @@
     "tailwind-variants": "^0.2.1"
   },
   "devDependencies": {
+    "@phosphor-icons/react": "^2.1.7",
     "@testing-library/jest-dom": "^6.4.7",
     "@testing-library/react": "^16.0.0",
     "@types/jest": "^29.5.12",
