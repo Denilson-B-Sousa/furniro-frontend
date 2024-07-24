@@ -5,7 +5,7 @@ type LinkProps = {
 } & ComponentProps<'a'>
 
 export function NavLink({ children, ...rest } : LinkProps) {
-  return <a href="" className="font-poppins text-black font-medium" {...rest}>
+  return <a  className="font-poppins text-black font-medium cursor-pointer" {...rest}>
     {children}
   </a>
 }
