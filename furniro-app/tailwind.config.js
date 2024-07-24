@@ -36,8 +36,12 @@ export default {
         desktop: '1440px',
       },
       backgroundImage: {
-        'hero-pattern': "url('../src/assets/images/banner.png')"
-      }
+        'hero-pattern': "url('../src/assets/images/banner.png')",
+      },
+
+      animation: {
+        'spin-slow': 'spin 2s linear infinite',
+      },
     },
   },
   plugins: [],
