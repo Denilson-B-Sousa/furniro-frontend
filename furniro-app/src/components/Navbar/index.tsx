@@ -1,4 +1,4 @@
-import { NavLink } from "../Navlink";
+import { NavLink } from "react-router-dom";
 
 
 
@@ -7,16 +7,16 @@ export function Navbar() {
     <nav>
       <ul className='lg:flex gap-[4.75rem] hidden'>
         <li>
-          <NavLink>Home</NavLink>
+          <NavLink to={"/"}>Home</NavLink>
         </li>
         <li>
-          <NavLink>Shop</NavLink>
+          <NavLink to={"/shop"}>Shop</NavLink>
         </li>
         <li>
-          <NavLink>About</NavLink>
+          <NavLink to={"/about"}>About</NavLink>
         </li>
         <li>
-          <NavLink>Contact</NavLink>
+          <NavLink to={"/contact"}>Contact</NavLink>
         </li>
       </ul>
     </nav>
