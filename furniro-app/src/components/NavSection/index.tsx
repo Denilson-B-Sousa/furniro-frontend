@@ -1,4 +1,4 @@
-import { NavLink } from "../Navlink"
+import { NavLink } from "@components/Navlink"
 
 type NavSectionProps = {
   title: string,

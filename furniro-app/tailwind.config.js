@@ -35,6 +35,9 @@ export default {
 
         desktop: '1440px',
       },
+      backgroundImage: {
+        'hero-pattern': "url('../src/assets/images/banner.png')"
+      }
     },
   },
   plugins: [],

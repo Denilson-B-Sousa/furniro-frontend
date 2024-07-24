@@ -1,7 +1,7 @@
-import facebook from '../../assets/footer/facebook.svg';
-import instagram from '../../assets/footer/instagram.svg';
-import linkedin from '../../assets/footer/linkedin.svg';
-import twitter from '../../assets/footer/twitter.svg';
+import facebook from '@assets/footer/facebook.svg';
+import instagram from '@assets/footer/instagram.svg';
+import linkedin from '@assets/footer/linkedin.svg';
+import twitter from '@assets/footer/twitter.svg';
 
 export function SocialMediaSection() {
   return (
