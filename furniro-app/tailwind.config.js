@@ -6,6 +6,7 @@ export default {
       colors: {
         white: '#FFFFFF',
         black: '#000000',
+        'light-peach-50': '#FCF8F3',
         'light-peach-100': '#FFF3E3',
         'light-peach-200': '#F4F5F7',
         'light-peach-900': '#B88E2F',
@@ -38,6 +39,7 @@ export default {
       },
       backgroundImage: {
         'hero-pattern': "url('../src/assets/images/banner.png')",
+        'gallery-pattern': "url('../src/assets/images/banner-furniture.png')"
       },
 
       animation: {

@@ -12,7 +12,7 @@ export function Product() {
         Our Products
       </h2>
       {!isLoading && (
-        <div className='m-auto grid gap-y-12 gap-x-8 w-[77rem] grid-cols-4'>
+        <div className='m-auto grid gap-y-12 gap-x-8 w-[77rem] grid-cols-1 pl-16 laptop:grid-cols-4'>
           {data?.map((product) => (
             <CardProduct
               key={product.id}
