@@ -1,1 +1,361 @@
-{}
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Sofa Tango",
+      "image": "./src/assets/images/leviosa.png",
+      "shortDescription": "Luxury big sofa",
+      "description": "Setting the bar as one of the loudest speakers in its class, the Kilburn is a compact, stout-hearted hero with a well-balanced audio which boasts a clear midrange and extended highs for a sound.",
+      "price": 2.60665,
+      "salesPrice": 3500000,
+      "size": [
+        "L",
+        "XL",
+        "XS"
+      ],
+
+      "images": {
+        "mainImage": "https://static.mobly.com.br/p/NETSOFAS-SofC3A1-Tango-22C00m-sem-caixa2C-RetrC3A1til-e-ReclinC3A1vel-Velosuede-Bege---NETSOFAS-5239-230539-1.jpg",
+        "gallery": [
+          "https://static.mobly.com.br/p/NETSOFAS-SofC3A1-Tan…A1vel-Velosuede-Bege---NETSOFAS-5240-230539-2.jpg",
+          "https://static.mobly.com.br/p/NETSOFAS-SofC3A1-Tango-22C00m-sem-caixa2C-RetrC3A1til-e-ReclinC3A1vel-Velosuede-Bege---NETSOFAS-5241-230539-5.jpg",
+          "https://static.mobly.com.br/p/NETSOFAS-SofC3A1-Tango-22C00m-sem-caixa2C-RetrC3A1til-e-ReclinC3A1vel-Velosuede-Bege---NETSOFAS-5242-230539-7.jpg",
+          "https://static.mobly.com.br/p/NETSOFAS-SofC3A1-Tango-22C00m-sem-caixa2C-RetrC3A1til-e-ReclinC3A1vel-Velosuede-Bege---NETSOFAS-5243-230539-8.jpg"
+        ]
+      },
+
+      "colors": [
+        {
+          "name": "white",
+          "hex": "#fff"
+        }
+      ],
+
+      "rating": 5,
+      "sku": "SS001",
+      "category": "Sofas",
+      "tags": [
+        "Sofa",
+        "Chair",
+        "Home",
+        "Shop"
+      ],
+
+      "share": [
+        {
+          "facebookUrl": "#",
+          "linkedinUrl": "#",
+          "twitterUrl": "#"
+        }
+      ]
+    },
+    
+    {
+      "id": 2,
+      "title": "Leviosa",
+      "image": "./src/assets/images/leviosa.png",
+      "shortDescription": "Stylish cafe chair",
+      "description": "Setting the bar as one of the loudest speakers in its class, the Kilburn is a compact, stout-hearted hero with a well-balanced audio which boasts a clear midrange and extended highs for a sound.",
+      "price": 500000,
+      "salesPrice": 3500000,
+      "size": ["L", "XL", "XS"],
+
+      "images": {
+        "mainImage": "https://tokstok.vteximg.com.br/arquivos/ids/29526677-624-auto/com-bracos-doppi-whisky-bege-doppi_st0.png?v=638495100217200000&width=624&height=auto&aspect=true",
+        "gallery": [
+          "https://tokstok.vteximg.com.br/arquivos/ids/29526659-624-auto/com-bracos-doppi-whisky-bege-doppi_st4.png?v=638495100213670000&width=624&height=auto&aspect=true",
+          "https://tokstok.vteximg.com.br/arquivos/ids/29526670-624-auto/com-bracos-doppi-whisky-bege-doppi_st2.png?v=638495100216230000&width=624&height=auto&aspect=true",
+          "https://tokstok.vteximg.com.br/arquivos/ids/29526695-624-auto/com-bracos-doppi-whisky-bege-doppi_st3.png?v=638495100226230000&width=624&height=auto&aspect=true",
+          "https://tokstok.vteximg.com.br/arquivos/ids/29526688-624-auto/com-bracos-doppi-whisky-bege-doppi_st5.jpg?v=638495100224070000&width=624&height=auto&aspect=true"
+        ]
+      },
+
+      "colors": [
+        {
+          "name": "white",
+          "hex": "#fff"
+        }
+      ],
+
+      "rating": 5,
+      "sku": "SS001",
+      "category": "Sofas",
+      "tags": ["Sofa", "Chair", "Home", "Shop"],
+
+      "share": [
+        {
+          "facebookUrl": "#",
+          "linkedinUrl": "#",
+          "twitterUrl": "#"
+        }
+      ]
+    },
+
+    {
+      "id": 3,
+      "title": "Sofa MUY",
+      "image": "./src/assets/images/leviosa.png",
+      "shortDescription": "Luxury big sofa",
+      "description": "Setting the bar as one of the loudest speakers in its class, the Kilburn is a compact, stout-hearted hero with a well-balanced audio which boasts a clear midrange and extended highs for a sound.",
+      "price": 7000000,
+      "salesPrice": 3500000,
+      "size": ["L", "XL", "XS"],
+
+      "images": {
+        "mainImage": "https://tokstok.vteximg.com.br/arquivos/ids/25210556-624-auto/sofa-3-lugares-cinza-claro-mescla-muy_st0.jpg?v=638119422551570000&width=624&height=auto&aspect=true",
+        "gallery": [
+          "https://tokstok.vteximg.com.br/arquivos/ids/25210485-624-auto/sofa-3-lugares-cinza-claro-mescla-muy_st4.jpg?v=638119422318570000&width=624&height=auto&aspect=true",
+          "https://tokstok.vteximg.com.br/arquivos/ids/25210512-624-auto/sofa-3-lugares-cinza-claro-mescla-muy_st2.jpg?v=638119422399370000&width=624&height=auto&aspect=true",
+          "https://tokstok.vteximg.com.br/arquivos/ids/25210519-624-auto/sofa-3-lugares-cinza-claro-mescla-muy_st3.jpg?v=638119422417500000&width=624&height=auto&aspect=true",
+          "https://tokstok.vteximg.com.br/arquivos/ids/25210532-624-auto/sofa-3-lugares-cinza-claro-mescla-muy_st5.jpg?v=638119422492900000&width=624&height=auto&aspect=true"
+        ]
+      },
+
+      "colors": [
+        {
+          "name": "white",
+          "hex": "#fff"
+        }
+      ],
+
+      "rating": 5,
+      "sku": "SS001",
+      "category": "Sofas",
+      "tags": ["Sofa", "Chair", "Home", "Shop"],
+
+      "share": [
+        {
+          "facebookUrl": "#",
+          "linkedinUrl": "#",
+          "twitterUrl": "#"
+        }
+      ]
+    },
+
+      {
+        "id": 4,
+        "title": "Sofa MUY",
+        "image": "./src/assets/images/leviosa.png",
+        "shortDescription": "Luxury big sofa",
+        "description": "Setting the bar as one of the loudest speakers in its class, the Kilburn is a compact, stout-hearted hero with a well-balanced audio which boasts a clear midrange and extended highs for a sound.",
+        "price": 7000000,
+        "salesPrice": 3500000,
+        "size": ["L", "XL", "XS"],
+
+        "images": {
+          "mainImage": "https://tokstok.vteximg.com.br/arquivos/ids/25210556-624-auto/sofa-3-lugares-cinza-claro-mescla-muy_st0.jpg?v=638119422551570000&width=624&height=auto&aspect=true",
+          "gallery": [
+            "https://tokstok.vteximg.com.br/arquivos/ids/25210485-624-auto/sofa-3-lugares-cinza-claro-mescla-muy_st4.jpg?v=638119422318570000&width=624&height=auto&aspect=true",
+            "https://tokstok.vteximg.com.br/arquivos/ids/25210512-624-auto/sofa-3-lugares-cinza-claro-mescla-muy_st2.jpg?v=638119422399370000&width=624&height=auto&aspect=true",
+            "https://tokstok.vteximg.com.br/arquivos/ids/25210519-624-auto/sofa-3-lugares-cinza-claro-mescla-muy_st3.jpg?v=638119422417500000&width=624&height=auto&aspect=true",
+            "https://tokstok.vteximg.com.br/arquivos/ids/25210532-624-auto/sofa-3-lugares-cinza-claro-mescla-muy_st5.jpg?v=638119422492900000&width=624&height=auto&aspect=true"
+          ]
+        },
+
+        "colors": [
+          {
+            "name": "white",
+            "hex": "#fff"
+          }
+        ],
+
+        "rating": 5,
+        "sku": "SS001",
+        "category": "Sofas",
+        "tags": ["Sofa", "Chair", "Home", "Shop"],
+
+        "share": [
+          {
+            "facebookUrl": "#",
+            "linkedinUrl": "#",
+            "twitterUrl": "#"
+          }
+        ]
+      },
+
+      {
+        "id": 5,
+        "title": "Sofa MUY",
+        "image": "./src/assets/images/leviosa.png",
+        "shortDescription": "Luxury big sofa",
+        "description": "Setting the bar as one of the loudest speakers in its class, the Kilburn is a compact, stout-hearted hero with a well-balanced audio which boasts a clear midrange and extended highs for a sound.",
+        "price": 7000000,
+        "salesPrice": 3500000,
+        "size": ["L", "XL", "XS"],
+
+        "images": {
+          "mainImage": "https://tokstok.vteximg.com.br/arquivos/ids/25210556-624-auto/sofa-3-lugares-cinza-claro-mescla-muy_st0.jpg?v=638119422551570000&width=624&height=auto&aspect=true",
+          "gallery": [
+            "https://tokstok.vteximg.com.br/arquivos/ids/25210485-624-auto/sofa-3-lugares-cinza-claro-mescla-muy_st4.jpg?v=638119422318570000&width=624&height=auto&aspect=true",
+            "https://tokstok.vteximg.com.br/arquivos/ids/25210512-624-auto/sofa-3-lugares-cinza-claro-mescla-muy_st2.jpg?v=638119422399370000&width=624&height=auto&aspect=true",
+            "https://tokstok.vteximg.com.br/arquivos/ids/25210519-624-auto/sofa-3-lugares-cinza-claro-mescla-muy_st3.jpg?v=638119422417500000&width=624&height=auto&aspect=true",
+            "https://tokstok.vteximg.com.br/arquivos/ids/25210532-624-auto/sofa-3-lugares-cinza-claro-mescla-muy_st5.jpg?v=638119422492900000&width=624&height=auto&aspect=true"
+          ]
+        },
+
+        "colors": [
+          {
+            "name": "white",
+            "hex": "#fff"
+          }
+        ],
+
+        "rating": 5,
+        "sku": "SS001",
+        "category": "Sofas",
+        "tags": ["Sofa", "Chair", "Home", "Shop"],
+
+        "share": [
+          {
+            "facebookUrl": "#",
+            "linkedinUrl": "#",
+            "twitterUrl": "#"
+          }
+        ]
+      },
+
+      {
+        "id": 6,
+        "title": "Sofa MUY",
+        "image": "./src/assets/images/leviosa.png",
+        "shortDescription": "Luxury big sofa",
+        "description": "Setting the bar as one of the loudest speakers in its class, the Kilburn is a compact, stout-hearted hero with a well-balanced audio which boasts a clear midrange and extended highs for a sound.",
+        "price": 7000000,
+        "salesPrice": 3500000,
+        "size": ["L", "XL", "XS"],
+
+        "images": {
+          "mainImage": "https://tokstok.vteximg.com.br/arquivos/ids/25210556-624-auto/sofa-3-lugares-cinza-claro-mescla-muy_st0.jpg?v=638119422551570000&width=624&height=auto&aspect=true",
+          "gallery": [
+            "https://tokstok.vteximg.com.br/arquivos/ids/25210485-624-auto/sofa-3-lugares-cinza-claro-mescla-muy_st4.jpg?v=638119422318570000&width=624&height=auto&aspect=true",
+            "https://tokstok.vteximg.com.br/arquivos/ids/25210512-624-auto/sofa-3-lugares-cinza-claro-mescla-muy_st2.jpg?v=638119422399370000&width=624&height=auto&aspect=true",
+            "https://tokstok.vteximg.com.br/arquivos/ids/25210519-624-auto/sofa-3-lugares-cinza-claro-mescla-muy_st3.jpg?v=638119422417500000&width=624&height=auto&aspect=true",
+            "https://tokstok.vteximg.com.br/arquivos/ids/25210532-624-auto/sofa-3-lugares-cinza-claro-mescla-muy_st5.jpg?v=638119422492900000&width=624&height=auto&aspect=true"
+          ]
+        },
+
+        "colors": [
+          {
+            "name": "white",
+            "hex": "#fff"
+          }
+        ],
+
+        "rating": 5,
+        "sku": "SS001",
+        "category": "Sofas",
+        "tags": ["Sofa", "Chair", "Home", "Shop"],
+
+        "share": [
+          {
+            "facebookUrl": "#",
+            "linkedinUrl": "#",
+            "twitterUrl": "#"
+          }
+        ]
+      },
+
+      {
+        "id": 7,
+        "title": "Sofa MUY",
+        "image": "./src/assets/images/leviosa.png",
+        "shortDescription": "Luxury big sofa",
+        "description": "Setting the bar as one of the loudest speakers in its class, the Kilburn is a compact, stout-hearted hero with a well-balanced audio which boasts a clear midrange and extended highs for a sound.",
+        "price": 7000000,
+        "salesPrice": 3500000,
+        "size": ["L", "XL", "XS"],
+
+        "images": {
+          "mainImage": "https://tokstok.vteximg.com.br/arquivos/ids/25210556-624-auto/sofa-3-lugares-cinza-claro-mescla-muy_st0.jpg?v=638119422551570000&width=624&height=auto&aspect=true",
+          "gallery": [
+            "https://tokstok.vteximg.com.br/arquivos/ids/25210485-624-auto/sofa-3-lugares-cinza-claro-mescla-muy_st4.jpg?v=638119422318570000&width=624&height=auto&aspect=true",
+            "https://tokstok.vteximg.com.br/arquivos/ids/25210512-624-auto/sofa-3-lugares-cinza-claro-mescla-muy_st2.jpg?v=638119422399370000&width=624&height=auto&aspect=true",
+            "https://tokstok.vteximg.com.br/arquivos/ids/25210519-624-auto/sofa-3-lugares-cinza-claro-mescla-muy_st3.jpg?v=638119422417500000&width=624&height=auto&aspect=true",
+            "https://tokstok.vteximg.com.br/arquivos/ids/25210532-624-auto/sofa-3-lugares-cinza-claro-mescla-muy_st5.jpg?v=638119422492900000&width=624&height=auto&aspect=true"
+          ]
+        },
+
+        "colors": [
+          {
+            "name": "white",
+            "hex": "#fff"
+          }
+        ],
+
+        "rating": 5,
+        "sku": "SS001",
+        "category": "Sofas",
+        "tags": ["Sofa", "Chair", "Home", "Shop"],
+
+        "share": [
+          {
+            "facebookUrl": "#",
+            "linkedinUrl": "#",
+            "twitterUrl": "#"
+          }
+        ]
+      },
+
+      {
+        "id": 8,
+        "title": "Sofa MUY",
+        "image": "./src/assets/images/leviosa.png",
+        "shortDescription": "Luxury big sofa",
+        "description": "Setting the bar as one of the loudest speakers in its class, the Kilburn is a compact, stout-hearted hero with a well-balanced audio which boasts a clear midrange and extended highs for a sound.",
+        "price": 7000000,
+        "salesPrice": 3500000,
+        "size": ["L", "XL", "XS"],
+
+        "images": {
+          "mainImage": "https://tokstok.vteximg.com.br/arquivos/ids/25210556-624-auto/sofa-3-lugares-cinza-claro-mescla-muy_st0.jpg?v=638119422551570000&width=624&height=auto&aspect=true",
+          "gallery": [
+            "https://tokstok.vteximg.com.br/arquivos/ids/25210485-624-auto/sofa-3-lugares-cinza-claro-mescla-muy_st4.jpg?v=638119422318570000&width=624&height=auto&aspect=true",
+            "https://tokstok.vteximg.com.br/arquivos/ids/25210512-624-auto/sofa-3-lugares-cinza-claro-mescla-muy_st2.jpg?v=638119422399370000&width=624&height=auto&aspect=true",
+            "https://tokstok.vteximg.com.br/arquivos/ids/25210519-624-auto/sofa-3-lugares-cinza-claro-mescla-muy_st3.jpg?v=638119422417500000&width=624&height=auto&aspect=true",
+            "https://tokstok.vteximg.com.br/arquivos/ids/25210532-624-auto/sofa-3-lugares-cinza-claro-mescla-muy_st5.jpg?v=638119422492900000&width=624&height=auto&aspect=true"
+          ]
+        },
+
+        "colors": [
+          {
+            "name": "white",
+            "hex": "#fff"
+          }
+        ],
+
+        "rating": 5,
+        "sku": "SS001",
+        "category": "Sofas",
+        "tags": ["Sofa", "Chair", "Home", "Shop"],
+
+        "share": [
+          {
+            "facebookUrl": "#",
+            "linkedinUrl": "#",
+            "twitterUrl": "#"
+          }
+        ]
+      }
+
+  ],
+
+
+
+  "gallery": [
+    {
+      "id": 1,
+      "title": "Dining",
+      "imageUrl": "./src/assets/images/dining.png"
+    },
+    {
+      "id": 2,
+      "title": "Living",
+      "imageUrl": "./src/assets/images/living.png"
+    },
+    {
+      "id": 3,
+      "title": "Bedroom",
+      "imageUrl": "./src/assets/images/bedroom.png"
+    }  
+  ]
+}

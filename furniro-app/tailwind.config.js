@@ -6,7 +6,9 @@ export default {
       colors: {
         white: '#FFFFFF',
         black: '#000000',
+        'light-peach-50': '#FCF8F3',
         'light-peach-100': '#FFF3E3',
+        'light-peach-200': '#F4F5F7',
         'light-peach-900': '#B88E2F',
         'dark-gray-300': '#9F9F9F',
         'dark-gray-400': '#D8D8D8',
@@ -34,6 +36,14 @@ export default {
         'laptop-lg': '1280px',
 
         desktop: '1440px',
+      },
+      backgroundImage: {
+        'hero-pattern': "url('../src/assets/images/banner.png')",
+        'gallery-pattern': "url('../src/assets/images/banner-furniture.png')"
+      },
+
+      animation: {
+        'spin-slow': 'spin 2s linear infinite',
       },
     },
   },

@@ -1,0 +1,22 @@
+/* src/components/Carousel.css */
+
+/* Estilize os dots da paginação */
+.splide__pagination__page {
+  background-color: #D8D8D8; /* Cor de fundo inicial */
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.splide__pagination__page.is-active {
+  background-color: #B88E2F; /* Cor de fundo quando ativo */
+}
+
+.splide__pagination {
+  display: flex;
+  justify-content: center;
+  padding-left: 128px;
+  gap: 0.5rem; /* Espaçamento entre os dots */
+  margin-top: 1rem; /* Margem superior para afastar os dots do conteúdo */
+}
