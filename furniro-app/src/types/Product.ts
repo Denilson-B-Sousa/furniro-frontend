@@ -1,7 +1,9 @@
 
-export type Product = {
+export type ProductData = {
   id: number;
   title: string;
+  image: string;
+  shortDescription: string;
   description: string;
   price: number;
   salesPrice: number;
@@ -13,7 +15,7 @@ export type Product = {
   category: string;
   tags: string[];
   share: Share[];
-}
+}[]
 
 type Images =  {
   mainImage: string;

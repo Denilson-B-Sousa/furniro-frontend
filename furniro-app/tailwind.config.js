@@ -7,6 +7,7 @@ export default {
         white: '#FFFFFF',
         black: '#000000',
         'light-peach-100': '#FFF3E3',
+        'light-peach-200': '#F4F5F7',
         'light-peach-900': '#B88E2F',
         'dark-gray-300': '#9F9F9F',
         'dark-gray-400': '#D8D8D8',

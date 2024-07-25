@@ -1,5 +1,5 @@
-import { Gallery } from "@components/Gallery";
-import { Hero } from "@components/Hero";
+import { Gallery, Hero, Product } from "@components/index";
+
 
 export function Home() {
 
@@ -7,6 +7,7 @@ export function Home() {
     <>
       <Hero/>
       <Gallery/>
+      <Product/>
     </>
   )
 }
