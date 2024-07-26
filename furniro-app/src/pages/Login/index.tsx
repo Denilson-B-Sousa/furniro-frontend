@@ -1,13 +1,58 @@
 import logo from '@assets/images/logo.png';
 import { Button } from '@components/Button';
 import { Input } from '@components/Input';
+import { zodResolver } from '@hookform/resolvers/zod';
 import { Eye, EyeClosed } from '@phosphor-icons/react';
-import { EventHandler, FormEvent, useState } from 'react';
+import { FormEvent, useState } from 'react';
+import { useForm } from 'react-hook-form';
 import {NavLink } from 'react-router-dom';
+import { z } from 'zod';
+
+type FormFields = {
+  email: string;
+  password: string;
+};
 
 export function Login() {
 
-  const [password, setPassword] = useState("");
+  const [output, setOutput] = useState('');
+
+  const createUserFormSchema = z.object({
+    email: z
+      .string()
+      .regex(
+        /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/,
+        '*E-mail inválido',
+      )
+      .email('*Formato de e-mail inválido!'),
+    password: z
+      .string()
+      .min(8, '*A senha deve ter no mínimo 8 caracteres')
+      .max(32, '*A senha deve ter no máximo 32 caracteres')
+      .regex(/[a-z]/, '*A senha deve conter pelo menos uma letra minúscula')
+      .regex(/[A-Z]/, '*A senha deve conter pelo menos uma letra maiúscula')
+      .regex(/[0-9]/, '*A senha deve conter pelo menos um número')
+      .regex(
+        /[^a-zA-Z0-9]/,
+        '*A senha deve conter pelo menos um caractere especial',
+      ),
+  });
+
+  const {
+    register,
+    handleSubmit,
+    formState: { errors },
+  } = useForm<FormFields>({
+    resolver: zodResolver(createUserFormSchema),
+  });
+
+
+  function handleLoginUser(data: unknown) {
+    setOutput(JSON.stringify(data, null, 2));
+  }
+
+  console.log(output);
+
   const [type, setType] = useState('password');
 
   function handleShowPassword(e : FormEvent) {
@@ -26,7 +71,7 @@ export function Login() {
 
       <div className='absolute left-1/2 top-1/2 z-10 -translate-x-1/2 -translate-y-1/2 transform'>
         <div className='flex flex-col gap-4 py-8'>
-          <h1 className='text-center font-poppins text-5xl font-semibold'>
+          <h1 className='text-center font-poppins text-4xl font-semibold uppercase'>
             Login
           </h1>
           <span className='text-center text-dark-gray-800'>
@@ -34,26 +79,40 @@ export function Login() {
             <br /> e explorar nossa incrível seleção de móveis e decoração.
           </span>
         </div>
-        <form className='m-auto flex w-[24rem] flex-col justify-center gap-4 laptop:w-[28rem]'>
-          <label className='font-poppins text-2xl font-medium text-black'>
+        <form
+          onSubmit={handleSubmit(handleLoginUser)}
+          className='m-auto flex w-[24rem] flex-col justify-center laptop:w-[28rem]'
+        >
+          <label className='py-4 font-poppins text-xl font-medium text-black'>
             Email:
           </label>
-          <Input placeholder='Enter with your email' type='email' required />
+          <Input
+            placeholder='Enter with your email'
+            type='email'
+            required
+            {...register('email')}
+          />
 
-          <label className='font-poppins text-2xl font-medium text-black'>
+          {errors.email && (
+            <span className='font-semibold text-red-500'>
+              {errors.email.message}
+            </span>
+          )}
+
+          <label className='py-4 font-poppins text-xl font-medium text-black'>
             Password:
           </label>
-          <div className='relative'>
+          <div className='relative flex flex-col'>
             <Input
               placeholder='Enter with your password'
               type={type}
               required
-              value={password}
-              onChange={(e) => setPassword(e.target.value)}
+              {...register('password')}
             />
+
             <button
               onClick={handleShowPassword}
-              className='transition-all duration-300 absolute bottom-4 left-[20rem] laptop:bottom-4 laptop:left-[28rem]'
+              className='absolute bottom-4 right-0'
             >
               {type === 'password' ? (
                 <EyeClosed width={32} height={32} />
@@ -62,14 +121,19 @@ export function Login() {
               )}
             </button>
           </div>
+          {errors.password && (
+            <span className='font-semibold text-red-500'>
+              {errors.password.message}
+            </span>
+          )}
 
-          <div className='pt-4'>
-            <Button variant='primary' size='full'>
+          <div className='py-4'>
+            <Button variant='primary' size='full' type='submit'>
               Entrar
             </Button>
           </div>
 
-          <div>
+          <div >
             <span className='font-poppins'>
               Não tem conta?{' '}
               <a
