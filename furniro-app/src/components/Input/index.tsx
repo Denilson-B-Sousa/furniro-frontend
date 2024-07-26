@@ -1,13 +1,15 @@
-import { ComponentProps } from "react";
+import { ComponentProps, forwardRef } from 'react';
 
-type InputProps = & ComponentProps<'input'>;
+type InputProps = ComponentProps<'input'>;
 
-export function Input({...rest} : InputProps) {
+const Input = forwardRef<HTMLInputElement, InputProps>(({ ...rest }, ref) => {
   return (
     <input
-      type='text'
+      ref={ref}
       {...rest}
-      className=' w-[24rem] laptop:w-[32rem] rounded-xl border-2 border-dark-gray-300 p-6 outline-dark-gray-900'
+      className='w-[24rem] rounded-xl border-2 border-dark-gray-300 p-6 outline-dark-gray-900 laptop:w-[32rem]'
     />
   );
-}
+});
+
+export { Input };

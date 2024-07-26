@@ -1,4 +1,5 @@
 import { Contact, Home, Login, Shop } from '@pages/index';
+import { Register } from '@pages/Register';
 import type { Router } from '@remix-run/router';
 import App from 'App';
 import { createBrowserRouter } from 'react-router-dom';
@@ -32,7 +33,8 @@ export const router: Router = createBrowserRouter([
         element: <Login/>
       },
       {
-        path: 'register'
+        path: 'register',
+        element: <Register/>
       }
     ]
   }
