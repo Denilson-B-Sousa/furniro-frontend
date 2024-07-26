@@ -7,7 +7,7 @@ export function Input({...rest} : InputProps) {
     <input
       type='text'
       {...rest}
-      className='w-[32rem] rounded-xl border-2 border-dark-gray-300 p-6'
+      className=' w-[24rem] laptop:w-[32rem] rounded-xl border-2 border-dark-gray-300 p-6 outline-dark-gray-900'
     />
   );
 }

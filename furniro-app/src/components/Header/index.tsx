@@ -20,15 +20,15 @@ export function Header() {
 
       <div className='flex items-end gap-8'>
         <div>
-          <button>
+          <NavLink to={'auth/login'}>
             <img src={user} alt='' />
-          </button>
+          </NavLink>
         </div>
 
         <div>
-          <button>
+          <NavLink to={'cart'}>
             <img src={cart} alt='' />
-          </button>
+          </NavLink>
         </div>
 
         <div className='inline-flex items-end lg:hidden'>
