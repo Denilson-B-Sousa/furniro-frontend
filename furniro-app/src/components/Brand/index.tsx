@@ -28,7 +28,7 @@ export function Brand() {
   ];
 
   return (
-    <section className='m-auto grid grid-cols-1 justify-center justify-items-center bg-[#FAF3EA] text-left tablet:grid-cols-2 laptop:grid-cols-4'>
+    <section className='m-auto grid grid-cols-1 justify-center justify-items-center bg-[#FAF3EA] text-left tablet:grid-cols-2 laptop-lg:grid-cols-4'>
       {BrandContent.map(({ description, title, imageUrl }) => (
         <div className='flex gap-2'>
           <img src={imageUrl} alt='' />

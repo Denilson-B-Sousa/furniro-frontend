@@ -1,10 +1,9 @@
-import { Home } from '@pages/index';
-import { Shop } from '@pages/Shop';
+import { Contact, Home, Shop } from '@pages/index';
 import type { Router } from '@remix-run/router';
 import App from 'App';
 import { createBrowserRouter } from 'react-router-dom';
 
-export const router : Router = createBrowserRouter([
+export const router: Router = createBrowserRouter([
   {
     path: '/',
     element: <App />,
@@ -15,8 +14,12 @@ export const router : Router = createBrowserRouter([
       },
       {
         path: 'shop',
-        element: <Shop/>
-      }
+        element: <Shop />,
+      },
+      {
+        path: 'contact',
+        element: <Contact />,
+      },
     ],
   },
 ]);
