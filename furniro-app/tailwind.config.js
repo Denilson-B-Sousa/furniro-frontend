@@ -39,7 +39,8 @@ export default {
       },
       backgroundImage: {
         'hero-pattern': "url('../src/assets/images/banner.png')",
-        'gallery-pattern': "url('../src/assets/images/banner-furniture.png')"
+        'gallery-pattern': "url('../src/assets/images/banner-furniture.png')",
+         'shop-pattern': "url('../src/assets/images/shop-banner.jpg')"
       },
 
       animation: {
