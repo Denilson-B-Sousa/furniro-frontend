@@ -2,15 +2,15 @@ import { ComponentProps, ReactNode } from "react"
 import { tv, VariantProps } from "tailwind-variants"
 
 const buttonVariants = tv({
-  base: 'flex items-center justify-center font-poppins text-[1rem] uppercase',
+  base: 'flex items-center justify-center font-poppins text-[1rem] ',
 
   variants: {
     variant: {
-      primary: 'bg-light-peach-900 text-white font-bold',
-      secondary: 'bg-light-peach-900 text-white font-semibold',
+      primary: 'bg-light-peach-900 text-white font-bold uppercase',
+      secondary: 'bg-light-peach-900 text-white font-semibold uppercase',
       tertiary: 'bg-white text-light-peach-900 font-semibold',
       outlined:
-        'border-2 border-light-peach-900 text-light-peach-900 font-semibold',
+        'border-2 border-light-peach-900 text-light-peach-900 font-semibold uppercase',
       'outlined-secondary':
         'border-2 border-black text-black font-normal rounded-2xl',
     },
