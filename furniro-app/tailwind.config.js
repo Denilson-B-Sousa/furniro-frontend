@@ -11,6 +11,7 @@ export default {
         'light-peach-200': '#F4F5F7',
         'light-peach-900': '#B88E2F',
         'dark-gray-300': '#9F9F9F',
+        'dark-gray-350': '#D9D9D9',
         'dark-gray-400': '#D8D8D8',
         'dark-gray-500': '#616161',
         'dark-gray-600': '#666666',
