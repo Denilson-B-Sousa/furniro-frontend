@@ -3,10 +3,14 @@ import { Button } from '@components/Button';
 import { Input } from '@components/Input';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { Eye, EyeClosed } from '@phosphor-icons/react';
+import { signInWithEmailAndPassword } from 'firebase/auth';
 import { FormEvent, useState } from 'react';
 import { useForm } from 'react-hook-form';
-import {NavLink } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
+import { toast, Toaster } from 'sonner';
 import { z } from 'zod';
+
+import { auth } from '../../firebase-config';
 
 type FormFields = {
   email: string;
@@ -14,8 +18,18 @@ type FormFields = {
 };
 
 export function Login() {
-
-  const [output, setOutput] = useState('');
+  async function handleSubmitLogin(data: FormFields) {
+    const { email, password } = data;
+    try {
+      await signInWithEmailAndPassword(auth, email, password);
+      toast.success('User login with Success!');
+      setTimeout(() => {
+        window.location.href = '/';
+      }, 2500)
+    } catch (error) {
+      toast.error(`${error.message}`);
+    }
+  }
 
   const createUserFormSchema = z.object({
     email: z
@@ -46,22 +60,18 @@ export function Login() {
     resolver: zodResolver(createUserFormSchema),
   });
 
-
-  function handleLoginUser(data: unknown) {
-    setOutput(JSON.stringify(data, null, 2));
-  }
-
-  console.log(output);
-
+  
   const [type, setType] = useState('password');
 
-  function handleShowPassword(e : FormEvent) {
+  function handleShowPassword(e: FormEvent) {
     e.preventDefault();
     type === 'password' ? setType('text') : setType('password');
   }
 
   return (
     <main>
+      <Toaster position='top-center' richColors />
+
       <NavLink to={'/'} className={'hidden items-center px-8 py-4 laptop:flex'}>
         <img src={logo} alt='Furniro Logo' width={96} height={96} />
         <h1 className='font-poppins text-2xl font-bold laptop:text-4xl'>
@@ -80,7 +90,7 @@ export function Login() {
           </span>
         </div>
         <form
-          onSubmit={handleSubmit(handleLoginUser)}
+          onSubmit={handleSubmit(handleSubmitLogin)}
           className='m-auto flex w-[24rem] flex-col justify-center laptop:w-[28rem]'
         >
           <label className='py-4 font-poppins text-xl font-medium text-black'>
@@ -133,7 +143,7 @@ export function Login() {
             </Button>
           </div>
 
-          <div >
+          <div>
             <span className='font-poppins'>
               Não tem conta?{' '}
               <a

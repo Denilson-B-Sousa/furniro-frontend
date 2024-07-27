@@ -3,30 +3,43 @@ import { Button } from '@components/Button';
 import { Input } from '@components/Input';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { Eye, EyeClosed } from '@phosphor-icons/react';
+import { createUserWithEmailAndPassword } from 'firebase/auth';
+import { doc, setDoc } from 'firebase/firestore';
 import { FormEvent, useState } from 'react';
 import { useForm } from 'react-hook-form';
 import { NavLink } from 'react-router-dom';
+import { toast, Toaster } from 'sonner';
 import { z } from 'zod';
+
+import { auth, db } from '../../../src/firebase-config';
 
 type FormFields = {
   name: string;
   email: string;
   password: string;
-}
+};
 
 export function Register() {
-
   const createUserFormSchema = z.object({
     name: z
       .string()
       .min(3, '*O nome deve ter no mínimo 3 caracteres')
       .max(30, '*O nome deve ter no máximo 30 caracteres')
-      .regex(/^[a-zA-Z0-9]+$/, '*O nome deve conter apenas caracteres alfanuméricos')
-      .refine(value => value.trim() === value, '*O nome não deve conter espaços no início ou no fim'),
-          
+      .regex(
+        /^[a-zA-Z0-9]+$/,
+        '*O nome deve conter apenas caracteres alfanuméricos',
+      )
+      .refine(
+        (value) => value.trim() === value,
+        '*O nome não deve conter espaços no início ou no fim',
+      ),
+
     email: z
       .string()
-      .regex(/^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/, 'E-mail inválido')
+      .regex(
+        /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/,
+        'E-mail inválido',
+      )
       .email('*Formato de e-mail inválido!'),
     password: z
       .string()
@@ -35,22 +48,43 @@ export function Register() {
       .regex(/[a-z]/, '*A senha deve conter pelo menos uma letra minúscula')
       .regex(/[A-Z]/, '*A senha deve conter pelo menos uma letra maiúscula')
       .regex(/[0-9]/, '*A senha deve conter pelo menos um número')
-      .regex(/[^a-zA-Z0-9]/, '*A senha deve conter pelo menos um caractere especial'),
+      .regex(
+        /[^a-zA-Z0-9]/,
+        '*A senha deve conter pelo menos um caractere especial',
+      ),
   });
 
-  const { register, handleSubmit, formState: {errors} } = useForm<FormFields>({
-    resolver: zodResolver(createUserFormSchema)
+  const {
+    register,
+    handleSubmit,
+    formState: { errors },
+  } = useForm<FormFields>({
+    resolver: zodResolver(createUserFormSchema),
   });
-  
+
   const [type, setType] = useState('password');
-  const [output, setOutput] = useState('');
 
+  async function handleRegister(data: FormFields) {
+    const { name, email, password } = data;
 
-   function createUser(data: unknown) {
-     setOutput(JSON.stringify(data, null, 2))
-   }
+    try {
+      await createUserWithEmailAndPassword(auth, email, password);
+      const user = auth.currentUser;
+      console.log(user);
 
-   console.log(output);
+      if (user) {
+        await setDoc(doc(db, 'Users', user.uid), {
+          email: user.email,
+          fullName: name,
+        });
+      }
+      toast.success('User Registered with Success!');
+      console.log('User Registered with Success!');
+    } catch (error) {
+      toast.error(`${error.message}`);
+      console.log(error.message);
+    }
+  }
 
   function handleShowPassword(e: FormEvent) {
     e.preventDefault();
@@ -59,6 +93,7 @@ export function Register() {
 
   return (
     <main>
+      <Toaster position='top-center' richColors/>
       <NavLink to={'/'} className={'hidden items-center px-8 py-4 laptop:flex'}>
         <img src={logo} alt='Furniro Logo' width={96} height={96} />
         <h1 className='font-poppins text-2xl font-bold laptop:text-4xl'>
@@ -74,7 +109,7 @@ export function Register() {
         </div>
         <form
           className='m-auto flex w-[24rem] flex-col justify-center laptop:w-[28rem]'
-          onSubmit={handleSubmit(createUser)}
+          onSubmit={handleSubmit(handleRegister)}
         >
           <label className='py-3 font-poppins text-lg font-medium text-black'>
             Name:
