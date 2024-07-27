@@ -1,3 +1,4 @@
+import { Cart } from '@pages/Cart';
 import { Contact, Home, Shop } from '@pages/index';
 import type { Router } from '@remix-run/router';
 import App from 'App';
@@ -20,6 +21,10 @@ export const router: Router = createBrowserRouter([
         path: 'contact',
         element: <Contact />,
       },
+      {
+        path: 'cart',
+        element: <Cart/>
+      }
     ],
   },
 ]);

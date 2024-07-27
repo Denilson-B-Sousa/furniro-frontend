@@ -9,7 +9,7 @@ import { Input } from '@components/Input';
 export function Contact() {
   return (
     <main>
-      <Banner link='contact' />
+      <Banner title='Contact'  link='Contact' uri='/contact' />
 
       <section className='m-auto flex w-[36rem] flex-col justify-center py-24 text-center'>
         <h1 className='py-2 font-poppins text-4xl font-semibold text-black'>
