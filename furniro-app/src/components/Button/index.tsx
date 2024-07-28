@@ -12,7 +12,7 @@ const buttonVariants = tv({
       outlined:
         'border-2 border-light-peach-900 text-light-peach-900 font-semibold uppercase',
       'outlined-secondary':
-        'border-2 border-black text-black font-normal rounded-2xl',
+        'border-2 border-black text-black font-normal rounded-xl',
     },
 
     size: {

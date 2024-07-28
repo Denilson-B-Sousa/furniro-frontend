@@ -1,4 +1,5 @@
 import { Cart } from '@pages/Cart';
+import { Checkout } from '@pages/Checkout';
 import { Contact, Home, Login, Shop } from '@pages/index';
 import { Register } from '@pages/Register';
 import type { Router } from '@remix-run/router';
@@ -25,6 +26,10 @@ export const router: Router = createBrowserRouter([
       {
         path: 'cart',
         element: <Cart/>
+      },
+      {
+        path: 'checkout',
+        element: <Checkout/>
       }
     
     ],
