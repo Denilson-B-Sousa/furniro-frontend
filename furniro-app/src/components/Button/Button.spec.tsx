@@ -22,9 +22,9 @@ describe('<Button>', () => {
     const { getByRole } = render(<Button variant='secondary'>button</Button>);
     const buttonElement: HTMLElement = getByRole('button');
 
-    expect(buttonElement).toBeInTheDocument();
     expect(buttonElement).toHaveClass(baseClass);
   })
+  
   const sizeClasses = {
     xl: 'w-[225px] h-[48px]',
     md: 'w-[215px] h-[64px]',
