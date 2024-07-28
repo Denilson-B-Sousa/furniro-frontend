@@ -1,5 +1,5 @@
-import { Contact, Home, Login, Shop } from '@pages/index';
-import { Register } from '@pages/Register';
+import { Cart } from '@pages/Cart';
+import { Contact, Home, Shop } from '@pages/index';
 import type { Router } from '@remix-run/router';
 import App from 'App';
 import { createBrowserRouter } from 'react-router-dom';

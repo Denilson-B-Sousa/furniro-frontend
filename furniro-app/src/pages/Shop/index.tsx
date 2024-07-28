@@ -6,7 +6,7 @@ import { Product } from '@components/index';
 export function Shop() {
   return (
     <main>
-      <Banner link='shop' />
+      <Banner title='Shop' link='shop' uri='/shop'/>
       <Filter />
       <Product />
       <Brand />

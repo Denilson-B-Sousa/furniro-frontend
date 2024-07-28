@@ -2,9 +2,11 @@ import { CaretRight } from "@phosphor-icons/react";
 import { NavLink } from "react-router-dom";
 
 type BannerProps = {
+  title: string;
   link: string;
+  uri: string;
 }
-export function Banner({link} : BannerProps) {
+export function Banner({ title, link, uri }: BannerProps) {
 
   return (
     <div className='relative h-[316px] w-full laptop:w-[100%] laptop:max-w-[100%]'>
@@ -14,7 +16,7 @@ export function Banner({link} : BannerProps) {
 
       <div className='absolute left-1/2 top-1/2 z-10 -translate-x-1/2 -translate-y-1/2 transform rounded text-center'>
         <h1 className='font-poppins text-3xl font-semibold text-black'>
-          Contact
+          {title}
         </h1>
 
         <div className='flex items-center gap-2'>
@@ -22,7 +24,7 @@ export function Banner({link} : BannerProps) {
             Home
           </NavLink>
           <CaretRight />
-          <NavLink to={'/contact'}>{link}</NavLink>
+          <NavLink to={`${uri}`}>{link}</NavLink>
         </div>
       </div>
     </div>
