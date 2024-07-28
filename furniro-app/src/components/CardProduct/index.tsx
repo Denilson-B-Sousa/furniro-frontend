@@ -1,9 +1,12 @@
 import { Button } from '@components/Button';
 import { ArrowsLeftRight, Heart, ShareNetwork } from '@phosphor-icons/react';
 import { useState } from 'react';
+import { addToCart } from 'store/cart-slice';
+import { useCartDispatch } from 'store/hooks';
 import { PriceFormatter } from 'utils/Formatter';
 
 type CardProductProps = {
+  id: string;
   title: string;
   shortDescription: string;
   price: number;
@@ -11,6 +14,7 @@ type CardProductProps = {
   imageUrl: string;
 };
 export function CardProduct({
+  id,
   title,
   shortDescription,
   price,
@@ -18,6 +22,12 @@ export function CardProduct({
   imageUrl,
 }: CardProductProps) {
   const [isHovered, setIsHovered] = useState(false);
+
+  const dispath = useCartDispatch();
+
+  function handleAddToCart() {
+    dispath(addToCart({ id, title, price, imageUrl}))
+  }
 
   return (
     <div className='relative flex w-[285px] flex-col'>
@@ -46,7 +56,7 @@ export function CardProduct({
 
         {isHovered && (
           <div className='absolute inset-0 z-10 flex flex-col items-center justify-center gap-4 bg-black bg-opacity-50 text-white transition-all duration-500'>
-            <Button variant='tertiary' size='sm'>
+            <Button variant='tertiary' size='sm' onClick={handleAddToCart}>
               Add to cart
             </Button>
             <div className='flex space-x-2'>

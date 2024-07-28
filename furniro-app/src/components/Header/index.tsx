@@ -29,9 +29,7 @@ export function Header() {
 
         <Dialog.Root>
           <Dialog.Trigger>
-          <NavLink to={'cart'}>
             <img src={cart} alt='' />
-          </NavLink>
           </Dialog.Trigger>
           <Modal/>
         </Dialog.Root>

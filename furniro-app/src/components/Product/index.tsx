@@ -16,6 +16,7 @@ export function Product() {
           {data?.map((product) => (
             <CardProduct
               key={product.id}
+              id={product.id.toString()}
               title={product.title}
               shortDescription={product.shortDescription}
               price={product.price}

@@ -1,7 +1,6 @@
 import closeBag from '@assets/icons/close-bag.svg';
+import { CartItems } from '@components/CartItems/CartItems';
 import * as Dialog from '@radix-ui/react-dialog';
-import { NavLink } from 'react-router-dom';
-import { PriceFormatter } from 'utils/Formatter';
 
 export function Modal() {
   return (
@@ -16,33 +15,10 @@ export function Modal() {
             Shopping Cart
           </Dialog.Title>
           <div className='border-b-dark-gray-350 my-4 w-[16rem] border-2'></div>
-          <div className='flex justify-between'>
-            <span className='text- text-black'>Subtotal:</span>
-            <span className='text-light-peach-900'>
-              {PriceFormatter.format(520000000)}
-            </span>
-          </div>
-          <div className='border-b-dark-gray-350 my-4 w-full border-2'></div>
-          <div className='flex justify-around gap-2'>
-            <NavLink
-              to={'/cart'}
-              className='rounded-full border-2 border-black px-6 py-[0.25rem]'
-            >
-              Cart
-            </NavLink>
-            <NavLink
-              to={'/checkout'}
-              className='rounded-full border-2 border-black px-6 py-[0.25rem]'
-            >
-              Checkout
-            </NavLink>
-            <NavLink
-              to={'/singleProduct'}
-              className='rounded-full border-2 border-black px-6 py-[0.25rem]'
-            >
-              Comparison
-            </NavLink>
-          </div>
+
+          <CartItems/>
+
+        
         </Dialog.Content>
       </Dialog.Portal>
     </>
