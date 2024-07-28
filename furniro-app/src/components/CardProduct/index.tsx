@@ -32,17 +32,17 @@ export function CardProduct({
   return (
     <div className='relative flex w-[285px] flex-col'>
       <div
-        className='relative h-full w-[285px]'
+        className='relative h-[450px] w-[285px] '
         onMouseEnter={() => setIsHovered(true)}
         onMouseLeave={() => setIsHovered(false)}
       >
-        <img src={imageUrl} alt={title} width='100%' height={150} />
+        <img src={imageUrl} alt={title} width='100%'  />
         <div className='absolute bottom-0 bg-light-peach-200 p-4'>
           <h3 className='font-poppins text-2xl font-semibold text-dark-gray-800'>
-            {title}
+            {title.split("", 30)}
           </h3>
           <span className='font-poppins text-dark-gray-700'>
-            {shortDescription}
+            {shortDescription.split("", 20)}
           </span>
           <div className='inline-flex items-center gap-2 py-4 font-poppins font-semibold'>
             <span className='font-poppins font-semibold text-dark-gray-800'>
@@ -56,7 +56,7 @@ export function CardProduct({
 
         {isHovered && (
           <div className='absolute inset-0 z-10 flex flex-col items-center justify-center gap-4 bg-black bg-opacity-50 text-white transition-all duration-500'>
-            <Button variant='tertiary' size='sm' onClick={handleAddToCart}>
+            <Button variant='tertiary' size='lg' onClick={handleAddToCart}>
               Add to cart
             </Button>
             <div className='flex space-x-2'>

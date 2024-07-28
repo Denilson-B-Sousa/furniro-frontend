@@ -20,6 +20,7 @@ const buttonVariants = tv({
       xl: 'w-[225px] h-[48px]',
       form: 'w-[225px] h-[48px] rounded-md',
       full: 'w-[24rem] laptop:w-[28.25rem] p-6 rounded-xl',
+      lg: 'w-[202px] h-[48px]',
       md: 'w-[215px] h-[64px]',
       sm: 'w-[176px] h-[48px]',
       xs: 'w-[48px] h-[48px]',

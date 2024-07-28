@@ -35,15 +35,15 @@ export function CartItems() {
                     <img
                       src={item.imageUrl}
                       alt=''
-                      width={64}
+                      width={80}
                       className='rounded-xl'
                     />
                   </div>
                 </li>
                 <li>
                   <div className='inline-flex flex-col'>
-                    <span className='font-poppins text-lg font-medium text-black'>
-                      {item.title}
+                    <span className='font-poppins text-base font-medium text-black' style={{whiteSpace: 'nowrap'}}>
+                      {item.title.length > 15 ? item.title.substring(0, 15) +'...': item.title}
                     </span>
                     <span>
                       {item.quantity}&nbsp;&nbsp; X &nbsp;&nbsp;{' '}
@@ -55,8 +55,16 @@ export function CartItems() {
                 </li>
                 <li>
                   <div className='px-20'>
-                    <button onClick={() => handleRemoveFromCart(item.id)} className='bg-dark-gray-300 p-[3px] rounded-full'>
-                      <X  fill='#fff' width={16} height={16} cursor={'pointer'}/>
+                    <button
+                      onClick={() => handleRemoveFromCart(item.id)}
+                      className='rounded-full bg-dark-gray-300 p-[3px]'
+                    >
+                      <X
+                        fill='#fff'
+                        width={16}
+                        height={16}
+                        cursor={'pointer'}
+                      />
                     </button>
                   </div>
                 </li>
