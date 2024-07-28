@@ -1,4 +1,7 @@
-import { PriceFormatter } from "utils/Formatter";
+import { Button } from '@components/Button';
+import { ArrowsLeftRight, Heart, ShareNetwork } from '@phosphor-icons/react';
+import { useState } from 'react';
+import { PriceFormatter } from 'utils/Formatter';
 
 type CardProductProps = {
   title: string;
@@ -6,29 +9,62 @@ type CardProductProps = {
   price: number;
   salesPrice: number;
   imageUrl: string;
-}
-export function CardProduct({title, shortDescription, price, salesPrice, imageUrl} : CardProductProps) {
+};
+export function CardProduct({
+  title,
+  shortDescription,
+  price,
+  salesPrice,
+  imageUrl,
+}: CardProductProps) {
+  const [isHovered, setIsHovered] = useState(false);
 
   return (
-    <div className='flex  w-[285px] flex-col'>
-      <div className="w-[285px] h-[350px]">
-        <img src={imageUrl} alt='' />
-      </div>
-      <div className='bg-light-peach-200 p-4'>
-        <h3 className='font-poppins text-2xl font-semibold text-dark-gray-800'>
-          {title}
-        </h3>
-        <span className='font-poppins text-dark-gray-700'>
-          {shortDescription}
-        </span>
-        <div className='inline-flex items-center gap-2 font-poppins font-semibold py-4'>
-          <span className='font-poppins font-semibold text-dark-gray-800'>
-            {PriceFormatter.format(price)}
+    <div className='relative flex w-[285px] flex-col'>
+      <div
+        className='relative h-full w-[285px]'
+        onMouseEnter={() => setIsHovered(true)}
+        onMouseLeave={() => setIsHovered(false)}
+      >
+        <img src={imageUrl} alt={title} width='100%' height={150} />
+        <div className='absolute bottom-0 bg-light-peach-200 p-4'>
+          <h3 className='font-poppins text-2xl font-semibold text-dark-gray-800'>
+            {title}
+          </h3>
+          <span className='font-poppins text-dark-gray-700'>
+            {shortDescription}
           </span>
-          <span className='text-dark-gray-300 line-through text-sm'>
-            {PriceFormatter.format(salesPrice)}
-          </span>
+          <div className='inline-flex items-center gap-2 py-4 font-poppins font-semibold'>
+            <span className='font-poppins font-semibold text-dark-gray-800'>
+              {PriceFormatter.format(price)}
+            </span>
+            <span className='text-sm text-dark-gray-300 line-through'>
+              {PriceFormatter.format(salesPrice)}
+            </span>
+          </div>
         </div>
+
+        {isHovered && (
+          <div className='absolute inset-0 z-10 flex flex-col items-center justify-center gap-4 bg-black bg-opacity-50 text-white transition-all duration-500'>
+            <Button variant='tertiary' size='sm'>
+              Add to cart
+            </Button>
+            <div className='flex space-x-2'>
+              <button className='inline-flex items-center p-2 font-poppins font-medium'>
+                <ShareNetwork width={16} height={16} />
+                Share
+              </button>
+              <button className='inline-flex items-center p-2 font-poppins font-medium'>
+                <ArrowsLeftRight width={16} height={16} />
+                Compare
+              </button>
+              <button className='inline-flex items-center p-2 font-poppins font-medium'>
+                <Heart width={20} height={20} />
+                Like
+              </button>
+            </div>
+          </div>
+        )}
       </div>
     </div>
   );

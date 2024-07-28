@@ -1,4 +1,6 @@
+import { Modal } from '@components/Modal';
 import { List } from '@phosphor-icons/react';
+import * as Dialog from '@radix-ui/react-dialog';
 import { NavLink } from 'react-router-dom';
 
 import cart from '../../assets/icons/cart.svg';
@@ -25,12 +27,14 @@ export function Header() {
           </NavLink>
         </div>
 
-        <div>
+        <Dialog.Root>
+          <Dialog.Trigger>
           <NavLink to={'cart'}>
             <img src={cart} alt='' />
           </NavLink>
-        </div>
-
+          </Dialog.Trigger>
+          <Modal/>
+        </Dialog.Root>
         <div className='inline-flex items-end lg:hidden'>
           <button>
             <List color='black' width={28} height={30} />
