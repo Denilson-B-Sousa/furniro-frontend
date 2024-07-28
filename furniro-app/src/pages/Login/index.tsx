@@ -122,12 +122,12 @@ export function Login() {
 
             <button
               onClick={handleShowPassword}
-              className='absolute bottom-4 right-0'
+              className='absolute bottom-6 right-5'
             >
               {type === 'password' ? (
-                <EyeClosed width={32} height={32} />
+                <EyeClosed width={24} height={24} />
               ) : (
-                <Eye width={32} height={32} />
+                <Eye width={24} height={24} />
               )}
             </button>
           </div>
@@ -137,7 +137,7 @@ export function Login() {
             </span>
           )}
 
-          <div className='py-4'>
+          <div className='py-6'>
             <Button variant='primary' size='full' type='submit'>
               Entrar
             </Button>

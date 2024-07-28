@@ -154,12 +154,12 @@ export function Register() {
 
             <button
               onClick={handleShowPassword}
-              className='absolute bottom-4 right-0'
+              className='absolute bottom-6 right-5'
             >
               {type === 'password' ? (
-                <EyeClosed width={32} height={32} />
+                <EyeClosed width={24} height={24} />
               ) : (
-                <Eye width={32} height={32} />
+                <Eye width={24} height={24} />
               )}
             </button>
           </div>
