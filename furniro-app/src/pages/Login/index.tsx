@@ -3,14 +3,13 @@ import { Button } from '@components/Button';
 import { Input } from '@components/Input';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { Eye, EyeClosed } from '@phosphor-icons/react';
-import { signInWithEmailAndPassword } from 'firebase/auth';
+import { useUserAuth } from 'context/userAuthContext';
 import { FormEvent, useState } from 'react';
 import { useForm } from 'react-hook-form';
-import { NavLink } from 'react-router-dom';
+import { NavLink, useNavigate} from 'react-router-dom';
 import { toast, Toaster } from 'sonner';
 import { z } from 'zod';
 
-import { auth } from '../../firebase-config';
 
 type FormFields = {
   email: string;
@@ -18,13 +17,19 @@ type FormFields = {
 };
 
 export function Login() {
+
+  const { logIn } = useUserAuth();
+  const navigate = useNavigate();
+
   async function handleSubmitLogin(data: FormFields) {
+    
+
     const { email, password } = data;
     try {
-      await signInWithEmailAndPassword(auth, email, password);
+      await logIn(email, password);
       toast.success('User login with Success!');
       setTimeout(() => {
-        window.location.href = '/';
+        navigate('/');
       }, 2500)
     } catch (error) {
       toast.error(`${error.message}`);

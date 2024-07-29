@@ -7,7 +7,6 @@ import type { Router } from '@remix-run/router';
 import App from 'App';
 import { createBrowserRouter } from 'react-router-dom';
 
-import { Error } from './components/Error';
 
 export const router: Router = createBrowserRouter([
   {
@@ -16,7 +15,6 @@ export const router: Router = createBrowserRouter([
       {
         path: 'checkout',
         element: <Checkout />,
-        errorElement: <Error />,
       },
     ],
   },
@@ -27,27 +25,18 @@ export const router: Router = createBrowserRouter([
       {
         path: '/',
         element: <Home />,
-        errorElement: <Error />,
       },
       {
         path: 'shop',
         element: <Shop />,
-        errorElement: <Error />,
       },
       {
         path: 'contact',
         element: <Contact />,
-        errorElement: <Error />,
       },
       {
         path: 'cart',
         element: <Cart />,
-        errorElement: <Error />,
-      },
-      {
-        path: 'checkout',
-        element: <Checkout />,
-        errorElement: <Error />,
       },
     ],
   },

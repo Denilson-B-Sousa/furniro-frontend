@@ -3,11 +3,11 @@ import { Button } from '@components/Button';
 import { Input } from '@components/Input';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { Eye, EyeClosed } from '@phosphor-icons/react';
-import { createUserWithEmailAndPassword } from 'firebase/auth';
+import { useUserAuth } from 'context/userAuthContext';
 import { doc, setDoc } from 'firebase/firestore';
 import { FormEvent, useState } from 'react';
 import { useForm } from 'react-hook-form';
-import { NavLink } from 'react-router-dom';
+import { NavLink,useNavigate } from 'react-router-dom';
 import { toast, Toaster } from 'sonner';
 import { z } from 'zod';
 
@@ -64,22 +64,32 @@ export function Register() {
 
   const [type, setType] = useState('password');
 
+  const { signUp } = useUserAuth();
+  const navigate = useNavigate();
+
   async function handleRegister(data: FormFields) {
     const { name, email, password } = data;
 
     try {
-      await createUserWithEmailAndPassword(auth, email, password);
+
+      await signUp(name, email, password);
       const user = auth.currentUser;
-      console.log(user);
 
       if (user) {
-        await setDoc(doc(db, 'Users', user.uid), {
+        await setDoc(doc(db, "Users", user.uid), {
           email: user.email,
-          fullName: name,
+          firstName: name,
         });
       }
+
       toast.success('User Registered with Success!');
-      console.log('User Registered with Success!');
+
+      setInterval(() => {
+        
+        navigate('/auth/login');
+
+      }, 3000)
+      
     } catch (error) {
       toast.error(`${error.message}`);
       console.log(error.message);
