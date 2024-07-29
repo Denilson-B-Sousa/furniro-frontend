@@ -1,3 +1,4 @@
+import { ProtectedRoutes } from '@components/ProtectedRoutes';
 import { Cart } from '@pages/Cart';
 import { Checkout } from '@pages/Checkout';
 import { Contact, Home, Login, Shop } from '@pages/index';
@@ -6,7 +7,19 @@ import type { Router } from '@remix-run/router';
 import App from 'App';
 import { createBrowserRouter } from 'react-router-dom';
 
+import { Error } from './components/Error';
+
 export const router: Router = createBrowserRouter([
+  {
+    element: <ProtectedRoutes />,
+    children: [
+      {
+        path: 'checkout',
+        element: <Checkout />,
+        errorElement: <Error />,
+      },
+    ],
+  },
   {
     path: '/',
     element: <App />,
@@ -14,39 +27,42 @@ export const router: Router = createBrowserRouter([
       {
         path: '/',
         element: <Home />,
+        errorElement: <Error />,
       },
       {
         path: 'shop',
         element: <Shop />,
+        errorElement: <Error />,
       },
       {
         path: 'contact',
         element: <Contact />,
+        errorElement: <Error />,
       },
       {
         path: 'cart',
-        element: <Cart/>
+        element: <Cart />,
+        errorElement: <Error />,
       },
       {
         path: 'checkout',
-        element: <Checkout/>
-      }
-    
+        element: <Checkout />,
+        errorElement: <Error />,
+      },
     ],
   },
 
   {
     path: 'auth',
-    children:[
+    children: [
       {
         path: 'login',
-        element: <Login/>
+        element: <Login />,
       },
       {
         path: 'register',
-        element: <Register/>
-      }
-    ]
-  }
+        element: <Register />,
+      },
+    ],
+  },
 ]);
-
