@@ -78,7 +78,9 @@ export function Register() {
       if (user) {
         await setDoc(doc(db, "Users", user.uid), {
           email: user.email,
-          firstName: name,
+          displayName: user.displayName,
+          uid: user.uid
+          
         });
       }
 

@@ -7,17 +7,16 @@ export interface UserData {
   photoURL?: string;
 }
 
-export interface userInformation {
-  uid: string;
-  email: string;
-  firstName?: string;
-  lastName?: string;
-  companyName?: string;
-  zipCode?: string;
-  country?: string;
-  streetAddress?: string;
-  city?: string;
-  province?: string;
-  additionalInfo?: string;
+export interface UserInformation {
+  userId?:string,
+  displayName?:string;
+  email?:string;
+}
+
+export interface UserResponse {
+  id?: string;
+  userId?: string;
+  displayName?: string;
+  email?: string;
 }
 

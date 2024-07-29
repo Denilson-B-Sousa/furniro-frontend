@@ -1,7 +1,25 @@
 import { Input } from '@components/Input';
 import { Label } from '@components/Label';
+import { auth } from 'firebase-config';
+import { useEffect, useState } from 'react';
 
 export function BillingDetails() {
+
+  const [userDetails, setUserDetails] = useState(null)
+  
+  const fetchUserData = async () => {
+    auth.onAuthStateChanged(async (user) => {
+      console.log(user?.email ?? 'no-email');
+      setUserDetails(user);
+    });
+  };
+
+  useEffect(() => {
+    fetchUserData()
+  }, [])
+  
+
+
   return (
     <section className='flex justify-between px-36 py-24'>
       <form>
@@ -13,7 +31,11 @@ export function BillingDetails() {
           <div className='flex gap-8'>
             <div>
               <Label className='block'>First Name</Label>
-              <Input type='text' className='w-12' />
+              <Input
+                type='text'
+                className='w-12'
+                
+              />
             </div>
             <div>
               <Label>Last Name</Label>
@@ -43,9 +65,9 @@ export function BillingDetails() {
           <Input type='text' />
 
           <Label>Email address</Label>
-          <Input type='text' />
+          <Input type='text' value={userDetails?.email ?? 'no-email'} />
 
-          <Label/>
+          <Label />
           <Input type='text' placeholder='Additional information' />
         </fieldset>
       </form>
