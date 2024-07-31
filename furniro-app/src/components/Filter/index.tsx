@@ -1,11 +1,7 @@
-import icone from '@assets/icons/exchange.svg';
-import filter from '@assets/icons/filter.svg';
-import grid from '@assets/icons/grid-big-round.svg';
 import { X } from '@phosphor-icons/react';
 import * as Popover from '@radix-ui/react-popover';
 
 export function Filter() {
-
   return (
     <section className='flex justify-around bg-light-peach-200 py-8'>
       <div className='inline-flex items-center gap-4'>
@@ -13,7 +9,10 @@ export function Filter() {
           <Popover.Root>
             <Popover.Trigger>
               <button className='inline-flex gap-2'>
-                <img src={filter} alt='Filtrar Produto' />
+                <img
+                  src='https://furnirobucket.s3.us-east-2.amazonaws.com/images/assets/icons/filter.svg'
+                  alt='Filtrar Produto'
+                />
                 Filter
               </button>
             </Popover.Trigger>
@@ -91,17 +90,23 @@ export function Filter() {
         </div>
         <div>
           <button>
-            <img src={grid} alt='Filtro' />
+            <img
+              src='https://furnirobucket.s3.us-east-2.amazonaws.com/images/assets/icons/grid-big-round.svg'
+              alt='Filtro'
+            />
           </button>
           <button>
-            <img src={icone} alt='' />
+            <img
+              src='https://furnirobucket.s3.us-east-2.amazonaws.com/images/assets/icons/exchange.svg'
+              alt=''
+            />
           </button>
         </div>
         <div className='border-r-4 border-dark-gray-700'></div>
         Showing 1-16 of 32 results
       </div>
 
-      <div className='flex justify-center gap-4 '>
+      <div className='flex justify-center gap-4'>
         <div className='inline-flex items-center justify-center gap-2'>
           <span>Show</span>
           <input type='number' className='h-[48px] w-[48px]' placeholder='16' />

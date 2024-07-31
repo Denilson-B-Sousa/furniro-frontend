@@ -28,6 +28,8 @@ export default {
       },
 
       screens: {
+        mobile: '430px',
+
         tablet: '640px',
 
         'tablet-lg': '768px',
@@ -39,9 +41,12 @@ export default {
         desktop: '1440px',
       },
       backgroundImage: {
-        'hero-pattern': "url('../src/assets/images/banner.png')",
-        'gallery-pattern': "url('../src/assets/images/banner-furniture.png')",
-         'shop-pattern': "url('../src/assets/images/shop-banner.jpg')"
+        'hero-pattern':
+          "url('https://furnirobucket.s3.us-east-2.amazonaws.com/images/assets/banner.png')",
+        'gallery-pattern':
+          "url('https://furnirobucket.s3.us-east-2.amazonaws.com/images/assets/banner-furniture.png')",
+        'shop-pattern':
+          "url('https://furnirobucket.s3.us-east-2.amazonaws.com/images/assets/shop-banner.jpg')",
       },
 
       animation: {

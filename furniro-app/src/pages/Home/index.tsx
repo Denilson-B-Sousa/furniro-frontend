@@ -8,12 +8,12 @@ export function Home() {
    };
 
   return (
-    <>
+    <main className='max-w-[100%]'>
       <Hero />
       <Gallery />
       <Product showMoreAction={handleShowMore} />
       <CarouselSection />
       <GallerySection />
-    </>
+    </main>
   );
 }

@@ -1,8 +1,6 @@
 import '@splidejs/react-splide/css';
 import './carousel.css';
 
-import imageCarousel from '@assets/images/image-1.png';
-import imageCarousel2 from '@assets/images/image-2.png';
 import { Splide, SplideSlide } from '@splidejs/react-splide';
 
 export function Carousel() {
@@ -22,7 +20,11 @@ export function Carousel() {
       >
         <SplideSlide>
           <div className='relative'>
-            <img src={imageCarousel2} alt='Image 1' className='h-auto w-full' />
+            <img
+              src='https://furnirobucket.s3.us-east-2.amazonaws.com/images/assets/image-1.png'
+              alt='Image 1'
+              className='h-auto w-full'
+            />
             <div className='absolute bottom-5 left-5 bg-white bg-opacity-70 p-8'>
               <p className='text-dark-gray-500'>01 —— Bed Room</p>
               <h2 className='font-poppins text-3xl font-semibold text-dark-gray-800'>
@@ -32,11 +34,18 @@ export function Carousel() {
           </div>
         </SplideSlide>
         <SplideSlide>
-          <img src={imageCarousel} alt='Image 2' />
+          <img
+            src='https://furnirobucket.s3.us-east-2.amazonaws.com/images/assets/image-1.png'
+            alt='Image 2'
+          />
         </SplideSlide>
         <SplideSlide>
           <div className='relative'>
-            <img src={imageCarousel2} alt='Image 1' className='h-auto w-full' />
+            <img
+              src='https://furnirobucket.s3.us-east-2.amazonaws.com/images/assets/image-2.png'
+              alt='Image 1'
+              className='h-auto w-full'
+            />
             <div className='absolute bottom-5 left-5 bg-white bg-opacity-70 p-8'>
               <p className='text-dark-gray-500'>01 —— Bed Room</p>
               <h2 className='font-poppins text-3xl font-semibold text-dark-gray-800'>
@@ -46,11 +55,18 @@ export function Carousel() {
           </div>
         </SplideSlide>
         <SplideSlide>
-          <img src={imageCarousel} alt='Image 2' />
+          <img
+            src='https://furnirobucket.s3.us-east-2.amazonaws.com/images/assets/image-2.png'
+            alt='Image 2'
+          />
         </SplideSlide>
         <SplideSlide>
           <div className='relative'>
-            <img src={imageCarousel2} alt='Image 1' className='h-auto w-full' />
+            <img
+              src='https://furnirobucket.s3.us-east-2.amazonaws.com/images/assets/image-2.png'
+              alt='Image 1'
+              className='h-auto w-full'
+            />
             <div className='absolute bottom-5 left-5 bg-white bg-opacity-70 p-8'>
               <p className='text-dark-gray-500'>01 —— Bed Room</p>
               <h2 className='font-poppins text-3xl font-semibold text-dark-gray-800'>
@@ -60,11 +76,18 @@ export function Carousel() {
           </div>
         </SplideSlide>
         <SplideSlide>
-          <img src={imageCarousel} alt='Image 2' />
+          <img
+            src='https://furnirobucket.s3.us-east-2.amazonaws.com/images/assets/image-2.png'
+            alt='Image 2'
+          />
         </SplideSlide>
         <SplideSlide>
           <div className='relative'>
-            <img src={imageCarousel2} alt='Image 1' className='h-auto w-full' />
+            <img
+              src='https://furnirobucket.s3.us-east-2.amazonaws.com/images/assets/image-2.png'
+              alt='Image 1'
+              className='h-auto w-full'
+            />
             <div className='absolute bottom-5 left-5 bg-white bg-opacity-70 p-8'>
               <p className='text-dark-gray-500'>01 —— Bed Room</p>
               <h2 className='font-poppins text-3xl font-semibold text-dark-gray-800'>
@@ -74,7 +97,10 @@ export function Carousel() {
           </div>
         </SplideSlide>
         <SplideSlide>
-          <img src={imageCarousel} alt='Image 2' />
+          <img
+            src='https://furnirobucket.s3.us-east-2.amazonaws.com/images/assets/image-2.png'
+            alt='Image 2'
+          />
         </SplideSlide>
       </Splide>
     </div>

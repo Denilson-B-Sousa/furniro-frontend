@@ -1,29 +1,29 @@
-import cup from '../../assets/brand/cup.svg';
-import protection from '../../assets/brand/customer-support.svg';
-import support from '../../assets/brand/guarantee.svg';
-import shipping from '../../assets/brand/shipping.svg';
 
 export function Brand() {
   const BrandContent = [
     {
       title: 'High Quality',
       description: 'crafted from top materials',
-      imageUrl:  cup,
+      imageUrl:
+        'https://furnirobucket.s3.us-east-2.amazonaws.com/images/assets/brand/cup.svg',
     },
     {
       title: 'Warranty Protection',
       description: 'Over 2 years',
-      imageUrl:  protection ,
+      imageUrl:
+        'https://furnirobucket.s3.us-east-2.amazonaws.com/images/assets/brand/customer-support.svg',
     },
     {
       title: 'Free Shipping',
       description: 'Order over 150 $',
-      imageUrl:  shipping ,
+      imageUrl:
+        'https://furnirobucket.s3.us-east-2.amazonaws.com/images/assets/brand/shipping.svg',
     },
     {
       title: '24 / 7 Support',
       description: 'Dedicated support',
-      imageUrl:  support ,
+      imageUrl:
+        'https://furnirobucket.s3.us-east-2.amazonaws.com/images/assets/brand/guarantee.svg',
     },
   ];
 

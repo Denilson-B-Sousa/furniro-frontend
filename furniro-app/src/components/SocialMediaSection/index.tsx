@@ -1,16 +1,12 @@
-import facebook from '@assets/footer/facebook.svg';
-import instagram from '@assets/footer/instagram.svg';
-import linkedin from '@assets/footer/linkedin.svg';
-import twitter from '@assets/footer/twitter.svg';
 
 export function SocialMediaSection() {
   return (
-    <ul className='flex justify-center laptop:justify-start laptop:px-6'>
+    <ul className='tablet-px-0 flex justify-center tablet:justify-start laptop:px-6'>
       <li>
         <a href='#'>
           <img
-            src={facebook}
-            alt='Fundo branco com a letra F representando a logo da rede social Facebook'
+            src='https://furnirobucket.s3.us-east-2.amazonaws.com/images/assets/footer/facebook.svg'
+            alt='Link rede social Facebook'
           />
         </a>
       </li>
@@ -18,21 +14,27 @@ export function SocialMediaSection() {
       <li>
         <a href='#'>
           <img
-            src={instagram}
-            alt='Fundo branco com uma camera representando a logo da rede social Instagram'
+            src='https://furnirobucket.s3.us-east-2.amazonaws.com/images/assets/footer/twitter.svg'
+            alt='Link rede social instagram'
           />
         </a>
       </li>
 
       <li>
         <a href='#'>
-          <img src={twitter} alt='fundo' />
+          <img
+            src='https://furnirobucket.s3.us-east-2.amazonaws.com/images/assets/footer/instagram.svg'
+            alt='Link rede social twitter'
+          />
         </a>
       </li>
 
       <li>
         <a href='#'>
-          <img src={linkedin} alt='' />
+          <img
+            src='https://furnirobucket.s3.us-east-2.amazonaws.com/images/assets/footer/linkedin.svg'
+            alt='Link rede social linkedin'
+          />
         </a>
       </li>
     </ul>
