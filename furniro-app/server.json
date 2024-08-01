@@ -55,7 +55,7 @@
       },
       "colors": [
         {
-          "name": "Branco",
+          "name": "white",
           "hex": "#ffffff"
         }
       ],
@@ -91,7 +91,7 @@
       },
       "colors": [
         {
-          "name": "Carvalho e Verde Menta",
+          "name": "green",
           "hex": "#7A8A72"
         }
       ],
@@ -126,7 +126,7 @@
       },
       "colors": [
         {
-          "name": "Fenddi Naturale",
+          "name": "yellow",
           "hex": "#D6D6D6"
         }
       ],
@@ -163,7 +163,7 @@
       },
       "colors": [
         {
-          "name": "Off White",
+          "name": "white",
           "hex": "#F5F5F5"
         },
         {
@@ -203,7 +203,7 @@
       },
       "colors": [
         {
-          "name": "Preto",
+          "name": "black",
           "hex": "#000000"
         },
         {
@@ -243,11 +243,11 @@
       },
       "colors": [
         {
-          "name": "Branco",
+          "name": "white",
           "hex": "#FFFFFF"
         },
         {
-          "name": "Preto",
+          "name": "black",
           "hex": "#000000"
         }
       ],
@@ -282,7 +282,7 @@
       },
       "colors": [
         {
-          "name": "Branco",
+          "name": "white",
           "hex": "#FFFFFF"
         }
       ],
@@ -317,7 +317,7 @@
       },
       "colors": [
         {
-          "name": "Branco",
+          "name": "white",
           "hex": "#FFFFFF"
         }
       ],
@@ -352,7 +352,7 @@
       },
       "colors": [
         {
-          "name": "Branco",
+          "name": "white",
           "hex": "#FFFFFF"
         }
       ],
@@ -389,7 +389,7 @@
       },
       "colors": [
         {
-          "name": "Azul",
+          "name": "blue",
           "hex": "#0000FF"
         }
       ],
@@ -424,7 +424,7 @@
       },
       "colors": [
         {
-          "name": "Cinza",
+          "name": "dark-gray",
           "hex": "#808080"
         }
       ],
@@ -460,7 +460,7 @@
       },
       "colors": [
         {
-          "name": "Cinza",
+          "name": "dark-gray",
           "hex": "#808080"
         }
       ],
@@ -495,7 +495,7 @@
       },
       "colors": [
         {
-          "name": "Amarelo",
+          "name": "yellow",
           "hex": "#FFFF00"
         }
       ],
@@ -530,7 +530,7 @@
       },
       "colors": [
         {
-          "name": "Verde",
+          "name": "green",
           "hex": "#008000"
         }
       ],
@@ -546,44 +546,9 @@
         }
       ]
     },
+    
     {
       "id": 16,
-      "title": "Sofá 2 Lugares Casal Barcelona Preto",
-      "image": "https://static.mobly.com.br/p/Keva-SofC3A1-2-Lugares-Casal-Barcelona-Preto-4533-927302-1.jpg",
-      "shortDescription": "O Sofá Barcelona Preto é a escolha ideal para um toque de sofisticação e elegância na sua sala",
-      "description": "O Sofá Barcelona Preto é a escolha ideal para um toque de sofisticação e elegância na sua sala. Com seu design moderno e estofado confortável, ele é perfeito para criar um ambiente acolhedor e estiloso. Seu acabamento preto combina facilmente com diversos estilos de decoração, trazendo um ar sofisticado ao seu espaço. Ideal para momentos de relaxamento ou para receber visitas com conforto.",
-      "price": 1499.99,
-      "salesPrice": 999.99,
-      "size": ["M"],
-      "images": {
-        "mainImage": "https://static.mobly.com.br/p/Keva-SofC3A1-2-Lugares-Casal-Barcelona-Preto-4533-927302-1.jpg",
-        "gallery": [
-          "https://static.mobly.com.br/p/Keva-SofC3A1-2-Lugares-Casal-Barcelona-Preto-4533-927302-2.jpg",
-          "https://static.mobly.com.br/p/Keva-SofC3A1-2-Lugares-Casal-Barcelona-Preto-4533-927302-3.jpg",
-          "https://static.mobly.com.br/p/Keva-SofC3A1-2-Lugares-Casal-Barcelona-Preto-4533-927302-4.jpg"
-        ]
-      },
-      "colors": [
-        {
-          "name": "Preto",
-          "hex": "#000000"
-        }
-      ],
-      "rating": 4.8,
-      "sku": "4533",
-      "category": "Sofás",
-      "tags": ["Sofá", "Sala", "Preto"],
-      "share": [
-        {
-          "facebookUrl": "#",
-          "linkedinUrl": "#",
-          "twitterUrl": "#"
-        }
-      ]
-    },
-
-    {
-      "id": 17,
       "title": "Sofá 3 Lugares Belgrado com Chaise Direito Linho Cinza 230 cm",
       "image": "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/Mobly-SofC3A1-3-Lugares-Belgrado-com-Chaise-Direito-Linho-Cinza-230-cm-0955-758318-1.jpg",
       "shortDescription": "Recepcionar com aconchego e bom gosto.",
@@ -601,7 +566,7 @@
       },
       "colors": [
         {
-          "name": "Cinza",
+          "name": "dark-gray",
           "hex": "#808080"
         }
       ],
@@ -618,7 +583,7 @@
       ]
     },
     {
-      "id": 18,
+      "id": 17,
       "title": "Sofá Retrátil e Reclinável 3 Lugares Blenda II Suede Grafite",
       "image": "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/Mobly-SofC3A1-RetrC3A1til-e-ReclinC3A1vel-3-Lugares-Blenda-II-Suede-Grafite-2794-966646-1.jpg",
       "shortDescription": "Para promover aconchego e bem-estar aos seus cantinhos preferidos.",
@@ -636,7 +601,7 @@
       },
       "colors": [
         {
-          "name": "Cinza",
+          "name": "dark-gray",
           "hex": "#808080"
         }
       ],
@@ -653,7 +618,7 @@
       ]
     },
     {
-      "id": 19,
+      "id": 18,
       "title": "Sofá 3 Lugares Retrátil Berna Linho Grafite 180 cm",
       "image": "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/Mobly-SofC3A1-3-Lugares-RetrC3A1til-Berna-Linho-Grafite-180-cm-5086-465248-1.jpg",
       "shortDescription": "Seja para receber visitas ou esticar as pernas durante os períodos de descanso, ele será indispensável na sua rotina :)",
@@ -672,7 +637,7 @@
       },
       "colors": [
         {
-          "name": "Grafite",
+          "name": "dark-gray",
           "hex": "#4F4F4F"
         }
       ],
@@ -689,7 +654,7 @@
       ]
     },
     {
-      "id": 21,
+      "id": 19,
       "title": "Mesa de Jantar Retangular Macaúba Madeira Maciça Amêndoa 160 cm",
       "image": "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/Keva-Mesa-de-Jantar-Retangular-MacaC3BAba-Madeira-MaciC3A7a-AmC3AAndoa-160-cm-9360-2432211-1.jpg",
       "shortDescription": "Inspirada na beleza e imponência da frutífera palmeira, a Mesa de Jantar Macaúba será a protagonista em sua decoração!",
@@ -707,7 +672,7 @@
       },
       "colors": [
         {
-          "name": "Amêndoa",
+          "name": "yellow",
           "hex": "#D2B48C"
         }
       ],

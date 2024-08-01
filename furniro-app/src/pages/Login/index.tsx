@@ -1,4 +1,4 @@
-import logo from '@assets/images/logo.png';
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import { Button } from '@components/Button';
 import { Input } from '@components/Input';
 import { zodResolver } from '@hookform/resolvers/zod';
@@ -31,7 +31,7 @@ export function Login() {
       setTimeout(() => {
         navigate('/');
       }, 2500)
-    } catch (error) {
+    } catch (error : any) {
       toast.error(`${error.message}`);
     }
   }
@@ -78,7 +78,12 @@ export function Login() {
       <Toaster position='top-center' richColors />
 
       <NavLink to={'/'} className={'hidden items-center px-8 py-4 laptop:flex'}>
-        <img src={logo} alt='Furniro Logo' width={96} height={96} />
+        <img
+          src='https://furnirobucket.s3.us-east-2.amazonaws.com/images/assets/logo.png'
+          alt='Furniro Logo'
+          width={96}
+          height={96}
+        />
         <h1 className='font-poppins text-2xl font-bold laptop:text-4xl'>
           Furniro
         </h1>

@@ -1,26 +1,73 @@
-import { Button } from '@components/Button';
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import { CardProduct } from '@components/CardProduct';
 import { Spinner } from '@phosphor-icons/react';
 import { useProductData } from 'hooks/product/useProductData';
-import { useState } from 'react';
-import { NavLink } from 'react-router-dom';
+import { Dispatch, SetStateAction, useEffect, useRef, useState } from 'react';
 
 interface ProductProps {
-  showMoreAction?: () => void;
+  nameFilter?: string;
+  priceFilter?: string;
+  colorFilter?: string;
+  setVisibleProductCount?: Dispatch<SetStateAction<number>> | any;
+  categoryFilter?: string;
+
 }
 
-export function Product({ showMoreAction }: ProductProps) {
+export function Product({ nameFilter, priceFilter, colorFilter, setVisibleProductCount, categoryFilter }: ProductProps) {
   const { data, isLoading } = useProductData();
-  const [visibleCount, setVisibleCount] = useState(8);
+  const [visibleCount, setVisibleCount] = useState<number>(8);
+  const [filteredData, setFilteredData] = useState<any[]>([]);
 
-  const handleShowMore = () => {
-    console.log('Show More button clicked');
-    if (showMoreAction) {
-      showMoreAction();
-    } else {
-      setVisibleCount((prevCount) => prevCount + 8);
+  useEffect(() => {
+    if(data) {
+      let filtered = data;
+
+      if(nameFilter) {
+        filtered = filtered.filter((product: any) => 
+          product.title.toLowerCase().includes(nameFilter.toLowerCase())
+        );
+      }
+
+      if(priceFilter) {
+        filtered = filtered.filter(
+          (product: any) => product.price <= parseFloat(priceFilter)
+        );
+      }
+
+
+      if (colorFilter) {
+        filtered = filtered.filter((product: any) =>
+          product.colors && product.colors.some((color: any) => color.name === colorFilter)
+        )
+      }
+
+       if (categoryFilter) {
+        filtered = filtered.filter((product: any) =>
+          product.category.toLowerCase() === categoryFilter.toLowerCase()
+        );
+      }
+
+      setFilteredData(filtered);
     }
-  };
+  }, [data, nameFilter, priceFilter, colorFilter, categoryFilter])
+
+  useEffect(() => {
+    if (setVisibleProductCount) {
+      setVisibleCount(visibleCount);
+    }
+  }, [visibleCount, setVisibleCount, setVisibleProductCount])
+
+
+
+  const productContainerRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    if (productContainerRef.current) {
+      const productCount = productContainerRef.current.childElementCount;
+      setVisibleCount(productCount);
+    }
+  }, [data]);
+
 
   return (
     <section>
@@ -37,37 +84,25 @@ export function Product({ showMoreAction }: ProductProps) {
         </div>
       ) : (
         <>
-          <div className='m-auto grid w-[77rem] grid-cols-1 gap-x-8 gap-y-12 pl-44 laptop:grid-cols-4 laptop:pl-0'>
-            {data
-              ?.slice(0, visibleCount)
-              .map((product) => (
-                <CardProduct
-                  key={product.id}
-                  id={product.id.toString()}
-                  title={product.title}
-                  shortDescription={product.shortDescription}
-                  price={product.price}
-                  salesPrice={product.salesPrice}
-                  imageUrl={product.image}
-                />
-              ))}
-          </div>
-
-          <div className='m-auto w-56 py-6'>
-            {showMoreAction ? (
-              <NavLink to='/shop' className='block w-full'>
-                <Button variant='outlined' size='xl'>
-                  Show More
-                </Button>
-              </NavLink>
-            ) : (
-              <Button variant='outlined' size='xl' onClick={handleShowMore}>
-                Show More
-              </Button>
-            )}
+          <div
+            className='m-auto grid w-[77rem] grid-cols-1 gap-x-8 gap-y-12 pl-44 laptop:grid-cols-4 laptop:pl-0'
+          >
+            {filteredData.slice(0, visibleCount).map((product) => (
+              <CardProduct
+                key={product.id}
+                id={product.id.toString()}
+                title={product.title}
+                shortDescription={product.shortDescription}
+                price={product.price}
+                salesPrice={product.salesPrice}
+                imageUrl={product.image}
+              />
+            ))}
           </div>
         </>
       )}
+
+
     </section>
   );
 }
