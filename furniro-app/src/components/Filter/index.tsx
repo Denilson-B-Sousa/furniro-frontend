@@ -56,11 +56,11 @@ export function Filter({
   const { data } = useProductData();
   
   return (
-    <section className='flex justify-around bg-light-peach-200 py-8'>
+    <section className='flex flex-wrap mobile:justify-center mobile:gap-y-8 tablet:justify-around bg-light-peach-200 py-8 z-50'>
       <div className='inline-flex items-center gap-4'>
         <div>
-          <Popover.Root>
-            <Popover.Trigger className='z-50'>
+          <Popover.Root >
+            <Popover.Trigger >
               <button className='inline-flex items-end gap-2'>
                 <img
                   src='https://furnirobucket.s3.us-east-2.amazonaws.com/images/assets/icons/filter.svg'

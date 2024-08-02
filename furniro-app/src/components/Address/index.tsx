@@ -1,8 +1,11 @@
 
 export function Address() {
   return (
-    <address className="flex justify-center w-[20rem] m-auto text-center  tablet:text-left tablet:justify-start">
-      <p className="font-poppins text-dark-gray-300 font-normal">400 University Drive Suite 200 Coral<br/> Gables, FL 33134 USA</p>
+    <address className='flex justify-center tablet:w-[16rem] tablet-lg:w-[18rem] laptop:px-10 laptop:w-[24rem] text-center tablet:justify-start tablet:text-left'>
+      <p className='font-poppins font-normal text-dark-gray-300'>
+        400 University Drive Suite 200 Coral Gables,
+        <br /> FL 33134 USA
+      </p>
     </address>
   );
 }

@@ -11,7 +11,7 @@ export function Footer() {
     <footer>
       <div className='m-auto w-[100%] border-b-2 border-dark-gray-800/20'></div>
 
-      <div className='container grid w-[26.875rem] max-w-[26.875rem] grid-cols-1 items-center py-12 tablet:w-[40rem] tablet:max-w-[40rem] tablet:grid-cols-2 tablet:gap-12 tablet-lg:w-[48rem] tablet-lg:max-w-[48rem] tablet-lg:px-[3.25rem] laptop:w-[64rem] laptop:max-w-[64rem] laptop:grid-cols-2 laptop-lg:w-[80rem] laptop-lg:max-w-[80rem] laptop-lg:grid-cols-3 desktop:w-[90rem] desktop:max-w-[90rem]'>
+      <div className='container grid w-[26.875rem] max-w-[26.875rem] grid-cols-1 items-center py-12 tablet:w-[40rem] tablet:max-w-[40rem] tablet:px-6 tablet:grid-cols-2 tablet:gap-12 tablet-lg:w-[48rem] tablet-lg:max-w-[48rem] tablet-lg:px-[3.25rem] laptop:w-[64rem] laptop:max-w-[64rem] laptop:grid-cols-2 laptop-lg:w-[80rem] laptop-lg:max-w-[80rem] laptop-lg:grid-cols-3 desktop:w-[90rem] desktop:max-w-[90rem]'>
         <div className='flex flex-col gap-8'>
           <h2 className='text-center font-poppins text-[1.5rem] font-bold text-black tablet:text-left laptop:px-10'>
             Furniro.
@@ -23,7 +23,7 @@ export function Footer() {
           <NavSection title='Links' links={link} />
           <NavSection title='Help' links={help} />
         </nav>
-        <div className='flex flex-wrap py-8 mobile:m-auto mobile:w-[70%] tablet:w-[90%]'>
+        <div className='mobile:m-auto mobile:w-[70%] mobile:pt-10 tablet:w-[90%]'>
           <h3 className='font-poppins font-medium text-dark-gray-300'>
             Newsletter
           </h3>

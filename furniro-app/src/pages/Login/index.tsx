@@ -89,7 +89,7 @@ export function Login() {
         </h1>
       </NavLink>
 
-      <div className='absolute left-1/2 top-1/2 z-10 -translate-x-1/2 -translate-y-1/2 transform'>
+      <div className='absolute left-1/2 top-1/2 z-10 -translate-x-1/2 -translate-y-1/2 transform py-12 mobile:pt-24'>
         <div className='flex flex-col gap-4 py-8'>
           <h1 className='text-center font-poppins text-4xl font-semibold uppercase'>
             Login

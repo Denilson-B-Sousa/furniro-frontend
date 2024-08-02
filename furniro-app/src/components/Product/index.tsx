@@ -84,9 +84,7 @@ export function Product({ nameFilter, priceFilter, colorFilter, setVisibleProduc
         </div>
       ) : (
         <>
-          <div
-            className='m-auto grid w-[77rem] grid-cols-1 gap-x-8 gap-y-12 pl-44 laptop:grid-cols-4 laptop:pl-0'
-          >
+          <div className='m-auto grid grid-cols-1 justify-items-center gap-y-12 tablet-lg:max-w-2xl tablet-lg:grid-cols-2 tablet-lg:gap-y-8 laptop:grid-cols-3 laptop:max-w-[62rem] desktop:max-w-7xl   desktop:grid-cols-4 desktop:gap-y-10'>
             {filteredData.slice(0, visibleCount).map((product) => (
               <CardProduct
                 key={product.id}
@@ -101,8 +99,6 @@ export function Product({ nameFilter, priceFilter, colorFilter, setVisibleProduc
           </div>
         </>
       )}
-
-
     </section>
   );
 }

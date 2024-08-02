@@ -5,7 +5,7 @@ import { NavLink } from "react-router-dom";
 export function Navbar() {
   return (
     <nav>
-      <ul className='lg:flex gap-[4.75rem] hidden'>
+      <ul className='lg:flex gap-[4.75rem] hidden font-poppins font-medium text-[16px]'>
         <li>
           <NavLink to={"/"}>Home</NavLink>
         </li>

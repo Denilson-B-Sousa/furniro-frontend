@@ -22,13 +22,15 @@ export function Shop() {
         setCategoryFilter={setCategoryFilter}
         visibleProductCount={visibleProductCount}
       />
-      <Product
-        nameFilter={nameFilter}
-        priceFilter={priceFilter}
-        colorFilter={colorFilter}
-        categoryFilter={categoryFilter}
-        setVisibleProductCount={setVisibleProductCount}
-      />
+      <div className='py-12'>
+        <Product
+          nameFilter={nameFilter}
+          priceFilter={priceFilter}
+          colorFilter={colorFilter}
+          categoryFilter={categoryFilter}
+          setVisibleProductCount={setVisibleProductCount}
+        />
+      </div>
       <Brand />
     </main>
   );
