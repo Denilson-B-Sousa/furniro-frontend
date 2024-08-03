@@ -1,16 +1,27 @@
 import { CarouselSection } from '@components/CarouselSection';
 import { GallerySection } from '@components/GallerySection';
 import { Button, Gallery, Hero, Product } from '@components/index';
-import { NavLink } from 'react-router-dom';
+import { NavLink, useNavigate } from 'react-router-dom';
 
 export function Home() {
+
+    const navigate = useNavigate();
+
+
+   const handleClick = (
+     event: React.MouseEvent<HTMLAnchorElement, MouseEvent>,
+   ) => {
+     event.preventDefault();
+     window.scrollTo(0, 0); // Isso rola a janela para o topo
+     navigate('/shop');
+   };
    
   return (
     <main className='max-w-[100%]'>
       <Hero />
       <Gallery />
-      <Product/>
-      <NavLink to='shop' className='flex justify-center py-12'>
+      <Product title='Our Products'/>
+      <NavLink to='shop' className='flex justify-center py-12' onClick={handleClick}>
         <Button variant='outlined' size='xl'>
           Show More
         </Button>

@@ -10,10 +10,11 @@ interface ProductProps {
   colorFilter?: string;
   setVisibleProductCount?: Dispatch<SetStateAction<number>> | any;
   categoryFilter?: string;
+  title: string;
 
 }
 
-export function Product({ nameFilter, priceFilter, colorFilter, setVisibleProductCount, categoryFilter }: ProductProps) {
+export function Product({ nameFilter, priceFilter, colorFilter, setVisibleProductCount, categoryFilter, title }: ProductProps) {
   const { data, isLoading } = useProductData();
   const [visibleCount, setVisibleCount] = useState<number>(8);
   const [filteredData, setFilteredData] = useState<any[]>([]);
@@ -72,7 +73,7 @@ export function Product({ nameFilter, priceFilter, colorFilter, setVisibleProduc
   return (
     <section>
       <h2 className='py-8 text-center font-poppins text-3xl font-bold text-dark-gray-800'>
-        Our Products
+        {title}
       </h2>
       {isLoading ? (
         <div className='flex h-40 items-center justify-center'>
@@ -90,10 +91,18 @@ export function Product({ nameFilter, priceFilter, colorFilter, setVisibleProduc
                 key={product.id}
                 id={product.id.toString()}
                 title={product.title}
-                shortDescription={product.shortDescription}
+                description={product.shortDescription}
                 price={product.price}
                 salesPrice={product.salesPrice}
                 imageUrl={product.image}
+                images={product.images}
+                quantity={product.quantity}
+                category={product.category}
+                colors={product.colors}
+                rating={product.rating}
+                size={product.size}
+                sku={product.sku}
+                tags={product.tags}
               />
             ))}
           </div>

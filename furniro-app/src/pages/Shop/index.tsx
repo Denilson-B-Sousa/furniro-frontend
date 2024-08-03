@@ -29,6 +29,7 @@ export function Shop() {
           colorFilter={colorFilter}
           categoryFilter={categoryFilter}
           setVisibleProductCount={setVisibleProductCount}
+          title=''
         />
       </div>
       <Brand />

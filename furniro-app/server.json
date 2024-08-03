@@ -2,20 +2,25 @@
   "products": [
     {
       "id": 1,
-      "title": "Rack Fortaleza Freijó 218 cm",
-      "image": "https://static.mobly.com.br/p/Modern-Rack-Fortaleza-FreijC3B3-218-cm-6075-3030911-1.jpg",
-      "shortDescription": "Com formato retilíneo e inspirado no design contemporâneo, o Rack Fortaleza é uma ótima escolha para você decorar com estilo e praticidade a sala de estar",
-      "description": "Com formato retilíneo e inspirado no design contemporâneo, o Rack Fortaleza é uma ótima escolha para você decorar com estilo e praticidade a sala de estar, o home cinema ou o quarto. Amplo, ele acomoda sua TV de até 75 polegadas, além de receber livros, adornos, aparelhos eletrônicos e outros objetos do dia a dia - isso graças aos nichos decorativos e ao espaço interno. Já o acabamento amadeirado deixa a decoração elegante e sofisticada. Perfeito, não é?",
-      "price": 1.729,
-      "salesPrice": 890.92,
-      "size": ["G", "M"],
+      "title": "Sofa Tango",
+      "image": "./src/assets/images/leviosa.png",
+      "shortDescription": "Luxury big sofa",
+      "description": "Setting the bar as one of the loudest speakers in its class, the Kilburn is a compact, stout-hearted hero with a well-balanced audio which boasts a clear midrange and extended highs for a sound.",
+      "price": 70000,
+      "salesPrice": 3500000,
+      "size": [
+        "L",
+        "XL",
+        "XS"
+      ],
+
       "images": {
         "mainImage": "https://static.mobly.com.br/p/Modern-Rack-Fortaleza-FreijC3B3-218-cm-6075-3030911-1.jpg",
         "gallery": [
-          "https://static.mobly.com.br/p/Modern-Rack-Fortaleza-FreijC3B3-218-cm-6076-3030911-2.jpg",
-          "https://static.mobly.com.br/p/Modern-Rack-Fortaleza-FreijC3B3-218-cm-6077-3030911-3.jpg",
-          "https://static.mobly.com.br/p/Modern-Rack-Fortaleza-FreijC3B3-218-cm-6077-3030911-4.jpg",
-          "https://static.mobly.com.br/p/Modern-Rack-Fortaleza-FreijC3B3-218-cm-6077-3030911-5.jpg"
+          "https://static.mobly.com.br/p/NETSOFAS-SofC3A1-Tango-22C00m-sem-caixa2C-RetrC3A1til-e-ReclinC3A1vel-Velosuede-Bege---NETSOFAS-5239-230539-1.jpg",
+          "https://static.mobly.com.br/p/NETSOFAS-SofC3A1-Tango-22C00m-sem-caixa2C-RetrC3A1til-e-ReclinC3A1vel-Velosuede-Bege---NETSOFAS-5241-230539-5.jpg",
+          "https://static.mobly.com.br/p/NETSOFAS-SofC3A1-Tango-22C00m-sem-caixa2C-RetrC3A1til-e-ReclinC3A1vel-Velosuede-Bege---NETSOFAS-5242-230539-7.jpg",
+          "https://static.mobly.com.br/p/NETSOFAS-SofC3A1-Tango-22C00m-sem-caixa2C-RetrC3A1til-e-ReclinC3A1vel-Velosuede-Bege---NETSOFAS-5243-230539-8.jpg"
         ]
       },
       "colors": [
@@ -143,6 +148,87 @@
       ]
     },
 
+      {
+        "id": 5,
+        "title": "Sofa MUY",
+        "image": "./src/assets/images/leviosa.png",
+        "shortDescription": "Luxury big sofa",
+        "description": "Setting the bar as one of the loudest speakers in its class, the Kilburn is a compact, stout-hearted hero with a well-balanced audio which boasts a clear midrange and extended highs for a sound.",
+        "price": 7000000,
+        "salesPrice": 3500000,
+        "size": ["L", "XL", "XS"],
+
+        "images": {
+          "mainImage": "https://tokstok.vteximg.com.br/arquivos/ids/25210556-624-auto/sofa-3-lugares-cinza-claro-mescla-muy_st0.jpg?v=638119422551570000&width=624&height=auto&aspect=true",
+          "thumbnail": [
+            "https://tokstok.vteximg.com.br/arquivos/ids/25210485-624-auto/sofa-3-lugares-cinza-claro-mescla-muy_st4.jpg?v=638119422318570000&width=624&height=auto&aspect=true",
+            "https://tokstok.vteximg.com.br/arquivos/ids/25210512-624-auto/sofa-3-lugares-cinza-claro-mescla-muy_st2.jpg?v=638119422399370000&width=624&height=auto&aspect=true",
+            "https://tokstok.vteximg.com.br/arquivos/ids/25210519-624-auto/sofa-3-lugares-cinza-claro-mescla-muy_st3.jpg?v=638119422417500000&width=624&height=auto&aspect=true",
+            "https://tokstok.vteximg.com.br/arquivos/ids/25210532-624-auto/sofa-3-lugares-cinza-claro-mescla-muy_st5.jpg?v=638119422492900000&width=624&height=auto&aspect=true"
+          ]
+        },
+
+        "colors": [
+          {
+            "name": "white",
+            "hex": "#fff"
+          }
+        ],
+
+        "rating": 5,
+        "sku": "SS001",
+        "category": "Sofas",
+        "tags": ["Sofa", "Chair", "Home", "Shop"],
+
+        "share": [
+          {
+            "facebookUrl": "#",
+            "linkedinUrl": "#",
+            "twitterUrl": "#"
+          }
+        ]
+      },
+
+      {
+        "id": 6,
+        "title": "Sofa MUY",
+        "image": "./src/assets/images/leviosa.png",
+        "shortDescription": "Luxury big sofa",
+        "description": "Setting the bar as one of the loudest speakers in its class, the Kilburn is a compact, stout-hearted hero with a well-balanced audio which boasts a clear midrange and extended highs for a sound.",
+        "price": 7000000,
+        "salesPrice": 3500000,
+        "size": ["L", "XL", "XS"],
+
+        "images": {
+          "mainImage": "https://tokstok.vteximg.com.br/arquivos/ids/25210556-624-auto/sofa-3-lugares-cinza-claro-mescla-muy_st0.jpg?v=638119422551570000&width=624&height=auto&aspect=true",
+          "thumbnail": [
+            "https://tokstok.vteximg.com.br/arquivos/ids/25210485-624-auto/sofa-3-lugares-cinza-claro-mescla-muy_st4.jpg?v=638119422318570000&width=624&height=auto&aspect=true",
+            "https://tokstok.vteximg.com.br/arquivos/ids/25210512-624-auto/sofa-3-lugares-cinza-claro-mescla-muy_st2.jpg?v=638119422399370000&width=624&height=auto&aspect=true",
+            "https://tokstok.vteximg.com.br/arquivos/ids/25210519-624-auto/sofa-3-lugares-cinza-claro-mescla-muy_st3.jpg?v=638119422417500000&width=624&height=auto&aspect=true",
+            "https://tokstok.vteximg.com.br/arquivos/ids/25210532-624-auto/sofa-3-lugares-cinza-claro-mescla-muy_st5.jpg?v=638119422492900000&width=624&height=auto&aspect=true"
+          ]
+        },
+
+        "colors": [
+          {
+            "name": "white",
+            "hex": "#fff"
+          }
+        ],
+
+        "rating": 5,
+        "sku": "SS001",
+        "category": "Sofas",
+        "tags": ["Sofa", "Chair", "Home", "Shop"],
+
+        "share": [
+          {
+            "facebookUrl": "#",
+            "linkedinUrl": "#",
+            "twitterUrl": "#"
+          }
+        ]
+      },
     {
       "id": 5,
       "title": "Rack Classic I 2 GV Off White com Freijó Touch 218 cm",
@@ -369,326 +455,91 @@
       ]
     },
 
-    {
-      "id": 11,
-      "title": "Sofá-Cama 2 Lugares Casal Génova Azul",
-      "image": "https://static.mobly.com.br/p/Keva-SofC3A1-Cama-2-Lugares-Casal-GC3A9nova-Azul-3355-916355-2.jpg",
-      "shortDescription": "Alguma dúvida de que um móvel como o Sofá-Cama Génova é capaz de dar um novo visual para o seu ambiente?",
-      "description": "Alguma dúvida de que um móvel como o Sofá-Cama Génova é capaz de dar um novo visual para o seu ambiente? Seja na sala de estar, no escritório ou no quarto, ele se adapta muito bem às suas necessidades e ainda dá um toque charmoso para o ambiente. A estrutura aconchegante combinada com os pés palito é ótima para você se sentar, assistir à televisão, ler um livro ou espairecer no dia a dia. Mas se precisar tirar um cochilo ou se for receber visitas em casa, basta abrir os zíperes que guardam os pés para transformá-lo em uma cama. Show, né? Ah, ele ainda tem essa linda cor azul para ser o toque final da decoração.",
-      "price": 3199.99,
-      "salesPrice": 1844.98,
-      "size": ["M", "G"],
-      "images": {
-        "mainImage": "https://static.mobly.com.br/p/Keva-SofC3A1-Cama-2-Lugares-Casal-GC3A9nova-Azul-3355-916355-2.jpg",
-        "gallery": [
-          "https://static.mobly.com.br/p/Keva-SofC3A1-Cama-2-Lugares-Casal-GC3A9nova-Azul-3355-916355-1.jpg",
-          "https://static.mobly.com.br/p/Keva-SofC3A1-Cama-2-Lugares-Casal-GC3A9nova-Azul-3355-916355-3.jpg",
-          "https://static.mobly.com.br/p/Keva-SofC3A1-Cama-2-Lugares-Casal-GC3A9nova-Azul-3355-916355-4.jpg",
-          "https://static.mobly.com.br/p/Keva-SofC3A1-Cama-2-Lugares-Casal-GC3A9nova-Azul-3355-916355-5.jpg"
+      {
+        "id": 7,
+        "title": "Sofa MUY",
+        "image": "./src/assets/images/leviosa.png",
+        "shortDescription": "Luxury big sofa",
+        "description": "Setting the bar as one of the loudest speakers in its class, the Kilburn is a compact, stout-hearted hero with a well-balanced audio which boasts a clear midrange and extended highs for a sound.",
+        "price": 7000000,
+        "salesPrice": 3500000,
+        "size": ["L", "XL", "XS"],
+
+        "images": {
+          "mainImage": "https://tokstok.vteximg.com.br/arquivos/ids/25210556-624-auto/sofa-3-lugares-cinza-claro-mescla-muy_st0.jpg?v=638119422551570000&width=624&height=auto&aspect=true",
+          "thumbnail": [
+            "https://tokstok.vteximg.com.br/arquivos/ids/25210485-624-auto/sofa-3-lugares-cinza-claro-mescla-muy_st4.jpg?v=638119422318570000&width=624&height=auto&aspect=true",
+            "https://tokstok.vteximg.com.br/arquivos/ids/25210512-624-auto/sofa-3-lugares-cinza-claro-mescla-muy_st2.jpg?v=638119422399370000&width=624&height=auto&aspect=true",
+            "https://tokstok.vteximg.com.br/arquivos/ids/25210519-624-auto/sofa-3-lugares-cinza-claro-mescla-muy_st3.jpg?v=638119422417500000&width=624&height=auto&aspect=true",
+            "https://tokstok.vteximg.com.br/arquivos/ids/25210532-624-auto/sofa-3-lugares-cinza-claro-mescla-muy_st5.jpg?v=638119422492900000&width=624&height=auto&aspect=true"
+          ]
+        },
+
+        "colors": [
+          {
+            "name": "white",
+            "hex": "#fff"
+          }
+        ],
+
+        "rating": 5,
+        "sku": "SS001",
+        "category": "Sofas",
+        "tags": ["Sofa", "Chair", "Home", "Shop"],
+
+        "share": [
+          {
+            "facebookUrl": "#",
+            "linkedinUrl": "#",
+            "twitterUrl": "#"
+          }
         ]
       },
-      "colors": [
-        {
-          "name": "blue",
-          "hex": "#0000FF"
-        }
-      ],
-      "rating": 4.9,
-      "sku": "531871",
-      "category": "Sofás",
-      "tags": ["Sofá-cama", "Sala", "Quarto"],
-      "share": [
-        {
-          "facebookUrl": "#",
-          "linkedinUrl": "#",
-          "twitterUrl": "#"
-        }
-      ]
-    },
-    {
-      "id": 12,
-      "title": "Sofá-Cama 3 Lugares Casal Premium Suede Cinza",
-      "image": "https://static.mobly.com.br/p/Mobly-SofC3A1-Cama-3-Lugares-Casal-Premium-Suede-Cinza-9969-770002-1.jpg",
-      "shortDescription": "O Sofá-Cama Premium vai renovar os seus dias de descanso",
-      "description": "Dono de um visual que promete levar sofisticação e aconchego para a sua casa, o Sofá-Cama Premium vai renovar os seus dias de descanso, além de ser uma peça digna de elogios em qualquer decoração. Por dentro, ele tem madeira de reflorestamento na composição, uma ótima característica para o uso diário. Já por fora, o suede faz com que todo mundo tenha vontade de ficar nele sem hora para sair, assim como aprimora os seus momentos de lazer em frente à televisão. Ah, para fechar com chave de ouro, ele se transforma rapidamente de sofá para cama para se adaptar à sua rotina e necessidades. Muitos benefícios para um lar que merece ser igualmente incrível ;)",
-      "price": 1705.99,
-      "salesPrice": 1172.66,
-      "size": ["G"],
-      "images": {
-        "mainImage": "https://static.mobly.com.br/p/Mobly-SofC3A1-Cama-3-Lugares-Casal-Premium-Suede-Cinza-9969-770002-1.jpg",
-        "gallery": [
-          "https://static.mobly.com.br/p/Mobly-SofC3A1-Cama-3-Lugares-Casal-Premium-Suede-Cinza-8175-770002-2.jpg",
-          "https://static.mobly.com.br/p/Mobly-SofC3A1-Cama-3-Lugares-Casal-Premium-Suede-Cinza-9969-770002-5.jpg",
-          "https://static.mobly.com.br/p/Mobly-SofC3A1-Cama-3-Lugares-Casal-Premium-Suede-Cinza-9969-770002-8.jpg"
+
+      {
+        "id": 8,
+        "title": "Sofa MUY",
+        "image": "./src/assets/images/leviosa.png",
+        "shortDescription": "Luxury big sofa",
+        "description": "Setting the bar as one of the loudest speakers in its class, the Kilburn is a compact, stout-hearted hero with a well-balanced audio which boasts a clear midrange and extended highs for a sound.",
+        "price": 7000000,
+        "salesPrice": 3500000,
+        "size": ["L", "XL", "XS"],
+
+        "images": {
+          "mainImage": "https://tokstok.vteximg.com.br/arquivos/ids/25210556-624-auto/sofa-3-lugares-cinza-claro-mescla-muy_st0.jpg?v=638119422551570000&width=624&height=auto&aspect=true",
+          "thumbnail": [
+            "https://tokstok.vteximg.com.br/arquivos/ids/25210485-624-auto/sofa-3-lugares-cinza-claro-mescla-muy_st4.jpg?v=638119422318570000&width=624&height=auto&aspect=true",
+            "https://tokstok.vteximg.com.br/arquivos/ids/25210512-624-auto/sofa-3-lugares-cinza-claro-mescla-muy_st2.jpg?v=638119422399370000&width=624&height=auto&aspect=true",
+            "https://tokstok.vteximg.com.br/arquivos/ids/25210519-624-auto/sofa-3-lugares-cinza-claro-mescla-muy_st3.jpg?v=638119422417500000&width=624&height=auto&aspect=true",
+            "https://tokstok.vteximg.com.br/arquivos/ids/25210532-624-auto/sofa-3-lugares-cinza-claro-mescla-muy_st5.jpg?v=638119422492900000&width=624&height=auto&aspect=true"
+          ]
+        },
+
+        "colors": [
+          {
+            "name": "white",
+            "hex": "#fff"
+          }
+        ],
+
+        "rating": 5,
+        "sku": "SS001",
+        "category": "Sofas",
+        "tags": ["Sofa", "Chair", "Home", "Shop"],
+
+        "share": [
+          {
+            "facebookUrl": "#",
+            "linkedinUrl": "#",
+            "twitterUrl": "#"
+          }
         ]
-      },
-      "colors": [
-        {
-          "name": "dark-gray",
-          "hex": "#808080"
-        }
-      ],
-      "rating": 3.2,
-      "sku": "204089",
-      "category": "Sofás",
-      "tags": ["Sofá-cama", "Sala", "Quarto"],
-      "share": [
-        {
-          "facebookUrl": "#",
-          "linkedinUrl": "#",
-          "twitterUrl": "#"
-        }
-      ]
-    },
-    {
-      "id": 13,
-      "title": "Sofá-Cama 3 Lugares Casal Córsega Cinza Escuro",
-      "image": "https://static.mobly.com.br/p/Keva-SofC3A1-Cama-3-Lugares-Casal-CC3B3rsega-Cinza-Escuro-5151-326355-1.jpg",
-      "shortDescription": "Um simples móvel como o Sofá-Cama Córsega tem a capacidade de repaginar o seu ambiente",
-      "description": "Um simples móvel como o Sofá-Cama Córsega tem a capacidade de repaginar o seu ambiente, independente de onde escolher colocá-lo. Combinando uma estrutura elegante com pés palito, ele serve tanto para aqueles momentos de lazer em frente à televisão ou lendo um livro, como também para acomodar as suas visitas que passarão à noite na sua casa. Para isso, basta abrir os zíperes que guardam os pés para transformá-lo em uma cama. Demais, né? Ah, a cor cinza e os detalhes do revestimento só acrescentam mais charme ao seu lar-style.",
-      "price": 3119.99,
-      "salesPrice": 1619.98,
-      "size": ["P", "M"],
-      "images": {
-        "mainImage": "https://static.mobly.com.br/p/Keva-SofC3A1-Cama-3-Lugares-Casal-CC3B3rsega-Cinza-Escuro-5151-326355-1.jpg",
-        "gallery": [
-          "https://static.mobly.com.br/p/Keva-SofC3A1-Cama-3-Lugares-Casal-CC3B3rsega-Cinza-Escuro-5151-326355-2.jpg",
-          "https://static.mobly.com.br/p/Keva-SofC3A1-Cama-3-Lugares-Casal-CC3B3rsega-Cinza-Escuro-5151-326355-6.jpg",
-          "https://static.mobly.com.br/p/Keva-SofC3A1-Cama-3-Lugares-Casal-CC3B3rsega-Cinza-Escuro-5151-326355-10.jpg",
-          "https://static.mobly.com.br/p/Keva-SofC3A1-Cama-3-Lugares-Casal-CC3B3rsega-Cinza-Escuro-5151-326355-5.jpg"
-        ]
-      },
-      "colors": [
-        {
-          "name": "dark-gray",
-          "hex": "#808080"
-        }
-      ],
-      "rating": 4.4,
-      "sku": "531875",
-      "category": "Sofás",
-      "tags": ["Sofá-cama", "Sala", "Quarto"],
-      "share": [
-        {
-          "facebookUrl": "#",
-          "linkedinUrl": "#",
-          "twitterUrl": "#"
-        }
-      ]
-    },
-    {
-      "id": 14,
-      "title": "Sofá-Cama 3 Lugares Casal Venice Amarelo",
-      "image": "https://static.mobly.com.br/p/Keva-SofC3A1-Cama-3-Lugares-Casal-Venice-Amarelo-1199-739396-1.jpg",
-      "shortDescription": "O Sofá-Cama Venice é também um aliado e tanto para a decoração dos cômodos!",
-      "description": "Forma prática de aumentar a receptividade do lar, o Sofá-Cama Venice é também um aliado e tanto para a decoração dos cômodos! É ideal para você que deseja contar com um móvel bonito e que combina com diversos ambientes. Seu design simples, porém cheio de estilo, e a cor amarela proporcionam uma sensação de leveza e alegria ao espaço. E quando precisar, é só abrir os zíperes para transformar o sofá em cama e acomodar seus convidados com muito conforto.",
-      "price": 3299.99,
-      "salesPrice": 2069.98,
-      "size": ["G"],
-      "images": {
-        "mainImage": "https://static.mobly.com.br/p/Keva-SofC3A1-Cama-3-Lugares-Casal-Venice-Amarelo-1199-739396-1.jpg",
-        "gallery": [
-          "https://static.mobly.com.br/p/Keva-SofC3A1-Cama-3-Lugares-Casal-Venice-Amarelo-1199-739396-2.jpg",
-          "https://static.mobly.com.br/p/Keva-SofC3A1-Cama-3-Lugares-Casal-Venice-Amarelo-1199-739396-3.jpg",
-          "https://static.mobly.com.br/p/Keva-SofC3A1-Cama-3-Lugares-Casal-Venice-Amarelo-1199-739396-4.jpg"
-        ]
-      },
-      "colors": [
-        {
-          "name": "yellow",
-          "hex": "#FFFF00"
-        }
-      ],
-      "rating": 4.6,
-      "sku": "1199",
-      "category": "Sofás",
-      "tags": ["Sofá-cama", "Sala", "Quarto"],
-      "share": [
-        {
-          "facebookUrl": "#",
-          "linkedinUrl": "#",
-          "twitterUrl": "#"
-        }
-      ]
-    },
-    {
-      "id": 15,
-      "title": "Sofá 2 Lugares Casal Riviera Verde",
-      "image": "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/Keva-SofC3A1-Cama-2-Lugares-Casal-GC3A9nova-Azul-3355-916355-1.jpg",
-      "shortDescription": "O Sofá Riviera é o que você precisa para ter momentos relaxantes no seu lar",
-      "description": "O Sofá Riviera é o que você precisa para ter momentos relaxantes no seu lar. O design moderno e a cor verde proporcionam um ambiente aconchegante e agradável para você e sua família. Com estrutura robusta e estofado confortável, é ideal para o dia a dia e para receber amigos e familiares. Seu acabamento impecável complementa a decoração e agrega valor ao ambiente.",
-      "price": 1299.99,
-      "salesPrice": 849.99,
-      "size": ["M"],
-      "images": {
-        "mainImage": "https://static.mobly.com.br/p/Keva-SofC3A1-2-Lugares-Casal-Riviera-Verde-5722-326365-1.jpg",
-        "gallery": [
-          "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/Keva-SofC3A1-Cama-2-Lugares-Casal-GC3A9nova-Azul-3355-916355-3.jpg",
-          "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/Keva-SofC3A1-Cama-2-Lugares-Casal-GC3A9nova-Azul-3355-916355-3.jpg",
-          "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/Keva-SofC3A1-Cama-2-Lugares-Casal-GC3A9nova-Azul-3355-916355-4.jpg"
-        ]
-      },
-      "colors": [
-        {
-          "name": "green",
-          "hex": "#008000"
-        }
-      ],
-      "rating": 4.2,
-      "sku": "5722",
-      "category": "Sofás",
-      "tags": ["Sofá", "Sala", "Verde"],
-      "share": [
-        {
-          "facebookUrl": "#",
-          "linkedinUrl": "#",
-          "twitterUrl": "#"
-        }
-      ]
-    },
-    
-    {
-      "id": 16,
-      "title": "Sofá 3 Lugares Belgrado com Chaise Direito Linho Cinza 230 cm",
-      "image": "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/Mobly-SofC3A1-3-Lugares-Belgrado-com-Chaise-Direito-Linho-Cinza-230-cm-0955-758318-1.jpg",
-      "shortDescription": "Recepcionar com aconchego e bom gosto.",
-      "description": "Recepcionar com aconchego e bom gosto será uma tarefa fácil com a presença do Sofá Belgrado aí na sua casa! Estruturado em madeira eucalipto de reflorestamento, ele possui percintas elásticas e molas na composição, o que garante uma peça mais firme e agradável de usar. Já por fora, o móvel é revestido em linho, material que agrega valor estético à sua decoração. Ah, não podemos deixar de comentar sobre a chaise, essa parte do sofá que tem a profundidade maior e é perfeita para os momentos de esticar as pernas e relaxar. Só benefícios para o seu doce lar, né? ;)",
-      "price": 4049.99,
-      "salesPrice": 2807.96,
-      "size": ["G"],
-      "images": {
-        "mainImage": "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/Mobly-SofC3A1-3-Lugares-Belgrado-com-Chaise-Direito-Linho-Cinza-230-cm-0955-758318-1.jpg",
-        "gallery": [
-          "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/Mobly-SofC3A1-3-Lugares-Belgrado-com-Chaise-Direito-Linho-Cinza-230-cm-0955-758318-1.jpg",
-          "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/Mobly-SofC3A1-3-Lugares-Belgrado-com-Chaise-Direito-Linho-Cinza-230-cm-7065-758318-2.jpg",
-          "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/Mobly-SofC3A1-3-Lugares-Belgrado-com-Chaise-Direito-Linho-Cinza-230-cm-0955-758318-6.jpg"
-        ]
-      },
-      "colors": [
-        {
-          "name": "dark-gray",
-          "hex": "#808080"
-        }
-      ],
-      "rating": 5,
-      "sku": "785346",
-      "category": "Sofás",
-      "tags": ["Sofá Retrátil", "Sala"],
-      "share": [
-        {
-          "facebookUrl": "#",
-          "linkedinUrl": "#",
-          "twitterUrl": "#"
-        }
-      ]
-    },
-    {
-      "id": 17,
-      "title": "Sofá Retrátil e Reclinável 3 Lugares Blenda II Suede Grafite",
-      "image": "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/Mobly-SofC3A1-RetrC3A1til-e-ReclinC3A1vel-3-Lugares-Blenda-II-Suede-Grafite-2794-966646-1.jpg",
-      "shortDescription": "Para promover aconchego e bem-estar aos seus cantinhos preferidos.",
-      "description": "Para promover aconchego e bem-estar aos seus cantinhos preferidos, conte com as almofadas que abraçam o corpo e a maciez do suede que só o Sofá Blenda pode oferecer. Graças ao design retilíneo e cor atemporal, ele é perfeito para trazer o charme que falta ao seu lar-style enquanto acomoda familiares e amigos para aquela conversa gostosa em um final de tarde ou sessão de filmes no fim de semana. Para melhorar, ele ainda tem assento retrátil, que ajuda a proporcionar um relaxamento mais pleno, e encosto reclinável que deixa aquele cochilo depois do almoço bem mais confortável.",
-      "price": 2092.99,
-      "salesPrice": 1421.96,
-      "size": ["M"],
-      "images": {
-        "mainImage": "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/Mobly-SofC3A1-RetrC3A1til-e-ReclinC3A1vel-3-Lugares-Blenda-II-Suede-Grafite-2794-966646-1.jpg",
-        "gallery": [
-          "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/Mobly-SofC3A1-RetrC3A1til-e-ReclinC3A1vel-3-Lugares-Blenda-II-Suede-Grafite-2796-966646-3.jpg",
-          "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/Mobly-SofC3A1-RetrC3A1til-e-ReclinC3A1vel-3-Lugares-Blenda-II-Suede-Grafite-2797-966646-4.jpg",
-          "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/Mobly-SofC3A1-RetrC3A1til-e-ReclinC3A1vel-3-Lugares-Blenda-II-Suede-Grafite-2800-966646-6.jpg"
-        ]
-      },
-      "colors": [
-        {
-          "name": "dark-gray",
-          "hex": "#808080"
-        }
-      ],
-      "rating": 3.9,
-      "sku": "623883",
-      "category": "Sofás",
-      "tags": ["Sofá Retrátil", "Sala"],
-      "share": [
-        {
-          "facebookUrl": "#",
-          "linkedinUrl": "#",
-          "twitterUrl": "#"
-        }
-      ]
-    },
-    {
-      "id": 18,
-      "title": "Sofá 3 Lugares Retrátil Berna Linho Grafite 180 cm",
-      "image": "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/Mobly-SofC3A1-3-Lugares-RetrC3A1til-Berna-Linho-Grafite-180-cm-5086-465248-1.jpg",
-      "shortDescription": "Seja para receber visitas ou esticar as pernas durante os períodos de descanso, ele será indispensável na sua rotina :)",
-      "description": "Momentos mais aconchegantes e uma sala de estar completa te esperam com a presença do Sofá Berna! Estruturado em madeira eucalipto, que é um ótimo reforço para o uso do dia a dia, a peça possui percintas elásticas na composição, encosto fixo em fibra siliconada e assento retrátil em espuma D26. Já por fora, o móvel ainda é revestido em linho com uma coloração que agrega beleza e bom gosto à decoração do seu espaço. Seja para receber visitas ou esticar as pernas durante os períodos de descanso, ele será indispensável na sua rotina :)",
-      "price": 1749.99,
-      "salesPrice": 1295.96,
-      "size": ["M", "G"],
-      "images": {
-        "mainImage": "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/Mobly-SofC3A1-3-Lugares-RetrC3A1til-Berna-Linho-Grafite-180-cm-5086-465248-1.jpg",
-        "gallery": [
-          "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/Mobly-SofC3A1-3-Lugares-RetrC3A1til-Berna-Linho-Grafite-180-cm-5086-465248-3.jpg",
-          "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/Mobly-SofC3A1-3-Lugares-RetrC3A1til-Berna-Linho-Grafite-180-cm-5086-465248-5.jpg",
-          "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/Mobly-SofC3A1-3-Lugares-RetrC3A1til-Berna-Linho-Grafite-180-cm-5086-465248-6.jpg",
-          "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/Mobly-SofC3A1-3-Lugares-RetrC3A1til-Berna-Linho-Grafite-180-cm-5086-465248-4.jpg"
-        ]
-      },
-      "colors": [
-        {
-          "name": "dark-gray",
-          "hex": "#4F4F4F"
-        }
-      ],
-      "rating": 4.5,
-      "sku": "813087",
-      "category": "Sofás",
-      "tags": ["Sofá Retrátil", "Sala"],
-      "share": [
-        {
-          "facebookUrl": "#",
-          "linkedinUrl": "#",
-          "twitterUrl": "#"
-        }
-      ]
-    },
-    {
-      "id": 19,
-      "title": "Mesa de Jantar Retangular Macaúba Madeira Maciça Amêndoa 160 cm",
-      "image": "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/Keva-Mesa-de-Jantar-Retangular-MacaC3BAba-Madeira-MaciC3A7a-AmC3AAndoa-160-cm-9360-2432211-1.jpg",
-      "shortDescription": "Inspirada na beleza e imponência da frutífera palmeira, a Mesa de Jantar Macaúba será a protagonista em sua decoração!",
-      "description": "A Mesa de Jantar Macaúba traz toda a elegância e beleza da madeira maciça em sua estrutura. Seu design retangular é perfeito para acomodar seus convidados com conforto e praticidade. Produzida com madeira maciça e acabamento na cor amêndoa, essa mesa é resistente e durável, ideal para criar um ambiente acolhedor e sofisticado na sua sala de jantar. Com 160 cm de comprimento, ela oferece o espaço necessário para as refeições em família ou com amigos, sendo a peça ideal para quem aprecia qualidade e bom gosto.",
-      "price": 3599.99,
-      "salesPrice": 2519.98,
-      "size": ["M"],
-      "images": {
-        "mainImage": "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/Keva-Mesa-de-Jantar-Retangular-MacaC3BAba-Madeira-MaciC3A7a-AmC3AAndoa-160-cm-9360-2432211-1.jpg",
-        "gallery": [
-          "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/Keva-Mesa-de-Jantar-Retangular-MacaC3BAba-Madeira-MaciC3A7a-AmC3AAndoa-160-cm-1955-2432211-2.jpg",
-          "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/Keva-Mesa-de-Jantar-Retangular-MacaC3BAba-Madeira-MaciC3A7a-AmC3AAndoa-160-cm-1940-2432211-7.jpg",
-          "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/Keva-Mesa-de-Jantar-Retangular-MacaC3BAba-Madeira-MaciC3A7a-AmC3AAndoa-160-cm-1940-2432211-9.jpg"
-        ]
-      },
-      "colors": [
-        {
-          "name": "yellow",
-          "hex": "#D2B48C"
-        }
-      ],
-      "rating": 4.8,
-      "sku": "9360",
-      "category": "Mesas",
-      "tags": ["Mesa de Jantar", "Sala de Jantar"],
-      "share": [
-        {
-          "facebookUrl": "#",
-          "linkedinUrl": "#",
-          "twitterUrl": "#"
-        }
-      ]
-    }
+      }
+
   ],
+
+
 
   "gallery": [
     {
