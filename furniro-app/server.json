@@ -2,25 +2,21 @@
   "products": [
     {
       "id": 1,
-      "title": "Sofa Tango",
-      "image": "./src/assets/images/leviosa.png",
-      "shortDescription": "Luxury big sofa",
+      "title": "Rack Fortaleza",
+      "image": "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/Modern-Rack-Fortaleza-FreijC3B3-218-cm-6075-3030911-1.jpg",
+      "shortDescription": "Luxury big rack",
       "description": "Setting the bar as one of the loudest speakers in its class, the Kilburn is a compact, stout-hearted hero with a well-balanced audio which boasts a clear midrange and extended highs for a sound.",
       "price": 70000,
       "salesPrice": 3500000,
-      "size": [
-        "L",
-        "XL",
-        "XS"
-      ],
+      "size": ["L", "XL", "XS"],
 
       "images": {
-        "mainImage": "https://static.mobly.com.br/p/Modern-Rack-Fortaleza-FreijC3B3-218-cm-6075-3030911-1.jpg",
+        "mainImage": "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/Modern-Rack-Fortaleza-FreijC3B3-218-cm-6075-3030911-1.jpg",
         "gallery": [
-          "https://static.mobly.com.br/p/NETSOFAS-SofC3A1-Tango-22C00m-sem-caixa2C-RetrC3A1til-e-ReclinC3A1vel-Velosuede-Bege---NETSOFAS-5239-230539-1.jpg",
-          "https://static.mobly.com.br/p/NETSOFAS-SofC3A1-Tango-22C00m-sem-caixa2C-RetrC3A1til-e-ReclinC3A1vel-Velosuede-Bege---NETSOFAS-5241-230539-5.jpg",
-          "https://static.mobly.com.br/p/NETSOFAS-SofC3A1-Tango-22C00m-sem-caixa2C-RetrC3A1til-e-ReclinC3A1vel-Velosuede-Bege---NETSOFAS-5242-230539-7.jpg",
-          "https://static.mobly.com.br/p/NETSOFAS-SofC3A1-Tango-22C00m-sem-caixa2C-RetrC3A1til-e-ReclinC3A1vel-Velosuede-Bege---NETSOFAS-5243-230539-8.jpg"
+          "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/Modern-Rack-Fortaleza-FreijC3B3-218-cm-6075-3030911-1.jpg",
+          "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/NETSOFAS-SofC3A1-Tango-22C00m-sem-caixa2C-RetrC3A1til-e-ReclinC3A1vel-Velosuede-Bege---NETSOFAS-5241-230539-5.jpg",
+          "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/NETSOFAS-SofC3A1-Tango-22C00m-sem-caixa2C-RetrC3A1til-e-ReclinC3A1vel-Velosuede-Bege---NETSOFAS-5242-230539-7.jpg",
+          "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/NETSOFAS-SofC3A1-Tango-22C00m-sem-caixa2C-RetrC3A1til-e-ReclinC3A1vel-Velosuede-Bege---NETSOFAS-5243-230539-8.jpg"
         ]
       },
       "colors": [
@@ -44,18 +40,18 @@
     {
       "id": 2,
       "title": "Rack para TV até 75 Polegadas Madesa Reims 2 Portas 1 Gaveta - Branco",
-      "image": "https://madesacms.vtexassets.com/arquivos/ids/263040-650-650",
+      "image": "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/263040-650-650.webp",
       "shortDescription": "Se você quer renovar a sua sala de estar, o Rack Madesa Reims Branco é a escolha certa para deixar sua casa ainda mais bonita e organizada!",
       "description": "Se você quer renovar a sua sala de estar, o Rack Madesa Reims Branco é a escolha certa para deixar sua casa ainda mais bonita e organizada! O móvel possui um design super moderno, com destaque para seus pés de madeira maciça na cor marrom que, além de proporcionarem uma ótima sustentação, trazem um charme a mais para qualquer ambiente. O Rack Madesa Reims é ideal para TVs de até 75 polegadas e tem espaço de sobra! Com duas portas laterais e uma gaveta com corrediças metálicas, é perfeito para armazenar e organizar aparelhos eletrônicos, livros, objetos decorativos, DVDs e muito mais.",
       "price": 1079.99,
       "salesPrice": 399.59,
       "size": ["G", "M"],
       "images": {
-        "mainImage": "https://madesacms.vtexassets.com/arquivos/ids/263040-650-650",
+        "mainImage": "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/263040-650-650.webp",
         "gallery": [
-          "https://madesacms.vtexassets.com/arquivos/ids/263043-650-650",
-          "https://madesacms.vtexassets.com/arquivos/ids/263046-650-650",
-          "https://madesacms.vtexassets.com/arquivos/ids/263041-650-650"
+          "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/263043-650-650.webp",
+          "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/263046-650-650.webp",
+          "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/263041-650-650.webp"
         ]
       },
       "colors": [
@@ -79,19 +75,19 @@
     {
       "id": 3,
       "title": "Rack para TV até 75 Polegadas Charlotte 2 PT Carvalho e Verde Menta 180 cm",
-      "image": "https://static.mobly.com.br/p/Modern-Rack-para-TV-atC3A9-75-Polegadas-Charlotte-2-PT-Carvalho-e-Verde-Menta-180-cm-6048-1679121-1.jpg",
+      "image": "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/Modern-Rack-para-TV-atC3A9-75-Polegadas-Charlotte-2-PT-Carvalho-e-Verde-Menta-180-cm-6048-1679121-1.jpg",
       "shortDescription": "A organização ideal começa com o Rack Charlotte e sua estrutura perfeita para facilitar o dia a dia.",
       "description": "A organização ideal começa com o Rack Charlotte e sua estrutura perfeita para facilitar o dia a dia. Além de apoiar a televisão no tampo espaçoso, ele também é o cantinho certo para acomodar os eletrônicos e enfeites importantes para o visual do ambiente - isso sem contar que ele mesmo já é uma grande adição para a décor do cômodo, já que tem cor clássica que ajuda a trazer charme e um toque elegante e bem versátil. Por ter bons compartimentos, você pode optar por usá-lo sozinho ou acompanhado de um painel para potencializar a funcionalidade. Assim fica fácil conquistar um lar-style completo e cheio de beleza, né? ;)",
       "price": 859.99,
       "salesPrice": 503.87,
       "size": ["G"],
       "images": {
-        "mainImage": "https://static.mobly.com.br/p/Modern-Rack-para-TV-atC3A9-75-Polegadas-Charlotte-2-PT-Carvalho-e-Verde-Menta-180-cm-6048-1679121-1.jpg",
+        "mainImage": "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/Modern-Rack-para-TV-atC3A9-75-Polegadas-Charlotte-2-PT-Carvalho-e-Verde-Menta-180-cm-6048-1679121-1.jpg",
         "gallery": [
-          "https://static.mobly.com.br/p/Modern-Rack-para-TV-atC3A9-75-Polegadas-Charlotte-2-PT-Carvalho-e-Verde-Menta-180-cm-6049-1679121-2.jpg",
-          "https://static.mobly.com.br/p/Modern-Rack-para-TV-atC3A9-75-Polegadas-Charlotte-2-PT-Carvalho-e-Verde-Menta-180-cm-6050-1679121-3.jpg",
-          "https://static.mobly.com.br/p/Modern-Rack-para-TV-atC3A9-75-Polegadas-Charlotte-2-PT-Carvalho-e-Verde-Menta-180-cm-6051-1679121-4.jpg",
-          "https://static.mobly.com.br/p/Modern-Rack-para-TV-atC3A9-75-Polegadas-Charlotte-2-PT-Carvalho-e-Verde-Menta-180-cm-6052-1679121-5.jpg"
+          "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/Modern-Rack-para-TV-atC3A9-75-Polegadas-Charlotte-2-PT-Carvalho-e-Verde-Menta-180-cm-6049-1679121-2.jpg",
+          "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/Modern-Rack-para-TV-atC3A9-75-Polegadas-Charlotte-2-PT-Carvalho-e-Verde-Menta-180-cm-6050-1679121-3.jpg",
+          "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/Modern-Rack-para-TV-atC3A9-75-Polegadas-Charlotte-2-PT-Carvalho-e-Verde-Menta-180-cm-6051-1679121-4.jpg",
+          "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/Modern-Rack-para-TV-atC3A9-75-Polegadas-Charlotte-2-PT-Carvalho-e-Verde-Menta-180-cm-6052-1679121-5.jpg"
         ]
       },
       "colors": [
@@ -115,18 +111,18 @@
     {
       "id": 4,
       "title": "Rack Bancada Suspensa 183 cm TV 75 Pol 2891 Fenddi Naturale MDT",
-      "image": "https://static.mobly.com.br/p/Madetec-Rack-Bancada-Suspensa-183-cm-TV-75-Pol-2891-Fenddi-Naturale-MDT-7268-3987611-2.jpg",
+      "image": "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/Madetec-Rack-Bancada-Suspensa-183-cm-TV-75-Pol-2891-Fenddi-Naturale-MDT-7268-3987611-2.jpg",
       "shortDescription": "Rack Bancada Suspensa 183 cm TV 75 Pol 2891, é a escolha perfeita para acrescentar beleza na sua sala de estar.",
       "description": "Rack Bancada Suspensa 183 cm TV 75 Pol 2891, é a escolha perfeita para acrescentar beleza na sua sala de estar. Estrutura em MDP de 15 mm e 25 mm e portas em MDF de 6 mm, pintura com acabamento UV. Composta por tampo e base curvos que possibilita a disposição de TV de até 75 polegadas de até no máximo 15 kg, 2 portas curvas deslizantes flexíveis com puxadores em bronze que combinam com seu design moderno, prateleira para aparelhos eletrônicos, passa fios, e acompanha kit para fixação na parede. Suporta até 15 kg distribuídos, é ideal que seja utilizado com a TV fixada na parede.",
       "price": 1.303,
       "salesPrice": 929.88,
       "size": ["G", "M"],
       "images": {
-        "mainImage": "https://static.mobly.com.br/p/Madetec-Rack-Bancada-Suspensa-183-cm-TV-75-Pol-2891-Fenddi-Naturale-MDT-7268-3987611-2.jpg",
+        "mainImage": "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/Madetec-Rack-Bancada-Suspensa-183-cm-TV-75-Pol-2891-Fenddi-Naturale-MDT-7268-3987611-2.jpg",
         "gallery": [
-          "https://static.mobly.com.br/p/Madetec-Rack-Bancada-Suspensa-183-cm-TV-75-Pol-2891-Fenddi-Naturale-MDT-7268-3987611-1.jpg",
-          "https://static.mobly.com.br/p/Madetec-Rack-Bancada-Suspensa-183-cm-TV-75-Pol-2891-Fenddi-Naturale-MDT-7269-3987611-2.jpg",
-          "https://static.mobly.com.br/p/Madetec-Rack-Bancada-Suspensa-183-cm-TV-75-Pol-2891-Fenddi-Naturale-MDT-7270-3987611-3.jpg"
+          "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/Madetec-Rack-Bancada-Suspensa-183-cm-TV-75-Pol-2891-Fenddi-Naturale-MDT-7267-3987611-1.jpg",
+          "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/Madetec-Rack-Bancada-Suspensa-183-cm-TV-75-Pol-2891-Fenddi-Naturale-MDT-7268-3987611-2.jpg",
+          "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/Madetec-Rack-Bancada-Suspensa-183-cm-TV-75-Pol-2891-Fenddi-Naturale-MDT-7269-3987611-3.jpg"
         ]
       },
       "colors": [
@@ -148,103 +144,62 @@
       ]
     },
 
-      {
-        "id": 5,
-        "title": "Sofa MUY",
-        "image": "./src/assets/images/leviosa.png",
-        "shortDescription": "Luxury big sofa",
-        "description": "Setting the bar as one of the loudest speakers in its class, the Kilburn is a compact, stout-hearted hero with a well-balanced audio which boasts a clear midrange and extended highs for a sound.",
-        "price": 7000000,
-        "salesPrice": 3500000,
-        "size": ["L", "XL", "XS"],
-
-        "images": {
-          "mainImage": "https://tokstok.vteximg.com.br/arquivos/ids/25210556-624-auto/sofa-3-lugares-cinza-claro-mescla-muy_st0.jpg?v=638119422551570000&width=624&height=auto&aspect=true",
-          "thumbnail": [
-            "https://tokstok.vteximg.com.br/arquivos/ids/25210485-624-auto/sofa-3-lugares-cinza-claro-mescla-muy_st4.jpg?v=638119422318570000&width=624&height=auto&aspect=true",
-            "https://tokstok.vteximg.com.br/arquivos/ids/25210512-624-auto/sofa-3-lugares-cinza-claro-mescla-muy_st2.jpg?v=638119422399370000&width=624&height=auto&aspect=true",
-            "https://tokstok.vteximg.com.br/arquivos/ids/25210519-624-auto/sofa-3-lugares-cinza-claro-mescla-muy_st3.jpg?v=638119422417500000&width=624&height=auto&aspect=true",
-            "https://tokstok.vteximg.com.br/arquivos/ids/25210532-624-auto/sofa-3-lugares-cinza-claro-mescla-muy_st5.jpg?v=638119422492900000&width=624&height=auto&aspect=true"
-          ]
-        },
-
-        "colors": [
-          {
-            "name": "white",
-            "hex": "#fff"
-          }
-        ],
-
-        "rating": 5,
-        "sku": "SS001",
-        "category": "Sofas",
-        "tags": ["Sofa", "Chair", "Home", "Shop"],
-
-        "share": [
-          {
-            "facebookUrl": "#",
-            "linkedinUrl": "#",
-            "twitterUrl": "#"
-          }
-        ]
-      },
-
-      {
-        "id": 6,
-        "title": "Sofa MUY",
-        "image": "./src/assets/images/leviosa.png",
-        "shortDescription": "Luxury big sofa",
-        "description": "Setting the bar as one of the loudest speakers in its class, the Kilburn is a compact, stout-hearted hero with a well-balanced audio which boasts a clear midrange and extended highs for a sound.",
-        "price": 7000000,
-        "salesPrice": 3500000,
-        "size": ["L", "XL", "XS"],
-
-        "images": {
-          "mainImage": "https://tokstok.vteximg.com.br/arquivos/ids/25210556-624-auto/sofa-3-lugares-cinza-claro-mescla-muy_st0.jpg?v=638119422551570000&width=624&height=auto&aspect=true",
-          "thumbnail": [
-            "https://tokstok.vteximg.com.br/arquivos/ids/25210485-624-auto/sofa-3-lugares-cinza-claro-mescla-muy_st4.jpg?v=638119422318570000&width=624&height=auto&aspect=true",
-            "https://tokstok.vteximg.com.br/arquivos/ids/25210512-624-auto/sofa-3-lugares-cinza-claro-mescla-muy_st2.jpg?v=638119422399370000&width=624&height=auto&aspect=true",
-            "https://tokstok.vteximg.com.br/arquivos/ids/25210519-624-auto/sofa-3-lugares-cinza-claro-mescla-muy_st3.jpg?v=638119422417500000&width=624&height=auto&aspect=true",
-            "https://tokstok.vteximg.com.br/arquivos/ids/25210532-624-auto/sofa-3-lugares-cinza-claro-mescla-muy_st5.jpg?v=638119422492900000&width=624&height=auto&aspect=true"
-          ]
-        },
-
-        "colors": [
-          {
-            "name": "white",
-            "hex": "#fff"
-          }
-        ],
-
-        "rating": 5,
-        "sku": "SS001",
-        "category": "Sofas",
-        "tags": ["Sofa", "Chair", "Home", "Shop"],
-
-        "share": [
-          {
-            "facebookUrl": "#",
-            "linkedinUrl": "#",
-            "twitterUrl": "#"
-          }
-        ]
-      },
     {
       "id": 5,
+      "title": "Sofa MUY",
+      "image": "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/sofa-3-lugares-cinza-claro-mescla-muy_st0.webp",
+      "shortDescription": "Luxury big sofa",
+      "description": "Setting the bar as one of the loudest speakers in its class, the Kilburn is a compact, stout-hearted hero with a well-balanced audio which boasts a clear midrange and extended highs for a sound.",
+      "price": 7000000,
+      "salesPrice": 3500000,
+      "size": ["L", "XL", "XS"],
+
+      "images": {
+        "mainImage": "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/sofa-3-lugares-cinza-claro-mescla-muy_st0.webp",
+        "thumbnail": [
+          "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/sofa-3-lugares-cinza-claro-mescla-muy_st0.webp",
+          "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/sofa-3-lugares-cinza-claro-mescla-muy_st2.webp",
+          "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/sofa-3-lugares-cinza-claro-mescla-muy_st3.webp",
+          "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/sofa-3-lugares-cinza-claro-mescla-muy_st5.webp"
+        ]
+      },
+
+      "colors": [
+        {
+          "name": "white",
+          "hex": "#fff"
+        }
+      ],
+
+      "rating": 5,
+      "sku": "SS001",
+      "category": "Sofas",
+      "tags": ["Sofa", "Chair", "Home", "Shop"],
+
+      "share": [
+        {
+          "facebookUrl": "#",
+          "linkedinUrl": "#",
+          "twitterUrl": "#"
+        }
+      ]
+    },
+    {
+      "id": 6,
       "title": "Rack Classic I 2 GV Off White com Freijó Touch 218 cm",
-      "image": "https://static.mobly.com.br/p/Imcal-Rack-Classic-I-2-GV-Off-White-com-FreijC3B3-Touch-218-cm-9655-230445-1.jpg",
+      "image": "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/Imcal-Rack-Classic-I-2-GV-Off-White-com-FreijC3B3-Touch-218-cm-9655-230445-1.jpg",
       "shortDescription": "Rack Classic I 2 GV Off White com Freijó Touch 218 cm. Estrutura completa para deixar sua sala de estar bem organizada e com um visual charmoso.",
       "description": "Além dos compartimentos internos, possui um amplo tampo para acomodar eletrônicos e outros objetos essenciais. Combina facilmente com outros móveis da sala, como sofá e mesinhas laterais, para criar um centro de entretenimento aconchegante.",
       "price": 1087.99,
       "salesPrice": 716.34,
       "size": ["G"],
       "images": {
-        "mainImage": "https://static.mobly.com.br/p/Imcal-Rack-Classic-I-2-GV-Off-White-com-FreijC3B3-Touch-218-cm-9655-230445-1.jpg",
+        "mainImage": "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/Imcal-Rack-Classic-I-2-GV-Off-White-com-FreijC3B3-Touch-218-cm-9655-230445-1.jpg",
         "gallery": [
-          "https://static.mobly.com.br/p/Imcal-Rack-Classic-I-2-GV-Off-White-com-FreijC3B3-Touch-218-cm-9656-230445-2.jpg",
-          "https://static.mobly.com.br/p/Imcal-Rack-Classic-I-2-GV-Off-White-com-FreijC3B3-Touch-218-cm-9657-230445-3.jpg",
-          "https://static.mobly.com.br/p/Imcal-Rack-Classic-I-2-GV-Off-White-com-FreijC3B3-Touch-218-cm-9658-230445-4.jpg",
-          "https://static.mobly.com.br/p/Imcal-Rack-Classic-I-2-GV-Off-White-com-FreijC3B3-Touch-218-cm-9659-230445-5.jpg"
+          "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/Imcal-Rack-Classic-I-2-GV-Off-White-com-FreijC3B3-Touch-218-cm-9656-230445-2.jpg",
+          "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/Imcal-Rack-Classic-I-2-GV-Off-White-com-FreijC3B3-Touch-218-cm-9657-230445-3.jpg",
+          "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/Imcal-Rack-Classic-I-2-GV-Off-White-com-FreijC3B3-Touch-218-cm-9658-230445-4.jpg",
+          "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/Imcal-Rack-Classic-I-2-GV-Off-White-com-FreijC3B3-Touch-218-cm-9659-230445-5.jpg"
         ]
       },
       "colors": [
@@ -270,21 +225,21 @@
       ]
     },
     {
-      "id": 6,
+      "id": 7,
       "title": "Rack Vivare Preto e Freijó 180 cm",
-      "image": "https://static.mobly.com.br/p/Giga-MC3B3veis-Rack-Vivare-Preto-e-FreijC3B3-180-cm-9972-9893401-1.jpg",
+      "image": "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/Giga-MC3B3veis-Rack-Vivare-Preto-e-FreijC3B3-180-cm-9972-9893401-1.jpg",
       "shortDescription": "A organização ideal começa com o Rack Vivare e sua estrutura perfeita para facilitar o dia a dia. Além de apoiar a televisão no tampo espaçoso, ele também é o cantinho certo para acomodar os eletrônicos e enfeites importantes para o visual do ambiente.",
       "description": "O Rack Vivare Preto e Freijó 180 cm é uma grande adição para a decoração do cômodo, graças à sua cor clássica que traz charme e versatilidade. Com bons compartimentos internos, pode ser usado sozinho ou em conjunto com um painel para ampliar sua funcionalidade.",
       "price": 1014.99,
       "salesPrice": 702.89,
       "size": ["G"],
       "images": {
-        "mainImage": "https://static.mobly.com.br/p/Giga-MC3B3veis-Rack-Vivare-Preto-e-FreijC3B3-180-cm-9972-9893401-1.jpg",
+        "mainImage": "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/Giga-MC3B3veis-Rack-Vivare-Preto-e-FreijC3B3-180-cm-9972-9893401-1.jpg",
         "gallery": [
-          "https://static.mobly.com.br/p/Giga-MC3B3veis-Rack-Vivare-Preto-e-FreijC3B3-180-cm-9973-9893401-2.jpg",
-          "https://static.mobly.com.br/p/Giga-MC3B3veis-Rack-Vivare-Preto-e-FreijC3B3-180-cm-9974-9893401-3.jpg",
-          "https://static.mobly.com.br/p/Giga-MC3B3veis-Rack-Vivare-Preto-e-FreijC3B3-180-cm-9975-9893401-4.jpg",
-          "https://static.mobly.com.br/p/Giga-MC3B3veis-Rack-Vivare-Preto-e-FreijC3B3-180-cm-9976-9893401-5.jpg"
+          "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/Giga-MC3B3veis-Rack-Vivare-Preto-e-FreijC3B3-180-cm-9973-9893401-2.jpg",
+          "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/Giga-MC3B3veis-Rack-Vivare-Preto-e-FreijC3B3-180-cm-9974-9893401-3.jpg",
+          "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/Giga-MC3B3veis-Rack-Vivare-Preto-e-FreijC3B3-180-cm-9975-9893401-4.jpg",
+          "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/Giga-MC3B3veis-Rack-Vivare-Preto-e-FreijC3B3-180-cm-9976-9893401-5.jpg"
         ]
       },
       "colors": [
@@ -310,21 +265,21 @@
       ]
     },
     {
-      "id": 7,
+      "id": 8,
       "title": "Rack para TV até 65 Polegadas com Pés Preto Turim Madesa",
-      "image": "https://madesacms.vtexassets.com/arquivos/ids/280284-650-650",
+      "image": "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/280284-650-650.webp",
       "shortDescription": "O Rack para TV Turim da Madesa é ideal para quem busca um ambiente moderno e prático para a sala de estar ou para o quarto.",
       "description": "O Rack para TV Turim da Madesa é ideal para quem busca um ambiente moderno e prático para a sala de estar ou para o quarto. Ideal para TV da até de 65 polegadas, este rack é perfeito para organizar seus aparelhos eletrônicos e itens decorativos com estilo e praticidade, pois conta com quatro nichos de diferentes tamanhos. Os pés em PVC garantem estabilidade e durabilidade, e a abertura para passagem de fios mantém o ambiente organizado. O acabamento preto é feito em Pintura Poliéster ecológica com 7 camadas, detalhe que agrega durabilidade e qualidade ao produto.",
       "price": 439.98,
       "salesPrice": 251.09,
       "size": ["G"],
       "images": {
-        "mainImage": "https://madesacms.vtexassets.com/arquivos/ids/280284-650-650",
+        "mainImage": "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/280284-650-650.webp",
         "gallery": [
-          "https://madesacms.vtexassets.com/arquivos/ids/280280-650-650",
-          "https://madesacms.vtexassets.com/arquivos/ids/280282-650-650",
-          "https://madesacms.vtexassets.com/arquivos/ids/280239-650-650",
-          "https://madesacms.vtexassets.com/arquivos/ids/280281-650-650"
+          "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/280284-650-650.webp",
+          "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/280282-650-650.webp",
+          "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/280239-650-650.webp",
+          "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/280281-650-650.webp"
         ]
       },
       "colors": [
@@ -350,20 +305,21 @@
       ]
     },
     {
-      "id": 8,
+      "id": 9,
       "title": "Rack Ciro Branco 125 cm",
-      "image": "https://static.mobly.com.br/p/Estilare-Rack-Ciro-Branco-125-cm-4975-201767-5.jpg",
+      "image": "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/Estilare-Rack-Ciro-Branco-125-cm-4975-201767-5.jpg",
       "shortDescription": "Rack Ciro Branco 125 cm",
       "description": "A tonalidade da cor pode variar de acordo com o lote do fabricante e/ou as configurações de seu monitor. Imagens meramente ilustrativas. Cashback: Em até 7 dias você receberá, via SMS, um bônus para ser utilizado em sua próxima compra no site da Mobly. Confira o regulamento aqui.",
       "price": 494.99,
       "salesPrice": 328.39,
       "size": ["G"],
       "images": {
-        "mainImage": "https://static.mobly.com.br/p/Estilare-Rack-Ciro-Branco-125-cm-4975-201767-5.jpg",
+        "mainImage": "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/Estilare-Rack-Ciro-Branco-125-cm-4975-201767-5.jpg",
         "gallery": [
-          "https://static.mobly.com.br/p/Estilare-Rack-Ciro-Branco-125-cm-4976-201767-2.jpg",
-          "https://static.mobly.com.br/p/Estilare-Rack-Ciro-Branco-125-cm-4977-201767-3.jpg",
-          "https://static.mobly.com.br/p/Estilare-Rack-Ciro-Branco-125-cm-4978-201767-4.jpg"
+          "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/Estilare-Rack-Ciro-Branco-125-cm-4975-201767-5.jpg",
+          "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/Estilare-Rack-Ciro-Branco-125-cm-4976-201767-2.jpg",
+          "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/Estilare-Rack-Ciro-Branco-125-cm-4977-201767-3.jpg",
+          "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/Estilare-Rack-Ciro-Branco-125-cm-4978-201767-4.jpg"
         ]
       },
       "colors": [
@@ -385,20 +341,20 @@
       ]
     },
     {
-      "id": 9,
+      "id": 10,
       "title": "Rack para TV até 55 Polegadas com 2 Portas Prático Madesa",
-      "image": "https://madesacms.vtexassets.com/arquivos/ids/280278-650-650",
+      "image": "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/280278-650-650.webp",
       "shortDescription": "O Rack para TV Prático da Madesa é ideal para ambientes pequenos, com dois portas e um design moderno e compacto.",
       "description": "O Rack para TV Prático da Madesa é ideal para ambientes pequenos, com dois portas e um design moderno e compacto. É feito em MDP e tem acabamento em pintura Poliéster ecológica, além de suportar TVs de até 55 polegadas. Possui duas portas e espaço para organizar seus eletrônicos e outros itens, mantendo seu ambiente organizado e elegante.",
       "price": 329.99,
       "salesPrice": 229.89,
       "size": ["G"],
       "images": {
-        "mainImage": "https://madesacms.vtexassets.com/arquivos/ids/280278-650-650",
+        "mainImage": "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/280278-650-650.webp",
         "gallery": [
-          "https://madesacms.vtexassets.com/arquivos/ids/280276-650-650",
-          "https://madesacms.vtexassets.com/arquivos/ids/280277-650-650",
-          "https://madesacms.vtexassets.com/arquivos/ids/280275-650-650"
+          "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/280278-650-650.webp",
+          "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/280277-650-650.webp",
+          "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/280275-650-650.webp"
         ]
       },
       "colors": [
@@ -420,7 +376,7 @@
       ]
     },
     {
-      "id": 10,
+      "id": 11,
       "title": "Rack Line Branco 140 cm",
       "image": "https://static.mobly.com.br/p/Imcal-Rack-Line-Branco-140-cm-6972-100049-1.jpg",
       "shortDescription": "O Rack Line Branco 140 cm é uma solução prática e moderna para sua sala, combinando design e funcionalidade.",
@@ -455,91 +411,711 @@
       ]
     },
 
-      {
-        "id": 7,
-        "title": "Sofa MUY",
-        "image": "./src/assets/images/leviosa.png",
-        "shortDescription": "Luxury big sofa",
-        "description": "Setting the bar as one of the loudest speakers in its class, the Kilburn is a compact, stout-hearted hero with a well-balanced audio which boasts a clear midrange and extended highs for a sound.",
-        "price": 7000000,
-        "salesPrice": 3500000,
-        "size": ["L", "XL", "XS"],
-
-        "images": {
-          "mainImage": "https://tokstok.vteximg.com.br/arquivos/ids/25210556-624-auto/sofa-3-lugares-cinza-claro-mescla-muy_st0.jpg?v=638119422551570000&width=624&height=auto&aspect=true",
-          "thumbnail": [
-            "https://tokstok.vteximg.com.br/arquivos/ids/25210485-624-auto/sofa-3-lugares-cinza-claro-mescla-muy_st4.jpg?v=638119422318570000&width=624&height=auto&aspect=true",
-            "https://tokstok.vteximg.com.br/arquivos/ids/25210512-624-auto/sofa-3-lugares-cinza-claro-mescla-muy_st2.jpg?v=638119422399370000&width=624&height=auto&aspect=true",
-            "https://tokstok.vteximg.com.br/arquivos/ids/25210519-624-auto/sofa-3-lugares-cinza-claro-mescla-muy_st3.jpg?v=638119422417500000&width=624&height=auto&aspect=true",
-            "https://tokstok.vteximg.com.br/arquivos/ids/25210532-624-auto/sofa-3-lugares-cinza-claro-mescla-muy_st5.jpg?v=638119422492900000&width=624&height=auto&aspect=true"
-          ]
-        },
-
-        "colors": [
-          {
-            "name": "white",
-            "hex": "#fff"
-          }
-        ],
-
-        "rating": 5,
-        "sku": "SS001",
-        "category": "Sofas",
-        "tags": ["Sofa", "Chair", "Home", "Shop"],
-
-        "share": [
-          {
-            "facebookUrl": "#",
-            "linkedinUrl": "#",
-            "twitterUrl": "#"
-          }
+    {
+      "id": 12,
+      "title": "Rack 2 Portas Ditália R-606 Branco",
+      "image": "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/DitC3A1lia-Rack-2-Portas-DitC3A1lia-R-606-Branco-5701-6463801-2.jpg",
+      "shortDescription": "Rack 2 Portas Ditália R-606 Branco",
+      "description": "A tonalidade da cor pode variar de acordo com o lote do fabricante e/ou as configurações de seu monitor. Imagens meramente ilustrativas.",
+      "price": 313.41,
+      "salesPrice": 313.41,
+      "size": [
+        {
+          "height": "47 cm",
+          "width": "150 cm",
+          "depth": "44 cm"
+        }
+      ],
+      "images": {
+        "mainImage": "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/DitC3A1lia-Rack-2-Portas-DitC3A1lia-R-606-Branco-5701-6463801-2.jpg",
+        "gallery": [
+          "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/DitC3A1lia-Rack-2-Portas-DitC3A1lia-R-606-Branco-5702-6463801-3.jpg",
+          "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/DitC3A1lia-Rack-2-Portas-DitC3A1lia-R-606-Branco-5703-6463801-4.jpg",
+          "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/DitC3A1lia-Rack-2-Portas-DitC3A1lia-R-606-Branco-5704-6463801-5.jpg",
+          "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/DitC3A1lia-Rack-2-Portas-DitC3A1lia-R-606-Branco-5705-6463801-1.jpg"
         ]
       },
+      "colors": [
+        {
+          "name": "Branco",
+          "hex": "#FFFFFF"
+        }
+      ],
+      "rating": 0.0,
+      "sku": "1051175",
+      "category": "Racks",
+      "tags": ["Sala de Estar", "Móveis"],
+      "share": [
+        {
+          "facebookUrl": "#",
+          "linkedinUrl": "#",
+          "twitterUrl": "#"
+        }
+      ]
+    },
 
-      {
-        "id": 8,
-        "title": "Sofa MUY",
-        "image": "./src/assets/images/leviosa.png",
-        "shortDescription": "Luxury big sofa",
-        "description": "Setting the bar as one of the loudest speakers in its class, the Kilburn is a compact, stout-hearted hero with a well-balanced audio which boasts a clear midrange and extended highs for a sound.",
-        "price": 7000000,
-        "salesPrice": 3500000,
-        "size": ["L", "XL", "XS"],
-
-        "images": {
-          "mainImage": "https://tokstok.vteximg.com.br/arquivos/ids/25210556-624-auto/sofa-3-lugares-cinza-claro-mescla-muy_st0.jpg?v=638119422551570000&width=624&height=auto&aspect=true",
-          "thumbnail": [
-            "https://tokstok.vteximg.com.br/arquivos/ids/25210485-624-auto/sofa-3-lugares-cinza-claro-mescla-muy_st4.jpg?v=638119422318570000&width=624&height=auto&aspect=true",
-            "https://tokstok.vteximg.com.br/arquivos/ids/25210512-624-auto/sofa-3-lugares-cinza-claro-mescla-muy_st2.jpg?v=638119422399370000&width=624&height=auto&aspect=true",
-            "https://tokstok.vteximg.com.br/arquivos/ids/25210519-624-auto/sofa-3-lugares-cinza-claro-mescla-muy_st3.jpg?v=638119422417500000&width=624&height=auto&aspect=true",
-            "https://tokstok.vteximg.com.br/arquivos/ids/25210532-624-auto/sofa-3-lugares-cinza-claro-mescla-muy_st5.jpg?v=638119422492900000&width=624&height=auto&aspect=true"
-          ]
-        },
-
-        "colors": [
-          {
-            "name": "white",
-            "hex": "#fff"
-          }
-        ],
-
-        "rating": 5,
-        "sku": "SS001",
-        "category": "Sofas",
-        "tags": ["Sofa", "Chair", "Home", "Shop"],
-
-        "share": [
-          {
-            "facebookUrl": "#",
-            "linkedinUrl": "#",
-            "twitterUrl": "#"
-          }
+    {
+      "id": 13,
+      "title": "Rack para TV até 60 Polegadas Theo Cinamomo e Off White 133 cm",
+      "image": "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/Modern-Rack-para-TV-atC3A9-60-Polegadas-Theo-Cinamomo-e-Off-White-133-cm-6065-9579121-1.jpg",
+      "shortDescription": "O Rack Theo é ideal para organizar sua sala de estar com estilo e funcionalidade.",
+      "description": "Além de apoiar a televisão, sua estrutura em Cinamomo e Off White oferece um design clássico e versátil. É possível utilizá-lo sozinho ou combinado com um painel para otimizar o espaço. Um móvel essencial para criar um ambiente acolhedor e elegante.",
+      "price": 629.99,
+      "salesPrice": 373.37,
+      "size": ["G"],
+      "images": {
+        "mainImage": "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/Modern-Rack-para-TV-atC3A9-60-Polegadas-Theo-Cinamomo-e-Off-White-133-cm-6065-9579121-1.jpg",
+        "gallery": [
+          "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/Modern-Rack-para-TV-atC3A9-60-Polegadas-Theo-Cinamomo-e-Off-White-133-cm-6066-9579121-2.jpg",
+          "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/Modern-Rack-para-TV-atC3A9-60-Polegadas-Theo-Cinamomo-e-Off-White-133-cm-6067-9579121-3.jpg",
+          "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/Modern-Rack-para-TV-atC3A9-60-Polegadas-Theo-Cinamomo-e-Off-White-133-cm-6068-9579121-4.jpg",
+          "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/Modern-Rack-para-TV-atC3A9-60-Polegadas-Theo-Cinamomo-e-Off-White-133-cm-6069-9579121-5.jpg"
         ]
-      }
+      },
+      "colors": [
+        {
+          "name": "Cinamomo",
+          "hex": "#8B4513"
+        },
+        {
+          "name": "Off White",
+          "hex": "#F5F5F5"
+        }
+      ],
+      "rating": 5.0,
+      "sku": "1185189",
+      "category": "Racks",
+      "tags": ["Rack", "Theo", "Cinamomo", "Off White", "Sala"],
+      "share": [
+        {
+          "facebookUrl": "#",
+          "linkedinUrl": "#",
+          "twitterUrl": "#"
+        }
+      ]
+    },
 
+    {
+      "id": 14,
+      "title": "Sofá-Cama 2 Lugares Casal Génova Azul",
+      "image": "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/Keva-SofC3A1-Cama-2-Lugares-Casal-GC3A9nova-Azul-3355-916355-2.jpg",
+      "shortDescription": "Alguma dúvida de que um móvel como o Sofá-Cama Génova é capaz de dar um novo visual para o seu ambiente?",
+      "description": "Alguma dúvida de que um móvel como o Sofá-Cama Génova é capaz de dar um novo visual para o seu ambiente? Seja na sala de estar, no escritório ou no quarto, ele se adapta muito bem às suas necessidades e ainda dá um toque charmoso para o ambiente. A estrutura aconchegante combinada com os pés palito é ótima para você se sentar, assistir à televisão, ler um livro ou espairecer no dia a dia. Mas se precisar tirar um cochilo ou se for receber visitas em casa, basta abrir os zíperes que guardam os pés para transformá-lo em uma cama. Show, né? Ah, ele ainda tem essa linda cor azul para ser o toque final da decoração.",
+      "price": 3199.99,
+      "salesPrice": 1844.98,
+      "size": ["M", "G"],
+      "images": {
+        "mainImage": "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/Keva-SofC3A1-Cama-2-Lugares-Casal-GC3A9nova-Azul-3355-916355-2.jpg",
+        "gallery": [
+          "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/Keva-SofC3A1-Cama-2-Lugares-Casal-GC3A9nova-Azul-3355-916355-2.jpg",
+          "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/Keva-SofC3A1-Cama-2-Lugares-Casal-GC3A9nova-Azul-3355-916355-3.jpg",
+          "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/Keva-SofC3A1-Cama-2-Lugares-Casal-GC3A9nova-Azul-3355-916355-4.jpg",
+          "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/Keva-SofC3A1-Cama-2-Lugares-Casal-GC3A9nova-Azul-3355-916355-5.jpg"
+        ]
+      },
+      "colors": [
+        {
+          "name": "Azul",
+          "hex": "#0000FF"
+        }
+      ],
+      "rating": 4.9,
+      "sku": "531871",
+      "category": "Sofás",
+      "tags": ["Sofá-cama", "Sala", "Quarto"],
+      "share": [
+        {
+          "facebookUrl": "#",
+          "linkedinUrl": "#",
+          "twitterUrl": "#"
+        }
+      ]
+    },
+
+    {
+      "id": 15,
+      "title": "Sofá-Cama 3 Lugares Casal Premium Suede Cinza",
+      "image": "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/Mobly-SofC3A1-Cama-3-Lugares-Casal-Premium-Suede-Cinza-9969-770002-1.jpg",
+      "shortDescription": "O Sofá-Cama Premium vai renovar os seus dias de descanso",
+      "description": "Dono de um visual que promete levar sofisticação e aconchego para a sua casa, o Sofá-Cama Premium vai renovar os seus dias de descanso, além de ser uma peça digna de elogios em qualquer decoração. Por dentro, ele tem madeira de reflorestamento na composição, uma ótima característica para o uso diário. Já por fora, o suede faz com que todo mundo tenha vontade de ficar nele sem hora para sair, assim como aprimora os seus momentos de lazer em frente à televisão. Ah, para fechar com chave de ouro, ele se transforma rapidamente de sofá para cama para se adaptar à sua rotina e necessidades. Muitos benefícios para um lar que merece ser igualmente incrível ;)",
+      "price": 1705.99,
+      "salesPrice": 1172.66,
+      "size": ["G"],
+      "images": {
+        "mainImage": "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/Mobly-SofC3A1-Cama-3-Lugares-Casal-Premium-Suede-Cinza-9969-770002-1.jpg",
+        "gallery": [
+          "https://static.mobly.com.br/p/Mobly-SofC3A1-Cama-3-Lugares-Casal-Premium-Suede-Cinza-9969-770002-3.jpg",
+          "https://static.mobly.com.br/p/Mobly-SofC3A1-Cama-3-Lugares-Casal-Premium-Suede-Cinza-9969-770002-2.jpg",
+          "https://static.mobly.com.br/p/Mobly-SofC3A1-Cama-3-Lugares-Casal-Premium-Suede-Cinza-9969-770002-5.jpg",
+          "https://static.mobly.com.br/p/Mobly-SofC3A1-Cama-3-Lugares-Casal-Premium-Suede-Cinza-9969-770002-4.jpg"
+        ]
+      },
+      "colors": [
+        {
+          "name": "Cinza",
+          "hex": "#808080"
+        }
+      ],
+      "rating": 4.8,
+      "sku": "1200484",
+      "category": "Sofás",
+      "tags": ["Sofá-cama", "Sala", "Quarto", "Suede"],
+      "share": [
+        {
+          "facebookUrl": "#",
+          "linkedinUrl": "#",
+          "twitterUrl": "#"
+        }
+      ]
+    },
+
+    {
+      "id": 16,
+      "title": "Mesa de Jantar 6 Lugares - Marrom",
+      "image": "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/Mesa-De-Jantar-160cmX90cm-6-Lugares-050359-Champagne-DCASA-4276-4889901-1.jpg",
+      "shortDescription": "Mesa de Jantar elegante para 6 pessoas.",
+      "description": "A Mesa de Jantar Marrom é ideal para famílias e encontros, proporcionando espaço e estilo. Feita com madeira de alta qualidade e acabamento refinado, ela é perfeita para complementar sua sala de jantar com sofisticação e conforto.",
+      "price": 799.99,
+      "salesPrice": 649.99,
+      "size": ["6 Lugares"],
+      "images": {
+        "mainImage": "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/Mesa-De-Jantar-160cmX90cm-6-Lugares-050359-Champagne-DCASA-4276-4889901-1.jpg",
+        "gallery": [
+          "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/Mesa-De-Jantar-160cmX90cm-6-Lugares-050359-Champagne-DCASA-4278-4889901-2.jpg",
+          "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/Mesa-De-Jantar-160cmX90cm-6-Lugares-050359-Champagne-DCASA-4279-4889901-3.jpg",
+          "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/Mesa-De-Jantar-160cmX90cm-6-Lugares-050359-Champagne-DCASA-4280-4889901-4.jpg"
+        ]
+      },
+      "colors": [
+        {
+          "name": "Marrom",
+          "hex": "#8B4513"
+        }
+      ],
+      "rating": 4.7,
+      "sku": "784562",
+      "category": "Mesas",
+      "tags": ["Mesa de Jantar", "6 Lugares", "Marrom"],
+      "share": [
+        {
+          "facebookUrl": "#",
+          "linkedinUrl": "#",
+          "twitterUrl": "#"
+        }
+      ]
+    },
+
+    {
+      "id": 17,
+      "title": "Cadeira de Escritório Ergônomica Preto",
+      "image": "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/Mobly-Cadeira-de-EscritC3B3rio-SecretC3A1ria-GiratC3B3ria-Marilyn-Preta-0705-592691-2.jpg",
+      "shortDescription": "Cadeira de Escritório ergonômica para conforto e produtividade.",
+      "description": "A Cadeira de Escritório Ergônomica é projetada para oferecer o máximo conforto durante o trabalho. Com ajuste de altura, apoio lombar e material respirável, ela é ideal para longas horas de uso. Seu design moderno e funcional ajuda a manter a postura correta, reduzindo a fadiga e aumentando a produtividade.",
+      "price": 499.99,
+      "salesPrice": 399.99,
+      "size": ["Único"],
+      "images": {
+        "mainImage": "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/Mobly-Cadeira-de-EscritC3B3rio-SecretC3A1ria-GiratC3B3ria-Marilyn-Preta-0705-592691-2.jpg",
+        "gallery": [
+          "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/Mobly-Cadeira-de-EscritC3B3rio-SecretC3A1ria-GiratC3B3ria-Marilyn-Preta-0713-592691-1.jpg",
+          "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/Mobly-Cadeira-de-EscritC3B3rio-SecretC3A1ria-GiratC3B3ria-Marilyn-Preta-0713-592691-3.jpg",
+          "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/Mobly-Cadeira-de-EscritC3B3rio-SecretC3A1ria-GiratC3B3ria-Marilyn-Preta-0713-592691-4.jpg",
+          "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/Mobly-Cadeira-de-EscritC3B3rio-SecretC3A1ria-GiratC3B3ria-Marilyn-Preta-0713-592691-5.jpg",
+          "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/Mobly-Cadeira-de-EscritC3B3rio-SecretC3A1ria-GiratC3B3ria-Marilyn-Preta-0713-592691-6.jpg"
+        ]
+      },
+      "colors": [
+        {
+          "name": "Preto",
+          "hex": "#000000"
+        }
+      ],
+      "rating": 4.6,
+      "sku": "953671",
+      "category": "Cadeiras",
+      "tags": ["Cadeira de Escritório", "Ergonômica", "Preto"],
+      "share": [
+        {
+          "facebookUrl": "#",
+          "linkedinUrl": "#",
+          "twitterUrl": "#"
+        }
+      ]
+    },
+
+    {
+      "id": 18,
+      "title": "Sofá Retrátil Sem Caixa 3 lugares Solomons Linho Bege",
+      "image": "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/Mobly-SofC3A1-RetrC3A1til-Sem-Caixa-3-lugares-Solomons-Linho-Bege-2636-3691811-1.jpg",
+      "shortDescription": "Sofá Retrátil sem Caixa Solomons tem tudo para deixar sua casa mais confortável.",
+      "description": "Aconchegante e receptivo, o Sofá Retrátil sem Caixa Solomons tem tudo para deixar sua casa mais confortável. Estruturado em materiais resistentes, ele tem assento e encosto com enchimento em espuma e almofadas soltas em plumante de silicone, conferindo muito bem-estar e aconchego a quem está usando. Além de ser acolhedor e se transformar também em sofá-cama, o móvel é ideal para ambientes menores, pois é do tipo sem caixa, que otimiza o espaço disponível no cômodo e libera mais área de circulação. Tudo isso é arrematado com um design clean e elegante que destaca a cor atemporal e com certeza vai deixar seu cantinho impecável, digno de muitos elogios.",
+      "price": 4409.99,
+      "salesPrice": 2800.74,
+      "size": ["G", "EG"],
+      "images": {
+        "mainImage": "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/Mobly-SofC3A1-RetrC3A1til-Sem-Caixa-3-lugares-Solomons-Linho-Bege-2636-3691811-1.jpg",
+        "gallery": [
+          "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/Mobly-SofC3A1-RetrC3A1til-Sem-Caixa-3-lugares-Solomons-Linho-Bege-2636-3691811-1.jpg",
+          "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/Mobly-SofC3A1-RetrC3A1til-Sem-Caixa-3-lugares-Solomons-Linho-Bege-2639-3691811-2.jpg",
+          "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/Mobly-SofC3A1-RetrC3A1til-Sem-Caixa-3-lugares-Solomons-Linho-Bege-2647-3691811-5.jpg",
+          "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/Mobly-SofC3A1-RetrC3A1til-Sem-Caixa-3-lugares-Solomons-Linho-Bege-2649-3691811-6.jpg"
+        ]
+      },
+      "colors": [
+        {
+          "name": "Bege",
+          "hex": "#FFEBCD"
+        }
+      ],
+      "rating": 4.6,
+      "sku": "1147903",
+      "category": "Sofás",
+      "tags": ["Sofá Retrátil", "Sala"],
+      "share": [
+        {
+          "facebookUrl": "#",
+          "linkedinUrl": "#",
+          "twitterUrl": "#"
+        }
+      ]
+    },
+
+    {
+      "id": 19,
+      "title": "Sofá 3 Lugares Retrátil e Reclinável Lupin Linho Cru",
+      "image": "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/Mobly-SofC3A1-3-Lugares-RetrC3A1til-e-ReclinC3A1vel-Lupin-Linho-Cru-5088-5391811-1.jpg",
+      "shortDescription": "Sofá Lupin é a melhor combinação entre comodidade e beleza.",
+      "description": "Com inúmeras vantagens estruturais e um design de encher os olhos, o Sofá Lupin é a melhor combinação entre comodidade e beleza. O primeiro destaque vai para os rodízios, que deixam a peça facilmente adaptável ao espaço e tornam a reorganização da sala uma tarefa simples. Já a combinação da espuma com ótima densidade + assento retrátil e encosto reclinável oferecem o equilíbrio perfeito para aqueles momentos em que você precisa de um descanso mais completo ou para quando vai receber visitas. Dono de um visual elegante que se integra com harmonia à decoração do cômodo, ele ainda é reforçado pela estrutura em madeira maciça, que agrega boa durabilidade e segurança perfeita à rotina - desse jeito, você sempre pode contar com um cantinho aconchegante e bem mobiliado para passar momentos relaxantes.",
+      "price": 3749.99,
+      "salesPrice": 2456.96,
+      "size": ["EG"],
+      "images": {
+        "mainImage": "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/Mobly-SofC3A1-3-Lugares-RetrC3A1til-e-ReclinC3A1vel-Lupin-Linho-Cru-5088-5391811-1.jpg",
+        "gallery": [
+          "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/Mobly-SofC3A1-3-Lugares-RetrC3A1til-e-ReclinC3A1vel-Lupin-Linho-Cru-5088-5391811-1.jpg",
+          "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/Mobly-SofC3A1-3-Lugares-RetrC3A1til-e-ReclinC3A1vel-Lupin-Linho-Cru-5088-5391811-5.jpg",
+          "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/Mobly-SofC3A1-3-Lugares-RetrC3A1til-e-ReclinC3A1vel-Lupin-Linho-Cru-5088-5391811-6.jpg",
+          "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/Mobly-SofC3A1-3-Lugares-RetrC3A1til-e-ReclinC3A1vel-Lupin-Linho-Cru-5088-5391811-7.jpg"
+        ]
+      },
+      "colors": [
+        {
+          "name": "Cru",
+          "hex": "#F5F5DC"
+        }
+      ],
+      "rating": 4.9,
+      "sku": "1147875",
+      "category": "Sofás",
+      "tags": ["Sofá Retrátil", "Sala"],
+      "share": [
+        {
+          "facebookUrl": "#",
+          "linkedinUrl": "#",
+          "twitterUrl": "#"
+        }
+      ]
+    },
+
+    {
+      "id": 20,
+      "title": "Sofá 3 Lugares Belgrado com Chaise Direito Linho Cinza 230 cm",
+      "image": "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/Mobly-SofC3A1-3-Lugares-Belgrado-com-Chaise-Direito-Linho-Cinza-230-cm-0955-758318-1.jpg",
+      "shortDescription": "Recepcionar com aconchego e bom gosto",
+      "description": "Recepcionar com aconchego e bom gosto será uma tarefa fácil com a presença do Sofá Belgrado aí na sua casa! Estruturado em madeira eucalipto de reflorestamento, ele possui percintas elásticas e molas na composição, o que garante uma peça mais firme e agradável de usar. Já por fora, o móvel é revestido em linho, material que agrega valor estético à sua decoração. Ah, não podemos deixar de comentar sobre a chaise, essa parte do sofá que tem a profundidade maior e é perfeita para os momentos de esticar as pernas e relaxar. Só benefícios para o seu doce lar, né? ;)",
+      "price": 4049.99,
+      "salesPrice": 2807.96,
+      "size": ["G"],
+      "images": {
+        "mainImage": "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/Mobly-SofC3A1-3-Lugares-Belgrado-com-Chaise-Direito-Linho-Cinza-230-cm-0955-758318-1.jpg",
+        "gallery": [
+          "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/Mobly-SofC3A1-3-Lugares-Belgrado-com-Chaise-Direito-Linho-Cinza-230-cm-7065-758318-2.jpg",
+          "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/Mobly-SofC3A1-3-Lugares-Belgrado-com-Chaise-Direito-Linho-Cinza-230-cm-0955-758318-5.jpg",
+          "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/Mobly-SofC3A1-3-Lugares-Belgrado-com-Chaise-Direito-Linho-Cinza-230-cm-0955-758318-6.jpg"
+        ]
+      },
+      "colors": [
+        {
+          "name": "Cinza",
+          "hex": "#808080"
+        }
+      ],
+      "rating": 5,
+      "sku": "785346",
+      "category": "Sofás",
+      "tags": ["Sofá Retrátil", "Sala"],
+      "share": [
+        {
+          "facebookUrl": "#",
+          "linkedinUrl": "#",
+          "twitterUrl": "#"
+        }
+      ]
+    },
+
+    {
+      "id": 21,
+      "title": "Sofá Retrátil e Reclinável 3 Lugares Blenda II Suede Grafite",
+      "image": "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/Mobly-SofC3A1-RetrC3A1til-e-ReclinC3A1vel-3-Lugares-Blenda-II-Suede-Grafite-2794-966646-1.jpg",
+      "shortDescription": "Para promover aconchego e bem-estar aos seus cantinhos preferidos",
+      "description": "Para promover aconchego e bem-estar aos seus cantinhos preferidos, conte com as almofadas que abraçam o corpo e a maciez do suede que só o Sofá Blenda pode oferecer. Graças ao design retilíneo e cor atemporal, ele é perfeito para trazer o charme que falta ao seu lar-style enquanto acomoda familiares e amigos para aquela conversa gostosa em um final de tarde ou sessão de filmes no fim de semana. Para melhorar, ele ainda tem assento retrátil, que ajuda a proporcionar um relaxamento mais pleno, e encosto reclinável que deixa aquele cochilo depois do almoço bem mais confortável.",
+      "price": 2092.99,
+      "salesPrice": 1421.96,
+      "size": ["M"],
+      "images": {
+        "mainImage": "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/Mobly-SofC3A1-RetrC3A1til-e-ReclinC3A1vel-3-Lugares-Blenda-II-Suede-Grafite-2794-966646-1.jpg",
+        "gallery": [
+          "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/Mobly-SofC3A1-RetrC3A1til-e-ReclinC3A1vel-3-Lugares-Blenda-II-Suede-Grafite-2796-966646-3.jpg",
+          "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/Mobly-SofC3A1-RetrC3A1til-e-ReclinC3A1vel-3-Lugares-Blenda-II-Suede-Grafite-2797-966646-4.jpg",
+          "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/Mobly-SofC3A1-RetrC3A1til-e-ReclinC3A1vel-3-Lugares-Blenda-II-Suede-Grafite-2800-966646-6.jpg"
+        ]
+      },
+      "colors": [
+        {
+          "name": "Cinza",
+          "hex": "#808080"
+        }
+      ],
+      "rating": 3.9,
+      "sku": "623883",
+      "category": "Sofás",
+      "tags": ["Sofá Retrátil", "Sala"],
+      "share": [
+        {
+          "facebookUrl": "#",
+          "linkedinUrl": "#",
+          "twitterUrl": "#"
+        }
+      ]
+    },
+
+    {
+      "id": 22,
+      "title": "Sofá 3 Lugares Retrátil Berna Linho Grafite 180 cm",
+      "image": "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/Mobly-SofC3A1-3-Lugares-RetrC3A1til-Berna-Linho-Grafite-180-cm-5086-465248-1.jpg",
+      "shortDescription": "Seja para receber visitas ou esticar as pernas durante os períodos de descanso, ele será indispensável na sua rotina :)",
+      "description": "Momentos mais aconchegantes e uma sala de estar completa te esperam com a presença do Sofá Berna! Estruturado em madeira eucalipto, que é um ótimo reforço para o uso do dia a dia, a peça possui percintas elásticas na composição, encosto fixo em fibra siliconada e assento retrátil em espuma D26. Já por fora, o móvel ainda é revestido em linho com uma coloração que agrega beleza e bom gosto à decoração do seu espaço. Seja para receber visitas ou esticar as pernas durante os períodos de descanso, ele será indispensável na sua rotina :)",
+      "price": 1749.99,
+      "salesPrice": 1295.96,
+      "size": ["M", "G"],
+      "images": {
+        "mainImage": "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/Mobly-SofC3A1-3-Lugares-RetrC3A1til-Berna-Linho-Grafite-180-cm-5086-465248-1.jpg",
+        "gallery": [
+          "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/Mobly-SofC3A1-3-Lugares-RetrC3A1til-Berna-Linho-Grafite-180-cm-5086-465248-3.jpg",
+          "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/Mobly-SofC3A1-3-Lugares-RetrC3A1til-Berna-Linho-Grafite-180-cm-5086-465248-5.jpg",
+          "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/Mobly-SofC3A1-3-Lugares-RetrC3A1til-Berna-Linho-Grafite-180-cm-5086-465248-6.jpg",
+          "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/Mobly-SofC3A1-3-Lugares-RetrC3A1til-Berna-Linho-Grafite-180-cm-5086-465248-4.jpg"
+        ]
+      },
+      "colors": [
+        {
+          "name": "Grafite",
+          "hex": "#4F4F4F"
+        }
+      ],
+      "rating": 4.5,
+      "sku": "813087",
+      "category": "Sofás",
+      "tags": ["Sofá Retrátil", "Sala"],
+      "share": [
+        {
+          "facebookUrl": "#",
+          "linkedinUrl": "#",
+          "twitterUrl": "#"
+        }
+      ]
+    },
+
+    {
+      "id": 23,
+      "title": "Mesa de Jantar Retangular Macaúba Madeira Maciça Amêndoa 160 cm",
+      "image": "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/Keva-Mesa-de-Jantar-Retangular-MacaC3BAba-Madeira-MaciC3A7a-AmC3AAndoa-160-cm-9360-2432211-1.jpg",
+      "shortDescription": "Inspirada na beleza e imponência da frutífera palmeira, a Mesa de Jantar Macaúba será a protagonista em sua sala de jantar.",
+      "description": "Inspirada na beleza e imponência da frutífera palmeira, a Mesa de Jantar Macaúba será a protagonista em sua sala de jantar. Com aspecto natural e robusto, a peça valoriza a madeira maciça da estrutura, que não só oferece ótima estabilidade como garante mais durabilidade - o acabamento em verniz ainda protege contra umidade e facilita a limpeza. Feita em linhas retas e madeira grossas, a mesa acomoda até 6 lugares e traz em seu design aquele ar aconchegante de casa de campo ou praia, assim contribui para que seu cantinho na cidade fique mais acolhedor, receptivo e charmoso. Daí é só adquirir boas cadeiras ou, se preferir, comprar também o banco da mesma linha :)",
+      "price": 3099.99,
+      "salesPrice": 1795.46,
+      "size": ["M", "G", "EG"],
+      "images": {
+        "mainImage": "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/Keva-Mesa-de-Jantar-Retangular-MacaC3BAba-Madeira-MaciC3A7a-AmC3AAndoa-160-cm-9360-2432211-1.jpg",
+        "gallery": [
+          "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/Keva-Mesa-de-Jantar-Retangular-MacaC3BAba-Madeira-MaciC3A7a-AmC3AAndoa-160-cm-1955-2432211-2.jpg",
+          "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/Keva-Mesa-de-Jantar-Retangular-MacaC3BAba-Madeira-MaciC3A7a-AmC3AAndoa-160-cm-1955-2432211-4.jpg",
+          "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/Keva-Mesa-de-Jantar-Retangular-MacaC3BAba-Madeira-MaciC3A7a-AmC3AAndoa-160-cm-1940-2432211-9.jpg",
+          "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/Keva-Mesa-de-Jantar-Retangular-MacaC3BAba-Madeira-MaciC3A7a-AmC3AAndoa-160-cm-1940-2432211-7.jpg"
+        ]
+      },
+      "colors": [
+        {
+          "name": "Amêndoa",
+          "hex": "#FFEBCD"
+        }
+      ],
+      "rating": 4.5,
+      "sku": "1089207",
+      "category": "Mesas",
+      "tags": ["Mesa de Jantar", "Mesa", "Cozinha"],
+      "share": [
+        {
+          "facebookUrl": "#",
+          "linkedinUrl": "#",
+          "twitterUrl": "#"
+        }
+      ]
+    },
+
+    {
+      "id": 24,
+      "title": "Mesa de Jantar Redonda com Tampo de Vidro Isabela Ipê e Off White 100 cm",
+      "image": "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/New-Ceval-Mesa-de-Jantar-Redonda-com-Tampo-de-Vidro-Isabela-IpC3AA-e-Off-White-100-cm-3527-530547-1.jpg",
+      "shortDescription": "A Mesa Isabela é um item indispensável para o funcionamento da sua rotina, seja para as refeições diárias ou para os momentos de confraternização entre familiares e amigos.",
+      "description": "A Mesa Isabela é um item indispensável para o funcionamento da sua rotina, seja para as refeições diárias ou para os momentos de confraternização entre familiares e amigos. Com tampo de vidro + estrutura elegante, ela é simples de harmonizar com os outros móveis essenciais ao ambiente e oferece um ótimo reforço quando precisar dispor pratos, talheres e copos para acolher a todos com bastante receptividade. Ah, a peça não acompanha cadeiras e você deve adquiri-las separadamente para deixar o uso completo.",
+      "price": 993.99,
+      "salesPrice": 593.96,
+      "size": ["P", "M"],
+      "images": {
+        "mainImage": "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/New-Ceval-Mesa-de-Jantar-Redonda-com-Tampo-de-Vidro-Isabela-IpC3AA-e-Off-White-100-cm-3527-530547-1.jpg",
+        "gallery": [
+          "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/New-Ceval-Mesa-de-Jantar-Redonda-com-Tampo-de-Vidro-Isabela-IpC3AA-e-Off-White-100-cm-3530-530547-2.jpg",
+          "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/New-Ceval-Mesa-de-Jantar-Redonda-com-Tampo-de-Vidro-Isabela-IpC3AA-e-Off-White-100-cm-3533-530547-3.jpg"
+        ]
+      },
+      "colors": [
+        {
+          "name": "Ipê",
+          "hex": "#3B2F2F"
+        }
+      ],
+      "rating": 5,
+      "sku": "718045",
+      "category": "Mesas",
+      "tags": ["Mesa de Jantar", "Mesa", "Cozinha"],
+      "share": [
+        {
+          "facebookUrl": "#",
+          "linkedinUrl": "#",
+          "twitterUrl": "#"
+        }
+      ]
+    },
+
+    {
+      "id": 25,
+      "title": "Mesa de Jantar Retangular com Tampo de Vidro Agata Off White e Nature 130 cm",
+      "image": "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/Modern-Mesa-de-Jantar-Retangular-com-Tampo-de-Vidro-Agata-Off-White-e-Nature-130-cm-4488-934018-1.jpg",
+      "shortDescription": "Sua sala de jantar ou cozinha precisa ser bem equipada para deixar os momentos de confraternização ainda mais especiais.",
+      "description": "Sua sala de jantar ou cozinha precisa ser bem equipada para deixar os momentos de confraternização ainda mais especiais, seja acompanhando o dia a dia ou recebendo os amigos em diferentes ocasiões. Para isso, o modelo Agata é a opção ideal! Graças ao seu tampo amplo, você vai conseguir acomodar bem todos os elementos necessários às refeições, como pratos, copos, talheres e bandejas. E, já que um lar-style ideal também é composto por uma bela decoração, o design da peça ajuda a tornar o cômodo mais nobre. A base amadeirada, somada ao tampo de cor sóbria, com bordas arredondadas e acabamento em vidro, confere um toque elegante ao seu espaço. Agora é só adquirir as cadeiras dos sonhos e desfrutar de um lar perfeito ;)",
+      "price": 1299.99,
+      "salesPrice": 890.96,
+      "size": ["G"],
+      "images": {
+        "mainImage": "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/Modern-Mesa-de-Jantar-Retangular-com-Tampo-de-Vidro-Agata-Off-White-e-Nature-130-cm-4488-934018-1.jpg",
+        "gallery": [
+          "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/Modern-Mesa-de-Jantar-Retangular-com-Tampo-de-Vidro-Agata-Off-White-e-Nature-130-cm-4487-934018-2.jpg",
+          "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/Modern-Mesa-de-Jantar-Retangular-com-Tampo-de-Vidro-Agata-Off-White-e-Nature-130-cm-4485-934018-3.jpg",
+          "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/Modern-Mesa-de-Jantar-Retangular-com-Tampo-de-Vidro-Agata-Off-White-e-Nature-130-cm-4483-934018-4.jpg",
+          "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/Modern-Mesa-de-Jantar-Retangular-com-Tampo-de-Vidro-Agata-Off-White-e-Nature-130-cm-4481-934018-5.jpg"
+        ]
+      },
+      "colors": [
+        {
+          "name": "Marrom Claro",
+          "hex": "#D2B48C"
+        }
+      ],
+      "rating": 5,
+      "sku": "782050",
+      "category": "Mesas",
+      "tags": ["Mesa de Jantar", "Mesa", "Sala"],
+      "share": [
+        {
+          "facebookUrl": "#",
+          "linkedinUrl": "#",
+          "twitterUrl": "#"
+        }
+      ]
+    },
+
+    {
+      "id": 26,
+      "title": "Mesa de Jantar Redonda com Tampo de Madeira Clássica 120 cm",
+      "image": "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/Linn-Design-Mesa-de-Jantar-Cone-Redonda-140-cm-Base-Madeira-FreijC3B3-Tampo-FreijC3B3-5732-7774421-1.jpg",
+      "shortDescription": "Mesa redonda com tampo de madeira, ideal para ambientes pequenos e elegantes.",
+      "description": "A Mesa de Jantar Redonda com Tampo de Madeira Clássica traz um toque sofisticado e acolhedor para sua sala de jantar. Com um tampo de madeira de alta qualidade e acabamento impecável, ela é ideal para ambientes pequenos, oferecendo uma combinação perfeita de estilo e funcionalidade. Seu design clássico se encaixa bem em diversos tipos de decoração, tornando-a uma escolha versátil e duradoura para seu lar.",
+      "price": 799.99,
+      "salesPrice": 499.99,
+      "size": ["M"],
+      "images": {
+        "mainImage": "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/Linn-Design-Mesa-de-Jantar-Cone-Redonda-140-cm-Base-Madeira-FreijC3B3-Tampo-FreijC3B3-5732-7774421-1.jpg",
+        "gallery": [
+          "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/Linn-Design-Mesa-de-Jantar-Cone-Redonda-140-cm-Base-Madeira-FreijC3B3-Tampo-FreijC3B3-5732-7774421-1.jpg",
+          "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/Linn-Design-Mesa-de-Jantar-Cone-Redonda-140-cm-Base-Madeira-FreijC3B3-Tampo-FreijC3B3-5735-7774421-2.jpg",
+          "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/Linn-Design-Mesa-de-Jantar-Cone-Redonda-140-cm-Base-Madeira-FreijC3B3-Tampo-FreijC3B3-5736-7774421-3.jpg",
+          "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/Linn-Design-Mesa-de-Jantar-Cone-Redonda-140-cm-Base-Madeira-FreijC3B3-Tampo-FreijC3B3-5738-7774421-5.jpg"
+        ]
+      },
+      "colors": [
+        {
+          "name": "Madeira",
+          "hex": "#8B4513"
+        }
+      ],
+      "rating": 4.8,
+      "sku": "342068",
+      "category": "Mesas",
+      "tags": ["Mesa de Jantar", "Mesa Redonda", "Madeira"],
+      "share": [
+        {
+          "facebookUrl": "#",
+          "linkedinUrl": "#",
+          "twitterUrl": "#"
+        }
+      ]
+    },
+
+    {
+      "id": 27,
+      "title": "Mesa de Jantar Retangular com Tampo de Mármore Luxo 180 cm",
+      "image": "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/Nova-MC3B3bile-Mesa-de-Jantar-Retangular-Cairo-FreijC3B3-5312-0173301-1.jpg",
+      "shortDescription": "Elegância e sofisticação definem esta mesa com tampo de mármore.",
+      "description": "A Mesa de Jantar Retangular com Tampo de Mármore Luxo é o exemplo perfeito de elegância e sofisticação. Com um tampo de mármore que proporciona um visual requintado e fácil de limpar, ela é ideal para quem busca um toque de luxo em sua sala de jantar. A estrutura robusta e o design moderno garantem que a mesa seja um ponto focal no ambiente, oferecendo tanto beleza quanto funcionalidade.",
+      "price": 4599.99,
+      "salesPrice": 2899.99,
+      "size": ["G"],
+      "images": {
+        "mainImage": "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/Nova-MC3B3bile-Mesa-de-Jantar-Retangular-Cairo-FreijC3B3-5312-0173301-1.jpg",
+        "gallery": [
+          "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/Nova-MC3B3bile-Mesa-de-Jantar-Retangular-Cairo-FreijC3B3-5312-0173301-1.jpg",
+          "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/Nova-MC3B3bile-Mesa-de-Jantar-Retangular-Cairo-FreijC3B3-5313-0173301-2.jpg",
+          "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/Nova-MC3B3bile-Mesa-de-Jantar-Retangular-Cairo-FreijC3B3-5314-0173301-3.jpg"
+        ]
+      },
+      "colors": [
+        {
+          "name": "Mármore Branco",
+          "hex": "#F5F5F5"
+        }
+      ],
+      "rating": 4.9,
+      "sku": "590112",
+      "category": "Mesas",
+      "tags": ["Mesa de Jantar", "Mármore", "Luxo"],
+      "share": [
+        {
+          "facebookUrl": "#",
+          "linkedinUrl": "#",
+          "twitterUrl": "#"
+        }
+      ]
+    },
+
+    {
+      "id": 28,
+      "title": "Mesa de Jantar com Tampo de Vidro e Base de Metal 140 cm",
+      "image": "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/Loft7-Mesa-redonda-Eames-com-tampo-de-vidro-100-cm-2B-3-cadeiras-Eiffel-DSW-Branco-1356-3639601-1.jpg",
+      "shortDescription": "Mesa moderna com tampo de vidro e base de metal para uma decoração contemporânea.",
+      "description": "A Mesa de Jantar com Tampo de Vidro e Base de Metal é a escolha perfeita para quem aprecia um estilo moderno e contemporâneo. Com um tampo de vidro transparente e uma base de metal robusta, a mesa combina elegância e durabilidade, se encaixando perfeitamente em ambientes modernos e sofisticados. Ideal para complementar uma decoração atual e prática, oferecendo ao mesmo tempo resistência e charme.",
+      "price": 1499.99,
+      "salesPrice": 1099.99,
+      "size": ["M"],
+      "images": {
+        "mainImage": "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/Loft7-Mesa-redonda-Eames-com-tampo-de-vidro-100-cm-2B-3-cadeiras-Eiffel-DSW-Branco-1356-3639601-1.jpg",
+        "gallery": [
+          "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/Loft7-Mesa-redonda-Eames-com-tampo-de-vidro-100-cm-2B-3-cadeiras-Eiffel-DSW-Branco-1356-3639601-1.jpg",
+          "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/Loft7-Mesa-redonda-Eames-com-tampo-de-vidro-100-cm-2B-3-cadeiras-Eiffel-DSW-Branco-1357-3639601-2.jpg",
+          "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/Loft7-Mesa-redonda-Eames-com-tampo-de-vidro-100-cm-2B-3-cadeiras-Eiffel-DSW-Branco-1358-3639601-3.jpg",
+          "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/Loft7-Mesa-redonda-Eames-com-tampo-de-vidro-100-cm-2B-3-cadeiras-Eiffel-DSW-Branco-1359-3639601-4.jpg"
+        ]
+      },
+      "colors": [
+        {
+          "name": "Transparente",
+          "hex": "#FFFFFF"
+        }
+      ],
+      "rating": 4.7,
+      "sku": "981235",
+      "category": "Mesas",
+      "tags": ["Mesa de Jantar", "Vidro", "Metal"],
+      "share": [
+        {
+          "facebookUrl": "#",
+          "linkedinUrl": "#",
+          "twitterUrl": "#"
+        }
+      ]
+    },
+
+    {
+      "id": 29,
+      "title": "Mesa de Jantar Combinada com Painel de Madeira 150 cm",
+      "image": "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/BE-MobiliC3A1rio-Mesa-Com-Painel-Mutiuso-Para-Banquetas-Linha-Smart-2311-4314521-1.jpg",
+      "shortDescription": "Mesa de jantar com painel de madeira que adiciona estilo e funcionalidade ao ambiente.",
+      "description": "A Mesa de Jantar Combinada com Painel de Madeira é ideal para quem busca unir estilo e funcionalidade. Com um design elegante que combina a mesa com um painel de madeira, ela oferece um visual integrado e moderno para sua sala de jantar. A mesa é ampla o suficiente para acomodar a família e amigos, e o painel adiciona um elemento decorativo que realça o ambiente. Perfeita para quem deseja um espaço de refeições prático e estiloso.",
+      "price": 1999.99,
+      "salesPrice": 1399.99,
+      "size": ["G"],
+      "images": {
+        "mainImage": "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/BE-MobiliC3A1rio-Mesa-Com-Painel-Mutiuso-Para-Banquetas-Linha-Smart-2311-4314521-1.jpg",
+        "gallery": [
+          "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/BE-MobiliC3A1rio-Mesa-Com-Painel-Mutiuso-Para-Banquetas-Linha-Smart-2628-4314521-2.jpg",
+          "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/BE-MobiliC3A1rio-Mesa-Com-Painel-Mutiuso-Para-Banquetas-Linha-Smart-2631-4314521-4.jpg"
+        ]
+      },
+      "colors": [
+        {
+          "name": "Madeira Escura",
+          "hex": "#4B2E2F"
+        }
+      ],
+      "rating": 4.6,
+      "sku": "214589",
+      "category": "Mesas",
+      "tags": ["Mesa de Jantar", "Painel de Madeira", "Moderno"],
+      "share": [
+        {
+          "facebookUrl": "#",
+          "linkedinUrl": "#",
+          "twitterUrl": "#"
+        }
+      ]
+    },
+
+    {
+      "id": 30,
+      "title": "Mesa de Jantar Oval com Acabamento em Laca Branca 200 cm",
+      "image": "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/L7-Seven-Mesa-De-Jantar-Saarinen-Oval-160cm-Em-Laca-4-a-6-Lugares---Preto-e-Madeira-FeijC3B3-8784-4049401-1.jpg",
+      "shortDescription": "Mesa oval com acabamento em laca branca, ideal para ambientes sofisticados.",
+      "description": "A Mesa de Jantar Oval com Acabamento em Laca Branca é a escolha ideal para quem deseja um ambiente sofisticado e moderno. Com um acabamento em laca branca que reflete a luz e amplia o espaço, a mesa é perfeita para salas de jantar que buscam um toque de elegância e frescor. Seu formato oval permite uma acomodação confortável dos convidados e a sua superfície lisa facilita a limpeza e manutenção.",
+      "price": 2699.99,
+      "salesPrice": 1899.99,
+      "size": ["G"],
+      "images": {
+        "mainImage": "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/L7-Seven-Mesa-De-Jantar-Saarinen-Oval-160cm-Em-Laca-4-a-6-Lugares---Preto-e-Madeira-FeijC3B3-8784-4049401-1.jpg",
+        "gallery": [
+          "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/L7-Seven-Mesa-De-Jantar-Saarinen-Oval-160cm-Em-Laca-4-a-6-Lugares---Preto-e-Madeira-FeijC3B3-8784-4049401-1.jpg",
+          "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/L7-Seven-Mesa-De-Jantar-Saarinen-Oval-160cm-Em-Laca-4-a-6-Lugares---Preto-e-Madeira-FeijC3B3-8788-4049401-2.jpg",
+          "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/L7-Seven-Mesa-De-Jantar-Saarinen-Oval-160cm-Em-Laca-4-a-6-Lugares---Preto-e-Madeira-FeijC3B3-8791-4049401-3.jpg"
+        ]
+      },
+      "colors": [
+        {
+          "name": "Laca Branca",
+          "hex": "#FFFFFF"
+        }
+      ],
+      "rating": 4.8,
+      "sku": "356789",
+      "category": "Mesas",
+      "tags": ["Mesa de Jantar", "Laca Branca", "Oval"],
+      "share": [
+        {
+          "facebookUrl": "#",
+          "linkedinUrl": "#",
+          "twitterUrl": "#"
+        }
+      ]
+    }
   ],
-
-
 
   "gallery": [
     {
@@ -556,8 +1132,6 @@
       "id": 3,
       "title": "Bedroom",
       "imageUrl": "https://furnirobucket.s3.us-east-2.amazonaws.com/images/assets/bedroom.png"
-    }  
+    }
   ]
-
 }
-

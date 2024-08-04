@@ -1,12 +1,32 @@
 import { Modal } from '@components/Modal';
-import { BagSimple, BookOpenText, House, List, Phone } from '@phosphor-icons/react';
+import {
+  BagSimple,
+  BookOpenText,
+  House,
+  List,
+  Phone,
+} from '@phosphor-icons/react';
 import * as Dialog from '@radix-ui/react-dialog';
 import * as DropdownMenu from '@radix-ui/react-dropdown-menu';
+import { useEffect, useState } from 'react';
 import { NavLink } from 'react-router-dom';
+import { useCartSelector } from 'store/hooks';
 
 import { Navbar } from '../Navbar/index';
 
 export function Header() {
+  const [quantity, setQuantity] = useState<number>(0);
+   
+  const cartItems = useCartSelector((state) => state.cart.items);
+
+    useEffect(() => {
+      const totalQuantity = cartItems.reduce(
+        (sum, item) => sum + item.quantity,
+        0,
+      );
+      setQuantity(totalQuantity);
+    }, [cartItems]);
+
   return (
     <header className='m-auto flex items-center justify-between bg-white px-4 py-8 mobile:w-[100%] tablet:w-[100vw] tablet:max-w-[40rem] tablet-lg:w-[48rem] tablet-lg:max-w-[48rem] tablet-lg:px-[3.25rem] laptop:w-[64rem] laptop:max-w-[64rem] laptop-lg:w-[80rem] laptop-lg:max-w-[80rem] desktop:w-[90rem] desktop:max-w-[90rem]'>
       <div className='flex items-center gap-1'>
@@ -37,11 +57,21 @@ export function Header() {
         </div>
 
         <Dialog.Root>
-          <Dialog.Trigger>
+          <Dialog.Trigger className='relative'>
             <img
               src='https://furnirobucket.s3.us-east-2.amazonaws.com/images/assets/icons/cart.svg'
               alt=''
             />
+
+            <span
+              className={
+                quantity === 0
+                  ? `absolute bottom-3 left-7 text-red-500 font-bold`
+                  : `absolute bottom-3 left-7 text-green-500 font-bold`
+              }
+            >
+              {quantity}
+            </span>
           </Dialog.Trigger>
           <Modal />
         </Dialog.Root>
