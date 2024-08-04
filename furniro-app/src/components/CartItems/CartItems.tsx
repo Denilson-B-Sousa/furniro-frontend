@@ -29,7 +29,7 @@ export function CartItems() {
             const formattedPrice = PriceFormatter.format(item.price);
 
             return (
-              <ul className='grid grid-cols-3 items-center'>
+              <ul key={item.id} className='grid grid-cols-3 items-center'>
                 <li>
                   <div className=''>
                     <img
@@ -42,12 +42,17 @@ export function CartItems() {
                 </li>
                 <li>
                   <div className='inline-flex flex-col'>
-                    <span className='font-poppins text-lg font-medium text-black'>
+                    <span
+                      className='font-poppins text-lg font-medium text-black'
+                      data-testid={`item-price-${item.id}`}
+                    >
                       {item.title}
                     </span>
                     <span>
                       {item.quantity}&nbsp;&nbsp; X &nbsp;&nbsp;{' '}
-                      <span className='text-sm font-semibold text-light-peach-900'>
+                      <span 
+                        className='text-sm font-semibold text-light-peach-900'
+                      >
                         {formattedPrice}
                       </span>
                     </span>
@@ -55,8 +60,16 @@ export function CartItems() {
                 </li>
                 <li>
                   <div className='px-20'>
-                    <button onClick={() => handleRemoveFromCart(item.id)} className='bg-dark-gray-300 p-[3px] rounded-full'>
-                      <X  fill='#fff' width={16} height={16} cursor={'pointer'}/>
+                    <button
+                      onClick={() => handleRemoveFromCart(item.id)}
+                      className='rounded-full bg-dark-gray-300 p-[3px]'
+                    >
+                      <X
+                        fill='#fff'
+                        width={16}
+                        height={16}
+                        cursor={'pointer'}
+                      />
                     </button>
                   </div>
                 </li>
