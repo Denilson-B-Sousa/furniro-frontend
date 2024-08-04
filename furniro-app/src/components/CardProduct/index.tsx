@@ -30,7 +30,10 @@ export function CardProduct({
   }
 
   return (
-    <div className='relative flex w-[285px] flex-col'>
+    <div
+      data-testid='card-product'
+      className='relative flex w-[285px] flex-col'
+    >
       <div
         className='relative h-full w-[285px]'
         onMouseEnter={() => setIsHovered(true)}
