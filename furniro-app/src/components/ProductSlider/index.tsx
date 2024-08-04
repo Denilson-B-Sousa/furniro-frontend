@@ -18,7 +18,7 @@ export function ProductSlider({mainImage, gallery} : Image) {
   }
 
   return (
-    <section className='mx-auto grid max-w-7xl grid-cols-1 gap-10 lg:grid-cols-1'>
+    <section className='mx-auto grid  grid-cols-2 gap-10 laptop:grid-cols-1'>
       <div className='flex gap-8'>
         
         <ul className='flex flex-col gap-8'>

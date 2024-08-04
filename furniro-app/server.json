@@ -21,7 +21,7 @@
       },
       "colors": [
         {
-          "name": "Marrom",
+          "name": "brown",
           "hex": "#800000"
         }
       ],
@@ -166,7 +166,7 @@
 
       "colors": [
         {
-          "name": "white",
+          "name": "gray",
           "hex": "#fff"
         }
       ],

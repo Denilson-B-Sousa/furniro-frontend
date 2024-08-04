@@ -3,6 +3,8 @@ import { Product } from "@components/Product";
 import { ProductDescription } from "@components/ProductDescription";
 import { ProductSlider } from "@components/ProductSlider";
 import { FacebookLogo, LinkedinLogo, TwitterLogo } from "@phosphor-icons/react";
+import { addToCart } from "store/cart-slice";
+import { useCartDispatch } from "store/hooks";
 import { SingleItem } from "store/single-product-slice";
 import { formatPrice } from "utils/Formatter";
 
@@ -11,9 +13,21 @@ type ProductDetailsProps = {
 };
 
 export function ProductDetails({ product }: ProductDetailsProps) {
+
+  const dispatch = useCartDispatch();
+
+  const id : string = product.id;
+  const title : string = product.title;
+  const price : number = product.price;
+  const imageUrl : string = product.imageUrl;
+
+  function handleAddToCart() {
+    dispatch(addToCart({ id, title, price, imageUrl }));
+  }
+
   return (
     <>
-      <div className='grid grid-cols-2 px-6'>
+      <div className='grid grid-cols-1 px-12 laptop:grid-cols-2 laptop:px-6'>
         <ProductSlider
           mainImage={product.images.mainImage}
           gallery={product.images.gallery}
@@ -29,17 +43,28 @@ export function ProductDetails({ product }: ProductDetailsProps) {
               </span>
               <span>{product.rating}</span>
             </div>
-            <p className='w-[28rem] py-4 font-poppins text-sm text-black'>
+            <p className='w-[20rem] py-4 font-poppins text-sm text-black laptop:w-[28rem]'>
               {product.description}
             </p>
             <span className='text-dark-gray-300'>Size:</span>
-            <button className='flex items-center gap-4 py-2'>
-              {product.size.map((size) => (
-                <span className='bg-light-peach-500 inline-flex h-[30px] w-[30px] items-center justify-center rounded-md font-poppins text-xs text-black active:bg-light-peach-900 active:text-white'>
-                  {size}
-                </span>
+            <div className='flex items-center gap-4 py-2'>
+              {product.size.map((size, index) => (
+                <label
+                  key={index}
+                  className='inline-flex cursor-pointer items-center'
+                >
+                  <input
+                    type='radio'
+                    name='size'
+                    value={size}
+                    className='peer hidden'
+                  />
+                  <span className='bg-light-peach-500 flex h-[30px] w-[30px] items-center justify-center rounded-md font-poppins text-xs text-black peer-checked:bg-light-peach-900 peer-checked:text-white'>
+                    {size}
+                  </span>
+                </label>
               ))}
-            </button>
+            </div>
             <span className='text-dark-gray-300'>Color:</span>
             <button className='flex gap-4 py-2'>
               {product.colors.map((color) => (
@@ -64,7 +89,7 @@ export function ProductDetails({ product }: ProductDetailsProps) {
                   +
                 </button>
               </div>
-              <Button variant='outlined-secondary' size='md'>
+              <Button variant='outlined-secondary' size='md' onClick={handleAddToCart}>
                 Add To Cart
               </Button>
             </div>
@@ -87,13 +112,16 @@ export function ProductDetails({ product }: ProductDetailsProps) {
             <span className='inline-flex'>
               Share <span className='ml-[52px] mr-2'>:</span>
               <div className='inline-flex gap-4'>
-                <a href='#'>
+                <a
+                  href='https://www.facebook.com/?locale=pt_BR'
+                  target='_blank'
+                >
                   <FacebookLogo fill='black' width={24} height={24} />
                 </a>
-                <a href='#'>
+                <a href='https://www.linkedin.com/feed/' target='_blank'>
                   <LinkedinLogo fill='black' width={24} height={24} />
                 </a>
-                <a href='#'>
+                <a href='https://twitter.com/' target='_blank'>
                   <TwitterLogo fill='black' width={24} height={24} />
                 </a>
               </div>
