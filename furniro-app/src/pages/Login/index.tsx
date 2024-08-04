@@ -1,6 +1,5 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import { Button } from '@components/Button';
-import { Input } from '@components/Input';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { Eye, EyeClosed } from '@phosphor-icons/react';
 import { useUserAuth } from 'context/userAuthContext';
@@ -106,10 +105,11 @@ export function Login() {
           <label className='py-4 font-poppins text-xl font-medium text-black'>
             Email:
           </label>
-          <Input
+          <input
             placeholder='Enter with your email'
             type='email'
             required
+            className='rounded-xl border-2 border-dark-gray-300 p-6 outline-dark-gray-900'
             {...register('email')}
           />
 
@@ -123,10 +123,11 @@ export function Login() {
             Password:
           </label>
           <div className='relative flex flex-col'>
-            <Input
+            <input
               placeholder='Enter with your password'
               type={type}
               required
+              className='rounded-xl border-2 border-dark-gray-300 p-6 outline-dark-gray-900'
               {...register('password')}
             />
 

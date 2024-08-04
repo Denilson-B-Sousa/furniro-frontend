@@ -118,7 +118,7 @@ export function Register() {
         </h1>
       </NavLink>
 
-      <div className='absolute left-1/2 top-1/2 z-10 -translate-x-1/2 -translate-y-1/2 transform mobile:pt-24 py-12'>
+      <div className='absolute left-1/2 top-1/2 z-10 -translate-x-1/2 -translate-y-1/2 transform py-12 mobile:pt-24'>
         <div className='flex flex-col gap-4 py-8'>
           <h1 className='text-center font-poppins text-4xl font-semibold uppercase'>
             Cadastre-se
@@ -131,10 +131,11 @@ export function Register() {
           <label className='py-3 font-poppins text-lg font-medium text-black'>
             Name:
           </label>
-          <Input
+          <input
             placeholder='Enter with your name'
             type='text'
             required
+            className='rounded-xl border-2 border-dark-gray-300 p-6 outline-dark-gray-900'
             {...register('name')}
           />
           {errors.name && (
@@ -146,10 +147,11 @@ export function Register() {
           <label className='py-3 font-poppins text-lg font-medium text-black'>
             Email:
           </label>
-          <Input
+          <input
             placeholder='Enter with your email'
             type='email'
             required
+            className='rounded-xl border-2 border-dark-gray-300 p-6 outline-dark-gray-900'
             {...register('email')}
           />
           {errors.email && (
@@ -162,10 +164,11 @@ export function Register() {
             Password:
           </label>
           <div className='relative flex flex-col'>
-            <Input
+            <input
               placeholder='Enter with your password'
               type={type}
               required
+              className='rounded-xl border-2 border-dark-gray-300 p-6 outline-dark-gray-900'
               {...register('password')}
             />
 
