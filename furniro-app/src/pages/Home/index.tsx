@@ -12,7 +12,7 @@ export function Home() {
      event: React.MouseEvent<HTMLAnchorElement, MouseEvent>,
    ) => {
      event.preventDefault();
-     window.scrollTo(0, 0); // Isso rola a janela para o topo
+     window.scrollTo(0, 0); 
      navigate('/shop');
    };
    

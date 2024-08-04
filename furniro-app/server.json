@@ -4,7 +4,7 @@
       "id": 1,
       "title": "Rack Fortaleza",
       "image": "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/Modern-Rack-Fortaleza-FreijC3B3-218-cm-6075-3030911-1.jpg",
-      "shortDescription": "Luxury big rack",
+      "shortDescription": "Com formato retilíneo e inspirado no design contemporâneo, o Rack Fortaleza é uma ótima escolha para você decorar com estilo e praticidade a sala de estar",
       "description": "Setting the bar as one of the loudest speakers in its class, the Kilburn is a compact, stout-hearted hero with a well-balanced audio which boasts a clear midrange and extended highs for a sound.",
       "price": 70000,
       "salesPrice": 3500000,
@@ -14,9 +14,9 @@
         "mainImage": "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/Modern-Rack-Fortaleza-FreijC3B3-218-cm-6075-3030911-1.jpg",
         "gallery": [
           "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/Modern-Rack-Fortaleza-FreijC3B3-218-cm-6075-3030911-1.jpg",
-          "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/NETSOFAS-SofC3A1-Tango-22C00m-sem-caixa2C-RetrC3A1til-e-ReclinC3A1vel-Velosuede-Bege---NETSOFAS-5241-230539-5.jpg",
-          "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/NETSOFAS-SofC3A1-Tango-22C00m-sem-caixa2C-RetrC3A1til-e-ReclinC3A1vel-Velosuede-Bege---NETSOFAS-5242-230539-7.jpg",
-          "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/NETSOFAS-SofC3A1-Tango-22C00m-sem-caixa2C-RetrC3A1til-e-ReclinC3A1vel-Velosuede-Bege---NETSOFAS-5243-230539-8.jpg"
+          "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/Modern-Rack-Fortaleza-FreijC3B3-218-cm-6077-3030911-4.jpg",
+          "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/Modern-Rack-Fortaleza-FreijC3B3-218-cm-6076-3030911-2.jpg",
+          "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/Modern-Rack-Fortaleza-FreijC3B3-218-cm-6077-3030911-5.jpg"
         ]
       },
       "colors": [
@@ -156,7 +156,7 @@
 
       "images": {
         "mainImage": "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/sofa-3-lugares-cinza-claro-mescla-muy_st0.webp",
-        "thumbnail": [
+        "gallery": [
           "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/sofa-3-lugares-cinza-claro-mescla-muy_st0.webp",
           "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/sofa-3-lugares-cinza-claro-mescla-muy_st2.webp",
           "https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/sofa-3-lugares-cinza-claro-mescla-muy_st3.webp",
