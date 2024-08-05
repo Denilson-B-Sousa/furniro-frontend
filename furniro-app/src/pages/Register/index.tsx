@@ -1,6 +1,5 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import { Button } from '@components/Button';
-import { Input } from '@components/Input';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { Eye, EyeClosed } from '@phosphor-icons/react';
 import { useUserAuth } from 'context/userAuthContext';

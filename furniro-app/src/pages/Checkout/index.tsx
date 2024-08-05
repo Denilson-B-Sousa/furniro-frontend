@@ -7,15 +7,15 @@ import { PaymentSummary } from "@components/PaymentSummary";
 
 export function Checkout() {
   return (
-    <>
-    <Header/>
+    <div className='mobile:max-w-[100vw] overflow-x-hidden'>
+      <Header />
       <Banner title='Checkout' link='Checkout' uri='/checkout' />
       <main className='grid grid-cols-2 items-start'>
         <BillingDetails />
         <PaymentSummary />
       </main>
       <Brand />
-    <Footer/>
-    </>
+      <Footer />
+    </div>
   );
 }

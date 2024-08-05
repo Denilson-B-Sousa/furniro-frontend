@@ -18,7 +18,7 @@ export function Home() {
    };
    
   return (
-    <main className='max-w-[100%]'>
+    <main className='max-w-[100%] m-auto'>
       <Hero />
       <Gallery />
       <Product

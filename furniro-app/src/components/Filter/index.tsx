@@ -207,7 +207,7 @@ export function Filter({
                 </button>
 
                 <Popover.Close
-                  className='text-violet11 hover:bg-violet4 focus:shadow-violet7 absolute right-[5px] top-[5px] inline-flex h-[25px] w-[25px] cursor-default cursor-pointer items-center justify-center rounded-full outline-none focus:shadow-[0_0_0_2px]'
+                  className='text-violet11 hover:bg-violet4 focus:shadow-violet7 absolute right-[5px] top-[5px] inline-flex h-[25px] w-[25px] cursor-pointer items-center justify-center rounded-full outline-none focus:shadow-[0_0_0_2px]'
                   aria-label='Close'
                 >
                   <X />

@@ -92,7 +92,7 @@ export function Product({ nameFilter, priceFilter, colorFilter, setVisibleProduc
       {!isLoading && (
         <div
           data-testid='content'
-          className='m-auto grid w-[77rem] grid-cols-1 gap-x-8 gap-y-12 pl-44 laptop:grid-cols-4 laptop:pl-0'
+          className='m-auto grid justify-items-center w-[100%] gap-y-8 gap-x-8 grid-cols-1  tablet-lg:grid-cols-2 tablet-lg:w-[40rem] laptop:w-[58rem] laptop:grid-cols-3 desktop:grid-cols-4 desktop:w-[78rem]'
         >
           {currentProducts?.map((product) => (
             <CardProduct

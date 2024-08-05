@@ -7,7 +7,7 @@ export function Modal() {
     <>
       <Dialog.Portal>
         <Dialog.Overlay className='fixed inset-0 bg-black/20' />
-        <Dialog.Content className='fixed inset-0 left-[87%] top-[48%] flex h-[44rem] w-[26rem] -translate-x-1/2 -translate-y-1/2 transform flex-col bg-white px-10 py-10 outline-none'>
+        <Dialog.Content className='fixed z-50 inset-0 mobile:left-1/2 mobile:top-1/2 laptop:left-[87%] laptop:top-[48%] flex h-[44rem] w-[26rem] -translate-x-1/2 -translate-y-1/2 transform flex-col bg-white px-10 py-10 outline-none'>
           <Dialog.Close className='absolute right-0 top-0 px-10 py-10 text-slate-400 hover:text-slate-100'>
             <img src={closeBag} alt='Fechar Carrinho' width={24} height={24} />
           </Dialog.Close>
