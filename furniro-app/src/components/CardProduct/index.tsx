@@ -113,6 +113,7 @@ export function CardProduct({
               size='lg'
               onClick={handleAddToCart}
               style={{ zIndex: 10 }}
+              role='button'
             >
               Add to cart
             </Button>

@@ -5,7 +5,6 @@ import { render } from '@testing-library/react';
 import { Button } from './index';
 
 describe('<Button>', () => {
-
   test('Should render button', () => {
     const { getByText, getByRole } = render(<Button>button</Button>);
 
@@ -18,13 +17,13 @@ describe('<Button>', () => {
 
   const baseClass = 'flex items-center justify-center font-poppins text-[1rem]';
 
-  test('Shoul render button with base prop', () => {
+  test('Should render button with base class', () => {
     const { getByRole } = render(<Button variant='secondary'>button</Button>);
     const buttonElement: HTMLElement = getByRole('button');
 
     expect(buttonElement).toHaveClass(baseClass);
-  })
-  
+  });
+
   const sizeClasses = {
     xl: 'w-[225px] h-[48px]',
     md: 'w-[215px] h-[64px]',
@@ -39,7 +38,7 @@ describe('<Button>', () => {
     outlined:
       'border-2 border-light-peach-900 text-light-peach-900 font-semibold uppercase',
     'outlined-secondary':
-      'border-2 border-black text-black font-normal rounded-2xl',
+      'border-2 border-black text-black font-normal rounded-xl',
   };
 
   describe.each(Object.keys(sizeClasses) as Array<keyof typeof sizeClasses>)(
@@ -48,7 +47,7 @@ describe('<Button>', () => {
       describe.each(
         Object.keys(variantClasses) as Array<keyof typeof variantClasses>,
       )('variant: %s', (variant) => {
-        test(`Should render button with props size ${size} and variant ${variant}`, () => {
+        test(`Should render button with size ${size} and variant ${variant}`, () => {
           const { getByRole } = render(
             <Button size={size} variant={variant}>
               button
@@ -63,4 +62,4 @@ describe('<Button>', () => {
       });
     },
   );
-})
+});

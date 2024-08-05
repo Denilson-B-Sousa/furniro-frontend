@@ -1,27 +1,39 @@
 import { fireEvent, render, screen } from '@testing-library/react';
-import { useCartDispatch } from 'store/hooks';
+import { MemoryRouter } from 'react-router-dom';
+import { useCartDispatch, useProductDispatch } from 'store/hooks';
 import { vi } from 'vitest';
 
-import { CardProduct } from '../CardProduct/index';
+import { CardProduct } from './index';
 
-// Mock useCartDispatch
 vi.mock('store/hooks', () => ({
   useCartDispatch: vi.fn(),
+  useProductDispatch: vi.fn(),
 }));
 
-// Mock action addtocart
-const mockDispatch = vi.fn();
-(useCartDispatch as jest.Mock).mockReturnValue(mockDispatch);
+const mockCartDispatch = vi.fn();
+const mockProductDispatch = vi.fn();
+vi.mocked(useCartDispatch).mockReturnValue(mockCartDispatch);
+vi.mocked(useProductDispatch).mockReturnValue(mockProductDispatch);
 
 describe('CardProduct', () => {
   const productProps = {
     id: '1',
     title: 'Product Title',
-    shortDescription: 'Short Description for test',
+    description: 'Short Description for test',
     price: 1000,
     salesPrice: 800,
     imageUrl:
       'https://furnirobucket.s3.us-east-2.amazonaws.com/images/api-images/Compace-Escrivaninha-Studio-Carvalho-e-Preta-180-cm-3915-8279301-4.jpg',
+    rating: 4.5,
+    sku: '12345',
+    category: 'Category',
+    tags: ['tag1', 'tag2'],
+    colors: [
+      { name: 'Red', hex: '#FF0000' },
+      { name: 'Blue', hex: '#0000FF' },
+    ],
+    size: ['S', 'M'],
+    images: { mainImage: '', gallery: [] },
   };
 
   test('renders correctly with given props', () => {
@@ -31,15 +43,17 @@ describe('CardProduct', () => {
     expect(screen.getByText('Short Description for test')).toBeInTheDocument();
     expect(screen.getByText(/R\$ 1\.000,00/)).toBeInTheDocument();
     expect(screen.getByText(/R\$ 800,00/)).toBeInTheDocument();
-
   });
 
   test('shows additional options on hover', () => {
-    render(<CardProduct {...productProps} />);
+    render(
+      <MemoryRouter>
+        <CardProduct {...productProps} />
+      </MemoryRouter>,
+    );
 
-    const productContainer = screen.getByRole('img', {
-      name: /Product Title/,
-    }).parentElement;
+    const productImage = screen.getByAltText('Product Title');
+    const productContainer = productImage.closest('div');
 
     if (productContainer) {
       fireEvent.mouseEnter(productContainer);
@@ -52,17 +66,25 @@ describe('CardProduct', () => {
     }
   });
 
-  test('calls handleAddToCart on "Add to cart" button click', () => {
-    render(<CardProduct {...productProps} />);
+  test('calls handleAddToCart on "Add to cart" button click', async () => {
+    render(
+      <MemoryRouter>
+        <CardProduct {...productProps} />
+      </MemoryRouter>,
+    );
 
     const productImage = screen.getByAltText('Product Title');
-    const productContainer = productImage.parentElement;
+    const productContainer = productImage.closest('div');
 
     if (productContainer) {
       fireEvent.mouseEnter(productContainer);
-      fireEvent.click(screen.getByText('Add to cart'));
+      const addToCartButton = await screen.findByRole('button', {
+        name: /Add to cart/i,
+      });
 
-      expect(mockDispatch).toHaveBeenCalledWith({
+      fireEvent.click(addToCartButton);
+
+      expect(mockCartDispatch).toHaveBeenCalledWith({
         type: 'cart/addToCart',
         payload: {
           id: '1',

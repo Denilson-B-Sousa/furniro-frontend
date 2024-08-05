@@ -7,17 +7,13 @@ describe('SocialMediaSection', () => {
     render(<SocialMediaSection />);
 
     expect(
-      screen.getByAltText(
-        'Fundo branco com a letra F representando a logo da rede social Facebook',
-      ),
+      screen.getByAltText('Link rede social Facebook'),
     ).toBeInTheDocument();
     expect(
-      screen.getByAltText(
-        'Fundo branco com uma camera representando a logo da rede social Instagram',
-      ),
+      screen.getByAltText('Link rede social instagram'),
     ).toBeInTheDocument();
-    expect(screen.getByAltText('fundo')).toBeInTheDocument();
-    expect(screen.getByAltText('')).toBeInTheDocument();
+    expect(screen.getByAltText('Link rede social twitter')).toBeInTheDocument();
+
 
     const links = screen.getAllByRole('link');
     expect(links).toHaveLength(4);

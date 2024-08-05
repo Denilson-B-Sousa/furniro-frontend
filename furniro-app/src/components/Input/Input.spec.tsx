@@ -10,7 +10,7 @@ describe('Input', () => {
     expect(screen.getByPlaceholderText('Placeholder text')).toBeInTheDocument();
 
     expect(screen.getByPlaceholderText('Placeholder text')).toHaveClass(
-      'w-[24rem] rounded-xl border-2 border-dark-gray-300 p-6 outline-dark-gray-900 laptop:w-[32rem]',
+      'rounded-xl border-2 border-dark-gray-300 p-6 outline-dark-gray-900 mobile:w-80 tablet:w-[32rem]',
     );
   });
 

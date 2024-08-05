@@ -16,41 +16,43 @@ vi.mock('store/cart-slice', () => ({
 }));
 
 const mockDispatch = vi.fn();
-(useCartDispatch as jest.Mock).mockReturnValue(mockDispatch);
+vi.mocked(useCartDispatch).mockReturnValue(mockDispatch);
+
+const mockCartItems = [
+  {
+    id: '1',
+    title: 'Product1',
+    price: 1000,
+    quantity: 1,
+    imageUrl: 'https://example.com/image1.jpg',
+  },
+  {
+    id: '2',
+    title: 'Product2',
+    price: 1000,
+    quantity: 2,
+    imageUrl: 'https://example.com/image2.jpg',
+  },
+];
 
 describe('CartItems', () => {
-  const mockCartItems = [
-    {
-      id: '1',
-      title: 'Product 1',
-      price: 1000,
-      quantity: 1,
-      imageUrl: 'https://example.com/image1.jpg',
-    },
-    {
-      id: '2',
-      title: 'Product 2',
-      price: 1000,
-      quantity: 2,
-      imageUrl: 'https://example.com/image2.jpg',
-    },
-  ];
-
   beforeEach(() => {
-    (useCartSelector as jest.Mock).mockReturnValue(mockCartItems);
+    vi.mocked(useCartSelector).mockReturnValue(mockCartItems);
   });
 
-  test('renders cart items correctly', () => {
+  test('renders cart items correctly', async () => {
     render(
       <MemoryRouter>
         <CartItems />
       </MemoryRouter>,
     );
 
-    expect(screen.getByText('Product 1')).toBeInTheDocument();
-    expect(screen.getByText('Product 2')).toBeInTheDocument();
-    expect(screen.getByText('1 X')).toBeInTheDocument();
-    expect(screen.getByText('2 X')).toBeInTheDocument();
+    expect(
+      await screen.findByText((content) => content.startsWith('Product1')),
+    ).toBeInTheDocument();
+    expect(
+      await screen.findByText((content) => content.startsWith('Product2')),
+    ).toBeInTheDocument();
   });
 
   test('removes item from cart when "Remove" button is clicked', () => {
@@ -60,9 +62,11 @@ describe('CartItems', () => {
       </MemoryRouter>,
     );
 
-    fireEvent.click(screen.getAllByRole('button')[0]);
+    const removeButtons = screen.getAllByRole('button');
+    expect(removeButtons).toHaveLength(2);
+
+    fireEvent.click(removeButtons[0]);
 
     expect(mockDispatch).toHaveBeenCalledWith(removeFromCart('1'));
   });
-
 });

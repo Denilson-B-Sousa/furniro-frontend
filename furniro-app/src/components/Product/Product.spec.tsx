@@ -1,6 +1,7 @@
 import { render, screen } from '@testing-library/react';
 import { useProductData } from 'hooks/product/useProductData';
 import { Provider } from 'react-redux';
+import { MemoryRouter } from 'react-router-dom';
 import { vi } from 'vitest';
 
 import { store } from '../../store/store';
@@ -36,7 +37,7 @@ describe('Product', () => {
       isLoading: true,
     });
 
-    render(<Product />);
+    render(<Product title='Our Products' currentPage={0} itemsPerPage={8} />);
 
     expect(screen.getByRole('status')).toBeInTheDocument();
   });
@@ -49,7 +50,9 @@ describe('Product', () => {
 
     render(
       <Provider store={store}>
-        <Product />
+        <MemoryRouter>
+          <Product title='Our Products' currentPage={0} itemsPerPage={8} />
+        </MemoryRouter>
       </Provider>,
     );
 
@@ -58,27 +61,29 @@ describe('Product', () => {
     expect(screen.getByText(/R\$ 1\.000,00/)).toBeInTheDocument();
     expect(screen.getByText(/R\$ 800,00/)).toBeInTheDocument();
 
-    expect(screen.getByText('Product 2'));
+    expect(screen.getByText('Product 2')).toBeInTheDocument();
     expect(screen.getByText('Description 2')).toBeInTheDocument();
     expect(screen.getByText(/R\$ 1\.200,00/)).toBeInTheDocument();
     expect(screen.getByText(/R\$ 900,00/)).toBeInTheDocument();
-
-    expect(screen.getByText('Show More')).toBeInTheDocument();
   });
 
-  test('shows correct element layout', async() => {
-    (useProductData as jest.Mock).mockReturnValue({ data: mockProductData, isLoading: false});
+  test('shows correct element layout', async () => {
+    (useProductData as jest.Mock).mockReturnValue({
+      data: mockProductData,
+      isLoading: false,
+    });
 
     render(
-    <Provider store={store}>
-      <Product/>
-    </Provider>);
+      <Provider store={store}>
+        <MemoryRouter>
+          <Product title='Our Products' currentPage={0} itemsPerPage={8} />
+        </MemoryRouter>
+      </Provider>,
+    );
 
     expect(screen.getByText('Our Products')).toBeInTheDocument();
 
-   const productElements = await screen.findAllByTestId('card-product'); // Usar um `data-testid` único para cada `CardProduct`
-   expect(productElements).toHaveLength(mockProductData.length);
-
-    expect(screen.getByText('Show More')).toBeInTheDocument();
-  })
+    const productElements = await screen.findAllByTestId('card-product');
+    expect(productElements).toHaveLength(mockProductData.length);
+  });
 });
