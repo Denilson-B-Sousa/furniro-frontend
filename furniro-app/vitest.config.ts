@@ -11,6 +11,10 @@ export default mergeConfig(
       environment: 'jsdom',
       css: false,
       setupFiles: './setupTest.ts',
+      coverage: {
+        provider: 'istanbul',
+        reporter: ['text', 'json', 'html'],
+      },
     },
   }),
 );
