@@ -28,9 +28,10 @@ As seguintes tecnologias foram usadas na construção do projeto:
 ## Funcionalidades
 
 - [x] Login usuário com Firebase
-- [x] Cadastro de usuário com Firebase
+- [x] Cadastro usuário com Firebase
 - [x] Carousel de móveis
 - [x] Carrinho de compras
+- [x] Paginação de produtos
 
 
 ## Instruções de uso
