@@ -1,4 +1,4 @@
-![Badge Em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=Desenvolvimento&color=GREEN&style=for-the-badge)
+![Badge Finalizado](http://img.shields.io/static/v1?label=STATUS&message=Finalizado&color=GREEN&style=for-the-badge)
 
 ![REACT](https://img.shields.io/badge/react-%230EA5E9.svg?style=for-the-badge&logo=react&logoColor=white)  ![VITE](https://img.shields.io/badge/vite-%239755FF.svg?style=for-the-badge&logo=vite&logoColor=white)  ![TYPESCRIPT](https://img.shields.io/badge/typescript-%230EA5E9.svg?style=for-the-badge&logo=typescript&logoColor=white) ![TAILWINDCSS](https://img.shields.io/badge/tailwindcss-%230EA5E9.svg?style=for-the-badge&logo=tailwindcss&logoColor=white)  
 
