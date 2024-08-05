@@ -17,7 +17,7 @@ export function Gallery() {
       </div>
 
       {!isLoading && (
-        <div className='grid  grid-cols-1 place-items-center gap-2 laptop:grid-cols-3 laptop:px-36'>
+        <div className='grid  grid-cols-1 place-items-center px-24 laptop-lg:px-64 gap-8 tablet:grid-cols-2 laptop:grid-cols-3 '>
           {data?.map((gallery) => (
             <CardGallery
               key={gallery.id}

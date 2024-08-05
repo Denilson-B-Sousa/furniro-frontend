@@ -54,7 +54,7 @@ export function ProductDescription({description, gallery} : ProductDescriptionPr
                     className='h-200 w-200 rounded-lg'
                   />
                 </li>
-                            ))}
+              ))}
               </ul>
             </div>
           </Tabs.Content>

@@ -1,4 +1,5 @@
 import { Button } from "@components/Button";
+import { NavLink } from "react-router-dom";
 
 export function Hero() {
   return (
@@ -17,15 +18,19 @@ export function Hero() {
         </p>
 
         <div className="hidden laptop:flex">
-          <Button variant='primary' size='md'>
-            Buy Now
-          </Button>
+          <NavLink to={'/shop'}>
+            <Button variant='primary' size='md'>
+              Buy Now
+            </Button>
+          </NavLink>
         </div>
 
         <div className='flex justify-center laptop:hidden'>
-          <Button variant='primary' size='md'>
-            Buy Now
-          </Button>
+          <NavLink to={'/shop'}>
+            <Button variant='primary' size='md'>
+              Buy Now
+            </Button>
+          </NavLink>
         </div>
       </div>
     </div>

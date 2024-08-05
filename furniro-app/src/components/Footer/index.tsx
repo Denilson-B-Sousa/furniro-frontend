@@ -1,11 +1,20 @@
-import { Address } from "../Address";
-import { NavSection } from "../NavSection";
-import { SocialMediaSection } from "../SocialMediaSection";
+import { NavLink, useNavigate } from 'react-router-dom';
+
+import { Address } from '../Address';
+import { SocialMediaSection } from '../SocialMediaSection';
 
 export function Footer() {
 
-  const link : string[] = ['Home', 'Shop', 'About', 'Contact'];
-  const help : string[] = ['Payment Options', 'Returns', 'Privacy Policy'];
+  const navigate = useNavigate();
+
+  const handleClick = (
+    event: React.MouseEvent<HTMLAnchorElement, MouseEvent>,
+    path: string,
+  ) => {
+    event.preventDefault();
+    window.scrollTo(0, 0);
+    navigate(path);
+  };
 
   return (
     <footer
@@ -21,8 +30,37 @@ export function Footer() {
       </div>
 
       <nav className='flex justify-center gap-24 tablet:gap-36'>
-        <NavSection title='Links' links={link} />
-        <NavSection title='Help' links={help} />
+        <div className='inline-flex flex-col gap-6'>
+          <h2 className='text-[#9F9F9F]'>Links</h2>
+          <ul className='inline-flex flex-col gap-6 font-medium text-black'>
+            <li>
+              <NavLink to='/' onClick={(e) => handleClick(e, '/')}>Home</NavLink>
+            </li>
+            <li>
+              <NavLink to='/shop' onClick={(e) => handleClick(e, '/shop')}>Shop</NavLink>
+            </li>
+            <li>
+              <NavLink to='/about' onClick={(e) => handleClick(e, '/about')}>About</NavLink>
+            </li>
+            <li>
+              <NavLink to='/contact' onClick={(e) => handleClick(e, '/contact')}>Contact</NavLink>
+            </li>
+          </ul>
+        </div>
+        <div className='inline-flex flex-col gap-6'>
+          <h2 className='text-[#9F9F9F]'>help</h2>
+          <ul className='inline-flex flex-col gap-6 font-medium text-black'>
+            <li>
+              <NavLink to='/'>Payment Options</NavLink>
+            </li>
+            <li>
+              <NavLink to='/'>Returns</NavLink>
+            </li>
+            <li>
+              <NavLink to='/'>Privacy Policies</NavLink>
+            </li>
+          </ul>
+        </div>
       </nav>
 
       <div className='flex flex-col px-8 tablet:m-auto tablet:px-4 tablet:py-12'>
@@ -36,9 +74,9 @@ export function Footer() {
             placeholder='Enter Your Email Address'
             className='border-b-[1px] border-black outline-none'
           />
-          <a href='#' className='border-b-[1px] border-black outline-none'>
+          <button className='border-b-[1px] border-black outline-none' type='submit'>
             SUBSCRIBE
-          </a>
+          </button>
         </div>
       </div>
     </footer>
