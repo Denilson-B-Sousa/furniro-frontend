@@ -29,7 +29,7 @@ export function CartItems() {
             const formattedPrice = PriceFormatter.format(item.price);
 
             return (
-              <ul className='grid grid-cols-3 items-center'>
+              <ul key={item.id} className='grid grid-cols-3 items-center'>
                 <li>
                   <div className=''>
                     <img
@@ -42,12 +42,17 @@ export function CartItems() {
                 </li>
                 <li>
                   <div className='inline-flex flex-col'>
-                    <span className='font-poppins text-base font-medium text-black' style={{whiteSpace: 'nowrap'}}>
-                      {item.title.length > 15 ? item.title.substring(0, 15) +'...': item.title}
+                    <span
+                      className='font-poppins text-lg font-medium text-black'
+                      data-testid={`item-price-${item.id}`}
+                    >
+                      {item.title}
                     </span>
                     <span>
                       {item.quantity}&nbsp;&nbsp; X &nbsp;&nbsp;{' '}
-                      <span className='text-sm font-semibold text-light-peach-900'>
+                      <span 
+                        className='text-sm font-semibold text-light-peach-900'
+                      >
                         {formattedPrice}
                       </span>
                     </span>

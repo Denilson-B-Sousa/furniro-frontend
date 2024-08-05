@@ -24,6 +24,8 @@
       "@assets/*": ["assets/*"],
       "@types/*": ["types/*"]
     },
+    "types": ["vitest/globals"],
+
 
     /* Linting */
     "strict": true,
