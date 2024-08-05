@@ -29,7 +29,7 @@ export function Gallery() {
       )}
 
       {isLoading && (
-        <span className='middle-[50%] transform: absolute left-[50%] translate-x-[-50%] translate-y-[-50%]'>
+        <span role="status" className='middle-[50%] transform: absolute left-[50%] translate-x-[-50%] translate-y-[-50%]'>
           <Spinner
             className='animate-spin-slow transition-all duration-200'
             width={48}
