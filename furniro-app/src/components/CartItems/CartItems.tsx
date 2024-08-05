@@ -31,11 +31,12 @@ export function CartItems() {
             return (
               <ul key={item.id} className='grid grid-cols-3 items-center'>
                 <li>
-                  <div className=''>
+                  <div className='pr-8'>
                     <img
                       src={item.imageUrl}
                       alt=''
-                      width={80}
+                      width={100}
+                      height={100}
                       className='rounded-xl'
                     />
                   </div>
@@ -46,7 +47,7 @@ export function CartItems() {
                       className='font-poppins text-lg font-medium text-black'
                       data-testid={`item-price-${item.id}`}
                     >
-                      {item.title}
+                      {item.title.split('', 10)}...
                     </span>
                     <span>
                       {item.quantity}&nbsp;&nbsp; X &nbsp;&nbsp;{' '}

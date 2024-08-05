@@ -1,4 +1,5 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
+import { Button } from '@components/Button';
 import { CardProduct } from '@components/CardProduct';
 import { Spinner } from '@phosphor-icons/react';
 import { useProductData } from 'hooks/product/useProductData';
@@ -18,6 +19,8 @@ export function Product({ nameFilter, priceFilter, colorFilter, setVisibleProduc
   const { data, isLoading } = useProductData();
   const [visibleCount, setVisibleCount] = useState<number>(8);
   const [filteredData, setFilteredData] = useState<any[]>([]);
+
+  console.log(filteredData);
 
   useEffect(() => {
     if(data) {
@@ -85,10 +88,18 @@ export function Product({ nameFilter, priceFilter, colorFilter, setVisibleProduc
               key={product.id}
               id={product.id.toString()}
               title={product.title}
-              shortDescription={product.shortDescription}
+              description={product.shortDescription}
               price={product.price}
               salesPrice={product.salesPrice}
               imageUrl={product.image}
+              sku={product.sku}
+              rating={product.rating}
+              category={product.category}
+              colors={product.colors}
+              images={product.images}
+              size={product.size}
+              tags={product.tags}
+              
               data-testid='card-product'
             />
           ))}
@@ -105,12 +116,6 @@ export function Product({ nameFilter, priceFilter, colorFilter, setVisibleProduc
           />
         </span>
       )}
-
-      <div className='m-auto w-56 py-6'>
-        <Button variant='outlined' size='xl'>
-          Show More
-        </Button>
-      </div>
     </section>
   );
 }

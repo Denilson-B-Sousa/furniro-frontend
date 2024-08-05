@@ -9,7 +9,7 @@ import { PriceFormatter } from 'utils/Formatter';
 
 
 type CardProductProps = {
-  id: number;
+  id: string;
   title: string;
   imageUrl: string;
   description: string;
@@ -18,7 +18,6 @@ type CardProductProps = {
   rating: number;
   sku: string;
   category: string;
-  quantity: number;
   tags: string[];
   colors: Color[];
   size: string[];
@@ -38,7 +37,7 @@ export function CardProduct({
   images,
   colors,
   size,
-  tags
+  tags,
 }: CardProductProps) {
   const [isHovered, setIsHovered] = useState(false);
   const navigate = useNavigate();
@@ -66,7 +65,7 @@ export function CardProduct({
         images,
         colors,
         size,
-        tags
+        tags,
       }),
     );
 
@@ -89,17 +88,17 @@ export function CardProduct({
         <img src={imageUrl} alt={title} width='100%' />
         <div className='absolute bottom-0 bg-light-peach-200 p-4'>
           <h3 className='font-poppins text-2xl font-semibold text-dark-gray-800'>
-            {title.split('', 30)}
+            {title!.split('', 30)}
           </h3>
           <span className='font-poppins text-dark-gray-700'>
-            {description.split('', 20)}
+            {description!.split('', 20)}
           </span>
           <div className='inline-flex items-center gap-2 py-4 font-poppins font-semibold'>
             <span className='font-poppins font-semibold text-dark-gray-800'>
-              {PriceFormatter.format(price)}
+              {PriceFormatter.format(price!)}
             </span>
             <span className='text-sm text-dark-gray-300 line-through'>
-              {PriceFormatter.format(salesPrice)}
+              {PriceFormatter.format(salesPrice!)}
             </span>
           </div>
         </div>
