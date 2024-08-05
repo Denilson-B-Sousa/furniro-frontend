@@ -36,11 +36,11 @@ export function CartDetails() {
       {cartItems.length === 0 ? (
         <section className='col-span-3 text-center'>
           <h2 className='text-2xl font-bold'>Your cart is empty</h2>
-          <p className='text-lg py-8 text-dark-gray-300'>
+          <p className='py-8 text-lg text-dark-gray-300'>
             It looks like you haven't added any items to your cart yet. Start
             shopping to fill your cart!
           </p>
-          <NavLink to='/shop' className="flex justify-center cursor-pointer">
+          <NavLink to='/shop' className='flex cursor-pointer justify-center'>
             <Button variant='primary' size='md'>
               Start Shopping
             </Button>
@@ -48,22 +48,22 @@ export function CartDetails() {
         </section>
       ) : (
         <>
-          <section className='col-span-2'>
-            {cartItems.map((item) => (
-              <table className='mx-12 w-[51rem]'>
-                <thead className='bg-[#F9F1E7]'>
+          <section className='col-span-2 pl-32'>
+            <table className='w-[52rem]'>
+              <thead className='bg-[#F9F1E7]'>
+                <tr>
+                  <th className='w-1/6 py-8'></th>
+                  <th className='w-2/6 text-center'>Product</th>
+                  <th className='w-1/6 text-center'>Price</th>
+                  <th className='w-1/6 text-center'>Quantity</th>
+                  <th className='w-1/6 text-center'>Subtotal</th>
+                  <th className='w-1/6 px-16 text-center'></th>
+                </tr>
+              </thead>
+              {cartItems.map((item) => (
+                <tbody key={item.id} className='text-center'>
                   <tr>
-                    <th className='w-1/6 py-8'></th>
-                    <th className='w-2/6 text-center'>Product</th>
-                    <th className='w-1/6 text-center'>Price</th>
-                    <th className='w-1/6 text-center'>Quantity</th>
-                    <th className='w-1/6 text-center'>Subtotal</th>
-                    <th></th>
-                  </tr>
-                </thead>
-                <tbody className='text-center'>
-                  <tr>
-                    <td className='pt-16'></td>
+                    <td className='pt-12'></td>
                   </tr>
                   <tr>
                     <td>
@@ -101,16 +101,19 @@ export function CartDetails() {
                       </div>
                     </td>
                     <td>{formatPrice(item.price * item.quantity)}</td>
-                    <td>
-                      <img
-                        src='https://furnirobucket.s3.us-east-2.amazonaws.com/images/assets/icons/delete.svg'
-                        alt=''
-                      />
+                    <td className='flex  justify-center items-end min-h-16'>
+                      <button onClick={() => handleRemoveFromCart(item.id)}>
+                        <img
+                          src='https://furnirobucket.s3.us-east-2.amazonaws.com/images/assets/icons/delete.svg'
+                          alt='Delete'
+                          className='h-8 w-8'
+                        />
+                      </button>
                     </td>
                   </tr>
                 </tbody>
-              </table>
-            ))}
+              ))}
+            </table>
           </section>
           <aside className='bg-[#F9F1E7] px-16 pb-16 pt-4 text-center'>
             <h2 className='mb-4 pb-8 text-3xl font-bold'>Cart Totals</h2>

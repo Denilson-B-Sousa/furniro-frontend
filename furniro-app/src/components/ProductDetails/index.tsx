@@ -10,9 +10,10 @@ import { formatPrice } from "utils/Formatter";
 
 type ProductDetailsProps = {
   product: SingleItem;
+  itemsPerPage: number;
 };
 
-export function ProductDetails({ product }: ProductDetailsProps) {
+export function ProductDetails({ product, itemsPerPage }: ProductDetailsProps) {
 
   const dispatch = useCartDispatch();
 
@@ -136,7 +137,7 @@ export function ProductDetails({ product }: ProductDetailsProps) {
       />
 
       <section className='m-auto'>
-        <Product title='Related Products' />
+        <Product title='Related Products' currentPage={1} itemsPerPage={itemsPerPage} />
       </section>
     </>
   );

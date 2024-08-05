@@ -9,19 +9,22 @@ type FilterProps = {
   setColorFilter: Dispatch<SetStateAction<string>>;
   setCategoryFilter: Dispatch<SetStateAction<string>>;
   visibleProductCount: number;
+  itemsPerPage: number;
 };
 
 export function Filter({
   setNameFilter,
   setPriceFilter,
   setColorFilter,
-  visibleProductCount,
   setCategoryFilter,
+  itemsPerPage
 }: FilterProps) {
   const [name, setName] = useState('');
   const [price, setPrice] = useState('');
   const [color, setColor] = useState('');
   const [category, setCategory] = useState('')
+
+  console.log(category);
 
   const handleNameChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     setName(e.target.value);
@@ -229,7 +232,7 @@ export function Filter({
           </button>
         </div>
         <div className='border-r-4 border-dark-gray-700'></div>
-        Showing {visibleProductCount} of {data?.length} results
+        Showing {itemsPerPage} of {data?.length} results
       </div> 
 
       <div className='flex justify-center gap-4'>

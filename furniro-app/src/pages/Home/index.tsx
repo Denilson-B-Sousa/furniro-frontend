@@ -5,6 +5,7 @@ import { NavLink, useNavigate } from 'react-router-dom';
 
 export function Home() {
 
+
     const navigate = useNavigate();
 
 
@@ -20,8 +21,16 @@ export function Home() {
     <main className='max-w-[100%]'>
       <Hero />
       <Gallery />
-      <Product title='Our Products'/>
-      <NavLink to='shop' className='flex justify-center py-12' onClick={handleClick}>
+      <Product
+        title='Our Products'
+        currentPage={1}
+        itemsPerPage={8}
+      />
+      <NavLink
+        to='shop'
+        className='flex justify-center py-12'
+        onClick={handleClick}
+      >
         <Button variant='outlined' size='xl'>
           Show More
         </Button>

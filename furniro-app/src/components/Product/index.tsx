@@ -1,21 +1,21 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
-import { Button } from '@components/Button';
 import { CardProduct } from '@components/CardProduct';
 import { Spinner } from '@phosphor-icons/react';
 import { useProductData } from 'hooks/product/useProductData';
 import { Dispatch, SetStateAction, useEffect, useRef, useState } from 'react';
 
-interface ProductProps {
+type ProductProps = {
   nameFilter?: string;
   priceFilter?: string;
   colorFilter?: string;
   setVisibleProductCount?: Dispatch<SetStateAction<number>> | any;
   categoryFilter?: string;
   title: string;
-
+  currentPage: number;
+  itemsPerPage: number;
 }
 
-export function Product({ nameFilter, priceFilter, colorFilter, setVisibleProductCount, categoryFilter, title }: ProductProps) {
+export function Product({ nameFilter, priceFilter, colorFilter, setVisibleProductCount, categoryFilter, title, currentPage, itemsPerPage }: ProductProps) {
   const { data, isLoading } = useProductData();
   const [visibleCount, setVisibleCount] = useState<number>(8);
   const [filteredData, setFilteredData] = useState<any[]>([]);
@@ -61,7 +61,18 @@ export function Product({ nameFilter, priceFilter, colorFilter, setVisibleProduc
     }
   }, [visibleCount, setVisibleCount, setVisibleProductCount])
 
+  const indexOfLastProduct = (currentPage + 1) * itemsPerPage;
+  const indexOfFirstProduct = indexOfLastProduct - itemsPerPage;
+  const currentProducts = filteredData.slice(
+    indexOfFirstProduct,
+    indexOfLastProduct,
+  );
 
+   useEffect(() => {
+     if (setVisibleProductCount) {
+       setVisibleProductCount(currentProducts.length);
+     }
+   }, [currentProducts, setVisibleProductCount]);
 
   const productContainerRef = useRef<HTMLDivElement>(null);
 
@@ -83,7 +94,7 @@ export function Product({ nameFilter, priceFilter, colorFilter, setVisibleProduc
           data-testid='content'
           className='m-auto grid w-[77rem] grid-cols-1 gap-x-8 gap-y-12 pl-44 laptop:grid-cols-4 laptop:pl-0'
         >
-          {data?.map((product) => (
+          {currentProducts?.map((product) => (
             <CardProduct
               key={product.id}
               id={product.id.toString()}
